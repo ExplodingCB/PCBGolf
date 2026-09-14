@@ -1,0 +1,580 @@
+{
+  "schema": 1,
+  "status": "schematics and local libraries patched; PCB synchronization owned by root agent",
+  "updates": [
+    {
+      "ref": "U1",
+      "file": "pcbgolf.kicad_sch",
+      "old": {
+        "Reference": "U1",
+        "Value": "AP62300T",
+        "Footprint": "pcbgolf:SOT23-6",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "AP62300WU-7"
+      },
+      "new": {
+        "Value": "AP62300",
+        "MPN": "AP62300WU-7",
+        "Datasheet": "https://www.diodes.com/datasheet/download/AP62300.pdf"
+      },
+      "pad_nets": {
+        "1": "GND",
+        "3": "+5V",
+        "4": "Net-(U1-FB)",
+        "5": "Net-(U1-EN)",
+        "2": "Net-(U1-SW)",
+        "6": "Net-(U1-BST)"
+      }
+    },
+    {
+      "ref": "U2",
+      "file": "pcbgolf.kicad_sch",
+      "old": {
+        "Reference": "U2",
+        "Value": "AP62300T",
+        "Footprint": "pcbgolf:SOT23-6",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "AP62300WU-7"
+      },
+      "new": {
+        "Value": "AP62300",
+        "MPN": "AP62300WU-7",
+        "Datasheet": "https://www.diodes.com/datasheet/download/AP62300.pdf"
+      },
+      "pad_nets": {
+        "1": "GND",
+        "5": "Net-(U2-EN)",
+        "3": "+12V",
+        "4": "Net-(U2-FB)",
+        "6": "Net-(U2-BST)",
+        "2": "Net-(U2-SW)"
+      }
+    },
+    {
+      "ref": "R4",
+      "file": "pcbgolf.kicad_sch",
+      "old": {
+        "Reference": "R4",
+        "Value": "100k",
+        "Footprint": "pcbgolf:0402-R",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "RC0402JR-07100KL"
+      },
+      "new": {
+        "Value": "31k2",
+        "MPN": "RC0402FR-0731K2L"
+      },
+      "pad_nets": {
+        "1": "+3V3",
+        "2": "Net-(U1-FB)"
+      }
+    },
+    {
+      "ref": "R3",
+      "file": "pcbgolf.kicad_sch",
+      "old": {
+        "Reference": "R3",
+        "Value": "10k",
+        "Footprint": "pcbgolf:0402-R",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "RC0402FR-0710KL"
+      },
+      "new": {
+        "MPN": "RC0402FR-0710KL"
+      },
+      "pad_nets": {
+        "2": "GND",
+        "1": "Net-(U1-FB)"
+      }
+    },
+    {
+      "ref": "U9",
+      "file": "pcbgolf_4.kicad_sch",
+      "old": {
+        "Reference": "U9",
+        "Value": "NCS20071XV",
+        "Footprint": "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm",
+        "Datasheet": "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF",
+        "Description": "Single, 2.8V/\u00b5s, Rail-to-Rail Output, SOT-553",
+        "MPN": "NCS20071SN2T1G"
+      },
+      "new": {
+        "Value": "NCS20071XV53T2G",
+        "MPN": "NCS20071XV53T2G",
+        "Footprint": "pcbgolf:SOT-553",
+        "Datasheet": "https://www.onsemi.com/download/data-sheet/pdf/ncs20071-d.pdf"
+      },
+      "pad_nets": {
+        "2": "GND",
+        "5": "+12V",
+        "3": "Net-(U9--)",
+        "4": "Net-(R62-Pad1)",
+        "1": "Net-(U9-+)"
+      }
+    },
+    {
+      "ref": "U11",
+      "file": "pcbgolf_4.kicad_sch",
+      "old": {
+        "Reference": "U11",
+        "Value": "NCS20071XV",
+        "Footprint": "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm",
+        "Datasheet": "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF",
+        "Description": "Single, 2.8V/\u00b5s, Rail-to-Rail Output, SOT-553",
+        "MPN": "NCS20071SN2T1G"
+      },
+      "new": {
+        "Value": "NCS20071XV53T2G",
+        "MPN": "NCS20071XV53T2G",
+        "Footprint": "pcbgolf:SOT-553",
+        "Datasheet": "https://www.onsemi.com/download/data-sheet/pdf/ncs20071-d.pdf"
+      },
+      "pad_nets": {
+        "2": "GND",
+        "5": "+12V",
+        "4": "Net-(R64-Pad1)",
+        "1": "Net-(U11-+)",
+        "3": "Net-(U11--)"
+      }
+    },
+    {
+      "ref": "U10",
+      "file": "pcbgolf_4.kicad_sch",
+      "old": {
+        "Reference": "U10",
+        "Value": "NCS20071XV",
+        "Footprint": "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm",
+        "Datasheet": "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF",
+        "Description": "Single, 2.8V/\u00b5s, Rail-to-Rail Output, SOT-553",
+        "MPN": "NCS20071SN2T1G"
+      },
+      "new": {
+        "Value": "NCS20071XV53T2G",
+        "MPN": "NCS20071XV53T2G",
+        "Footprint": "pcbgolf:SOT-553",
+        "Datasheet": "https://www.onsemi.com/download/data-sheet/pdf/ncs20071-d.pdf"
+      },
+      "pad_nets": {
+        "2": "GND",
+        "1": "Net-(U10-+)",
+        "5": "+12V",
+        "4": "Net-(R63-Pad1)",
+        "3": "Net-(U10--)"
+      }
+    },
+    {
+      "ref": "U12",
+      "file": "pcbgolf_4.kicad_sch",
+      "old": {
+        "Reference": "U12",
+        "Value": "NCS20071XV",
+        "Footprint": "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm",
+        "Datasheet": "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF",
+        "Description": "Single, 2.8V/\u00b5s, Rail-to-Rail Output, SOT-553",
+        "MPN": "NCS20071SN2T1G"
+      },
+      "new": {
+        "Value": "NCS20071XV53T2G",
+        "MPN": "NCS20071XV53T2G",
+        "Footprint": "pcbgolf:SOT-553",
+        "Datasheet": "https://www.onsemi.com/download/data-sheet/pdf/ncs20071-d.pdf"
+      },
+      "pad_nets": {
+        "2": "GND",
+        "4": "Net-(R65-Pad1)",
+        "3": "Net-(U12--)",
+        "5": "+12V",
+        "1": "Net-(U12-+)"
+      }
+    },
+    {
+      "ref": "D1",
+      "file": "pcbgolf.kicad_sch",
+      "old": {
+        "Reference": "D1",
+        "Value": "TVS-BI-DO214AA",
+        "Footprint": "pcbgolf:DO-214AA(SMB)",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "SMAJ16CA-13-F"
+      },
+      "new": {
+        "Value": "SMAJ16CA",
+        "Footprint": "pcbgolf:D_SMA"
+      }
+    },
+    {
+      "ref": "U13",
+      "file": "pcbgolf_5.kicad_sch",
+      "old": {
+        "Reference": "U13",
+        "Value": "TPS25942",
+        "Footprint": "pcbgolf:WQFN20",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "TPS25944ARVCR"
+      },
+      "new": {
+        "Value": "TPS25944A",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tps25944a.pdf"
+      }
+    },
+    {
+      "ref": "U14",
+      "file": "pcbgolf_5.kicad_sch",
+      "old": {
+        "Reference": "U14",
+        "Value": "TPS25942",
+        "Footprint": "pcbgolf:WQFN20",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "TPS25944ARVCR"
+      },
+      "new": {
+        "Value": "TPS25944A",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tps25944a.pdf"
+      }
+    },
+    {
+      "ref": "R71",
+      "file": "pcbgolf_5.kicad_sch",
+      "old": {
+        "Reference": "R71",
+        "Value": "33k",
+        "Footprint": "pcbgolf:0402-R",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "RC0402JR-0733KL"
+      },
+      "new": {
+        "Value": "10k",
+        "MPN": "RC0402FR-0710KL"
+      }
+    },
+    {
+      "ref": "U15",
+      "file": "pcbgolf_5.kicad_sch",
+      "old": {
+        "Reference": "U15",
+        "Value": "TPS25942",
+        "Footprint": "pcbgolf:WQFN20",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "TPS25944ARVCR"
+      },
+      "new": {
+        "Value": "TPS25944A",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tps25944a.pdf"
+      }
+    },
+    {
+      "ref": "R70",
+      "file": "pcbgolf_5.kicad_sch",
+      "old": {
+        "Reference": "R70",
+        "Value": "33k",
+        "Footprint": "pcbgolf:0402-R",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "RC0402JR-0733KL"
+      },
+      "new": {
+        "Value": "10k",
+        "MPN": "RC0402FR-0710KL"
+      }
+    },
+    {
+      "ref": "R72",
+      "file": "pcbgolf_5.kicad_sch",
+      "old": {
+        "Reference": "R72",
+        "Value": "33k",
+        "Footprint": "pcbgolf:0402-R",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "RC0402JR-0733KL"
+      },
+      "new": {
+        "Value": "10k",
+        "MPN": "RC0402FR-0710KL"
+      }
+    },
+    {
+      "ref": "R73",
+      "file": "pcbgolf_5.kicad_sch",
+      "old": {
+        "Reference": "R73",
+        "Value": "33k",
+        "Footprint": "pcbgolf:0402-R",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "RC0402JR-0733KL"
+      },
+      "new": {
+        "Value": "10k",
+        "MPN": "RC0402FR-0710KL"
+      }
+    },
+    {
+      "ref": "U16",
+      "file": "pcbgolf_5.kicad_sch",
+      "old": {
+        "Reference": "U16",
+        "Value": "TPS25942",
+        "Footprint": "pcbgolf:WQFN20",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "TPS25944ARVCR"
+      },
+      "new": {
+        "Value": "TPS25944A",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tps25944a.pdf"
+      }
+    },
+    {
+      "ref": "J3",
+      "file": "pcbgolf_3.kicad_sch",
+      "old": {
+        "Reference": "J3",
+        "Value": "USB-C-FEMALE",
+        "Footprint": "pcbgolf:DX07S024XJ1R1100",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "DX07S024XJ1R1100"
+      },
+      "new": {
+        "Value": "USB4105-GF-A",
+        "MPN": "USB4105-GF-A",
+        "Footprint": "pcbgolf:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+        "Datasheet": "https://gct.co/files/drawings/usb4105.pdf"
+      }
+    }
+  ],
+  "remove_refs": [
+    "R5",
+    "R6",
+    "BH1",
+    "BH2",
+    "BH3",
+    "BH4"
+  ],
+  "footprint_changes": {
+    "U9": {
+      "old": "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm",
+      "new": "pcbgolf:SOT-553",
+      "pin_map": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      }
+    },
+    "U10": {
+      "old": "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm",
+      "new": "pcbgolf:SOT-553",
+      "pin_map": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      }
+    },
+    "U11": {
+      "old": "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm",
+      "new": "pcbgolf:SOT-553",
+      "pin_map": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      }
+    },
+    "U12": {
+      "old": "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm",
+      "new": "pcbgolf:SOT-553",
+      "pin_map": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      }
+    },
+    "J1": {
+      "old": "pcbgolf:DCJACK_2MM_SMT",
+      "new": "pcbgolf:PJ-002AH-SMT-TR",
+      "pin_map": {
+        "GND": "GND",
+        "GNDBREAK": "GNDBREAK",
+        "PWR1": "PWR1",
+        "PWR2": "PWR1"
+      },
+      "net_assignments": {
+        "PWR1": "Net-(J1-PWR)"
+      },
+      "notes": "Both terminal1 lands use same pad number. Corrected recommended pads2.5x4mm centers(0,+/-6.5),(6,+/-6.5),NPTH1.7 atorigin,NPTH1.8 at(4.5,0). Existing same-MPN STEP kept."
+    },
+    "J3": {
+      "old": "pcbgolf:DX07S024XJ1R1100",
+      "new": "pcbgolf:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "pin_map": {
+        "A1": "A1",
+        "A4": "A4",
+        "A5": "A5",
+        "A6": "A6",
+        "A7": "A7",
+        "A8": "A8",
+        "A9": "A9",
+        "A12": "A12",
+        "B1": "B1",
+        "B4": "B4",
+        "B5": "B5",
+        "B6": "B6",
+        "B7": "B7",
+        "B8": "B8",
+        "B9": "B9",
+        "B12": "B12",
+        "B1T": "B1",
+        "B4T": "B4",
+        "B5T": "B5",
+        "B6T": "B6",
+        "B7T": "B7",
+        "B8T": "B8",
+        "B9T": "B9",
+        "B12T": "B12",
+        "S1B": "SH",
+        "S1T": "SH",
+        "S1TH": "SH",
+        "S2B": "SH",
+        "S2T": "SH",
+        "S2TH": "SH",
+        "S3B": "SH",
+        "S3T": "SH",
+        "S3TH": "SH",
+        "S4B": "SH",
+        "S4T": "SH",
+        "S4TH": "SH"
+      },
+      "remove_old_pads": [
+        "A10",
+        "A11",
+        "A2",
+        "A3",
+        "B10",
+        "B10T",
+        "B11",
+        "B11T",
+        "B2",
+        "B2T",
+        "B3",
+        "B3T"
+      ],
+      "net_assignments": {
+        "SH": "GND"
+      },
+      "notes": "Host USB2 Type-C replacement preserves all used functions; 16 SMT signal contacts plus four large PTH shell slots. Source SuperSpeed contacts were NC. Standard 0.95 mm shell stakes. A1/B12 and A12/B1 shared ground lands use capsule ends (roundrect ratio 0.5), retaining 0.6 x 1.15 mm overall dimensions and manufacturer 0.65 mm locating holes; computed nominal copper-to-hole clearance 0.233 mm.",
+      "ground_land_corner_relief": {
+        "pads": [
+          "A1",
+          "B12",
+          "A12",
+          "B1"
+        ],
+        "old_roundrect_ratio": 0.25,
+        "new_roundrect_ratio": 0.5,
+        "clearance_mm": 0.23296270315206596,
+        "size_mm": [
+          0.6,
+          1.15
+        ],
+        "hole_diameter_mm": 0.65
+      }
+    },
+    "D1": {
+      "old": "pcbgolf:DO-214AA(SMB)",
+      "new": "pcbgolf:D_SMA",
+      "pin_map": {
+        "1": "1",
+        "2": "2"
+      },
+      "notes": "Same SMAJ16CA-13-F MPN; correct DO-214AC package. Bidirectional TVS so pad polarity arbitrary; original endpoint assignments retained."
+    }
+  },
+  "regulator": {
+    "U1_vout_nominal": 3.2960000000000003,
+    "R3_tolerance_percent": 1,
+    "R4_tolerance_percent": 1,
+    "vout_resistor_tolerance_only": [
+      3.246574257425743,
+      3.346424242424243
+    ],
+    "U2_vout_nominal": 4.984
+  },
+  "unpatched": [],
+  "provenance": [
+    {
+      "path": "pcbgolf.pretty/SOT-553.kicad_mod",
+      "url": "https://raw.githubusercontent.com/KiCad/kicad-footprints/master/Package_TO_SOT_SMD.pretty/SOT-553.kicad_mod",
+      "sha256_download": "e5744336b5435fe4564c67f43997ccbc7c11e90e8aff6066d2b1d8fbb32aed96"
+    },
+    {
+      "path": "pcbgolf.3dshapes/Package_TO_SOT_SMD.3dshapes/SOT-553.step",
+      "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/master/Package_TO_SOT_SMD.3dshapes/SOT-553.step",
+      "sha256_download": "2219d28dc74f980a4614180a52f390c2a095740e92ee987e4ac96f80edf01c52"
+    },
+    {
+      "path": "pcbgolf.pretty/PJ-002AH-SMT-TR.kicad_mod",
+      "url": "https://www.sameskydevices.com/product/resource/pj-002ah-smt-tr.pdf",
+      "drawing_page": 2,
+      "drawing_date": "2024-09-12"
+    },
+    {
+      "path": "pcbgolf.pretty/D_SMA.kicad_mod",
+      "url": "https://raw.githubusercontent.com/KiCad/kicad-footprints/master/Diode_SMD.pretty/D_SMA.kicad_mod",
+      "sha256_download": "4806e1c384f374a6c7ebe2da466c8861b31683031bea42889cbb873c2937bd56"
+    },
+    {
+      "path": "pcbgolf.3dshapes/Diode_SMD.3dshapes/D_SMA.step",
+      "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/master/Diode_SMD.3dshapes/D_SMA.step",
+      "sha256_download": "1cfddd4e3b1bf22b8fc6ee3258c2aade882ed7b85b528e23b9db42437775a1db"
+    },
+    {
+      "path": "pcbgolf.pretty/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.kicad_mod",
+      "url": "https://gitlab.com/kicad/libraries/kicad-footprints/-/raw/master/Connector_USB.pretty/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.kicad_mod",
+      "sha256_download": "3b8d7da3cae5114ec83022a759a78925113bc2eeec100ea447594f6d8687e4b8"
+    },
+    {
+      "path": "pcbgolf.3dshapes/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step",
+      "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/master/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step",
+      "sha256_download": "6338ce740fa231c2d3dcc6384e0576994a47240a312a21413cb85d76990a69a0"
+    },
+    {
+      "path": "reports/USB4105.pdf",
+      "url": "https://gct.co/files/drawings/usb4105.pdf"
+    }
+  ],
+  "current_monitor": {
+    "refs": [
+      "R70",
+      "R71",
+      "R72",
+      "R73"
+    ],
+    "resistance_ohm": 10000,
+    "resistor_tolerance_percent": 1,
+    "nominal_tps25944_imon_gain_uA_per_A": 52.3,
+    "volts_per_ampere": 0.523,
+    "amperes_per_volt": 1.9120458891013383,
+    "firmware_scale_multiplier_vs_source_33k": 3.3,
+    "formula": "I_A = V_ADC_V / (52.3e-6 * 10000)",
+    "calibration_required": true,
+    "note": "Update ADC current conversion for10k burden resistor; validate with known load. Source33k overloads3.3V ADC above~1.91A."
+  }
+}

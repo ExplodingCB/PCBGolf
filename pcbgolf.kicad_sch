@@ -5,7 +5,7 @@
 	(uuid "36babed2-fa72-4c2d-95d5-945abadc668e")
 	(paper "User" 297.0022 223.9264)
 	(lib_symbols
-		(symbol "pcbgolf:comma.ai_11112255_AP62300T"
+		(symbol "pcbgolf:AP62300"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -76,7 +76,7 @@
 					)
 				)
 			)
-			(symbol "comma.ai_11112255_AP62300T_1_0"
+			(symbol "AP62300_1_0"
 				(polyline
 					(pts
 						(xy -10.16 5.08) (xy 10.16 5.08)
@@ -578,7 +578,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "pcbgolf:DCJACK_2MM_SMT"
+			(property "Footprint" "pcbgolf:PJ-002AH-SMT-TR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2289,7 +2289,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "pcbgolf:DO-214AA(SMB)"
+			(property "Footprint" "pcbgolf:D_SMA"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3033,36 +3033,21 @@
 		(color 0 0 0 0)
 		(uuid "29c1e73f-b827-4476-b86c-164c1d2c1e4f")
 	)
-	(junction
-		(at 137.16 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b3cdb56-08d0-4f79-b757-2a7977750698")
-	)
+	
 	(junction
 		(at 222.25 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c7b4ec4-2e33-48b4-bb6d-08bfc449bb34")
 	)
-	(junction
-		(at 116.84 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2df1fdca-8ed3-4af7-a1d5-476120397896")
-	)
+	
 	(junction
 		(at 142.24 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31a48f7d-6a98-4857-94e2-74f95b05e19b")
 	)
-	(junction
-		(at 116.84 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37f7cf61-021c-4501-af63-785d0d7f8faa")
-	)
+	
 	(junction
 		(at 242.57 40.64)
 		(diameter 0)
@@ -3081,12 +3066,7 @@
 		(color 0 0 0 0)
 		(uuid "6c8f11d6-4e39-492f-bcf9-4fc0614f5d2f")
 	)
-	(junction
-		(at 137.16 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f505635-8564-49c3-a67e-90f449d89634")
-	)
+	
 	(junction
 		(at 137.16 114.3)
 		(diameter 0)
@@ -3401,16 +3381,7 @@
 		)
 		(uuid "36fd86d7-1c35-4698-a0a6-0db8db431f18")
 	)
-	(wire
-		(pts
-			(xy 116.84 125.73) (xy 121.92 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "384a97bf-43c6-48a0-b6a8-c5afc560945e")
-	)
+	
 	(wire
 		(pts
 			(xy 58.42 50.8) (xy 58.42 40.64)
@@ -3451,16 +3422,7 @@
 		)
 		(uuid "3ec79b96-a2dd-40d3-aa77-26f850d42636")
 	)
-	(wire
-		(pts
-			(xy 132.08 125.73) (xy 137.16 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ee36215-f5ad-444f-be0b-50102bc0fb19")
-	)
+	
 	(wire
 		(pts
 			(xy 154.94 114.3) (xy 154.94 111.76)
@@ -3491,16 +3453,7 @@
 		)
 		(uuid "456c393b-9718-4722-b700-b478d60aee76")
 	)
-	(wire
-		(pts
-			(xy 116.84 129.54) (xy 121.92 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "481db3de-acd8-4dcd-b07d-e37cdce936b0")
-	)
+	
 	(wire
 		(pts
 			(xy 104.14 121.92) (xy 116.84 121.92)
@@ -3571,16 +3524,7 @@
 		)
 		(uuid "5a754858-8e88-4185-8d94-56aa7d4b1000")
 	)
-	(wire
-		(pts
-			(xy 132.08 129.54) (xy 137.16 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b0a97ff-c624-48fb-ae86-991b154a6145")
-	)
+	
 	(wire
 		(pts
 			(xy 148.59 60.96) (xy 148.59 66.04)
@@ -3811,16 +3755,7 @@
 		)
 		(uuid "8e79e033-2d75-42a3-8bcd-ddd563a4079a")
 	)
-	(wire
-		(pts
-			(xy 223.52 119.38) (xy 223.52 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8f80dd8c-6cdd-4485-8343-48e0367385d9")
-	)
+	
 	(wire
 		(pts
 			(xy 40.64 116.84) (xy 40.64 114.3)
@@ -4011,16 +3946,7 @@
 		)
 		(uuid "bc5de4fd-cab6-4737-b591-440826e8f37c")
 	)
-	(wire
-		(pts
-			(xy 200.66 119.38) (xy 200.66 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c0d5936a-ddc7-43a9-8350-220d2900205d")
-	)
+	
 	(wire
 		(pts
 			(xy 144.78 48.26) (xy 148.59 48.26)
@@ -4121,16 +4047,7 @@
 		)
 		(uuid "e4b70882-0f59-469c-8427-450d46f5aa7b")
 	)
-	(wire
-		(pts
-			(xy 215.9 119.38) (xy 215.9 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e64b1b06-055a-4483-8b7a-541e2841c5e0")
-	)
+	
 	(wire
 		(pts
 			(xy 114.3 40.64) (xy 104.14 40.64)
@@ -4181,16 +4098,7 @@
 		)
 		(uuid "eeb46e5e-9c09-4f93-b49b-9db1414cb713")
 	)
-	(wire
-		(pts
-			(xy 208.28 119.38) (xy 208.28 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f13158a8-6f5d-47e9-9293-5e4c4c3e96af")
-	)
+	
 	(wire
 		(pts
 			(xy 58.42 40.64) (xy 66.04 40.64)
@@ -4480,84 +4388,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_GND")
-		(at 200.66 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0a0f6bda-5e85-4ebf-b332-d2fe73cbbe94")
-		(property "Reference" "#GND047"
-			(at 200.66 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 200.66 122.174 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cbc7cff2-31a1-4a81-8782-e1221e93d93e")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/c07ae85e-6aa1-4b23-a303-a8d1e9e3a103"
-					(reference "#GND047")
-					(unit 1)
-				)
-			)
-		)
-	)
+	
 	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_TVS-BI-DO214AA")
 		(at 58.42 55.88 90)
@@ -4580,7 +4411,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TVS-BI-DO214AA"
+		(property "Value" "SMAJ16CA"
 			(at 63.0174 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4592,7 +4423,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:DO-214AA(SMB)"
+		(property "Footprint" "pcbgolf:D_SMA"
 			(at 58.42 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4979,84 +4810,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_M2_BOLT")
-		(at 223.52 111.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "434a43ea-6945-4cad-984c-0563737b6866")
-		(property "Reference" "BH4"
-			(at 223.52 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "M2_BOLT"
-			(at 223.52 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pcbgolf:M2_BOLT"
-			(at 223.52 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "0"
-			(uuid "e04ed2c1-a06e-4d99-a7ad-ceba55e933b5")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/c07ae85e-6aa1-4b23-a303-a8d1e9e3a103"
-					(reference "BH4")
-					(unit 1)
-				)
-			)
-		)
-	)
+	
 	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_L-US1008")
 		(at 207.01 40.64 90)
@@ -5585,84 +5339,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_M2_BOLT")
-		(at 215.9 111.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "53d5e67d-e254-4c84-ab56-24229f5ea92b")
-		(property "Reference" "BH3"
-			(at 215.9 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "M2_BOLT"
-			(at 215.9 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pcbgolf:M2_BOLT"
-			(at 215.9 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "0"
-			(uuid "82bd2fc9-6b5d-4740-900e-dd0049f713f1")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/c07ae85e-6aa1-4b23-a303-a8d1e9e3a103"
-					(reference "BH3")
-					(unit 1)
-				)
-			)
-		)
-	)
+	
 	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_C0402")
 		(at 114.3 48.26 0)
@@ -5850,7 +5527,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_AP62300T")
+		(lib_id "pcbgolf:AP62300")
 		(at 86.36 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -5871,7 +5548,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "AP62300T"
+		(property "Value" "AP62300"
 			(at 86.36 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5893,7 +5570,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/AP62300.pdf"
 			(at 86.36 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6032,99 +5709,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_R0402")
-		(at 127 129.54 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "73d80abd-7f1e-469e-a125-405fc6e8a493")
-		(property "Reference" "R6"
-			(at 118.364 129.286 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "100k"
-			(at 129.54 129.286 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "pcbgolf:0402-R"
-			(at 127 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 127 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402JR-07100KL"
-			(at 127 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "b6d71090-0391-43de-81d9-d4a690a2292a")
-		)
-		(pin "1"
-			(uuid "29a782d7-5004-40b9-adc4-7616fc26dab4")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/c07ae85e-6aa1-4b23-a303-a8d1e9e3a103"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
+	
 	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_GND")
 		(at 148.59 68.58 0)
@@ -6566,99 +6151,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_R0402")
-		(at 127 125.73 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8630ac92-0471-4b04-9f41-b8f9fd6d64f8")
-		(property "Reference" "R5"
-			(at 118.364 125.476 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "100k"
-			(at 129.54 125.476 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "pcbgolf:0402-R"
-			(at 127 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 127 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402JR-07100KL"
-			(at 127 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "9d2aa266-6325-4d81-aab3-9610ef153bca")
-		)
-		(pin "1"
-			(uuid "7e89e04f-f39e-4cdf-b2a5-ec3685a7498e")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/c07ae85e-6aa1-4b23-a303-a8d1e9e3a103"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
+	
 	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_C0402")
 		(at 40.64 121.92 0)
@@ -6752,84 +6245,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_M2_BOLT")
-		(at 208.28 111.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "8e56cfb1-177a-4ec8-9a45-db6d3de049c5")
-		(property "Reference" "BH2"
-			(at 208.28 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "M2_BOLT"
-			(at 208.28 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pcbgolf:M2_BOLT"
-			(at 208.28 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "0"
-			(uuid "7761fd39-772b-484c-ad0e-051dfcaf5c7c")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/c07ae85e-6aa1-4b23-a303-a8d1e9e3a103"
-					(reference "BH2")
-					(unit 1)
-				)
-			)
-		)
-	)
+	
 	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_R0402")
 		(at 139.7 48.26 0)
@@ -7098,84 +6514,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_GND")
-		(at 215.9 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a0fc16de-1d35-4e3f-bd71-5ffee9010b73")
-		(property "Reference" "#GND049"
-			(at 215.9 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.9 122.174 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7fb393a4-1aa4-4543-97dc-c230c3cae1af")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/c07ae85e-6aa1-4b23-a303-a8d1e9e3a103"
-					(reference "#GND049")
-					(unit 1)
-				)
-			)
-		)
-	)
+	
 	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_C0402")
 		(at 222.25 60.96 0)
@@ -7674,164 +7013,10 @@
 			)
 		)
 	)
+	
+	
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_GND")
-		(at 208.28 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b337bfde-ee22-4856-966f-7444272c33c2")
-		(property "Reference" "#GND048"
-			(at 208.28 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 208.28 122.174 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "66d26c31-80be-4a6d-b237-e3557c15cbec")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/c07ae85e-6aa1-4b23-a303-a8d1e9e3a103"
-					(reference "#GND048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_M2_BOLT")
-		(at 200.66 111.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "b402d129-8acb-4fc0-ae01-912e649d8478")
-		(property "Reference" "BH1"
-			(at 200.66 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "M2_BOLT"
-			(at 200.66 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pcbgolf:M2_BOLT"
-			(at 200.66 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "0"
-			(uuid "5198b055-a6c3-482d-b459-a434990319dc")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/c07ae85e-6aa1-4b23-a303-a8d1e9e3a103"
-					(reference "BH1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_AP62300T")
+		(lib_id "pcbgolf:AP62300")
 		(at 166.37 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -7852,7 +7037,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "AP62300T"
+		(property "Value" "AP62300"
 			(at 166.37 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7874,7 +7059,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/AP62300.pdf"
 			(at 166.37 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8050,7 +7235,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "31k2"
 			(at 129.54 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8094,7 +7279,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402JR-07100KL"
+		(property "MPN" "RC0402FR-0731K2L"
 			(at 127 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8905,7 +8090,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:DCJACK_2MM_SMT"
+		(property "Footprint" "pcbgolf:PJ-002AH-SMT-TR"
 			(at 38.1 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9232,84 +8417,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_GND")
-		(at 223.52 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fda7f5ad-f89a-4dc0-9750-feca5c350934")
-		(property "Reference" "#GND050"
-			(at 223.52 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 223.52 122.174 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "68c7868b-862c-4997-bbb5-e5db1a5aa424")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/c07ae85e-6aa1-4b23-a303-a8d1e9e3a103"
-					(reference "#GND050")
-					(unit 1)
-				)
-			)
-		)
-	)
+	
 	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_R0402")
 		(at 71.12 58.42 90)

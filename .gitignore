@@ -17,3 +17,16 @@ fp-info-cache
 *.swo
 .DS_Store
 Thumbs.db
+
+# Local engineering toolchain and disposable artifacts
+tools/
+__pycache__/
+reports/*.step
+reports/*.stl
+
+# Generated, reproducible placement/routing trials (final entry is packaged separately)
+candidates/
+reports/*.net.xml
+reports/*netlists/
+reports/*-erc.json
+reports/*-erc.rpt

@@ -34,7 +34,7 @@
 					)
 				)
 			)
-			(property "Footprint" "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm"
+			(property "Footprint" "pcbgolf:SOT-553"
 				(at 1.27 30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5510,7 +5510,7 @@
 				)
 			)
 		)
-		(property "Value" "NCS20071XV"
+		(property "Value" "NCS20071XV53T2G"
 			(at 219.964 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5520,7 +5520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "pcbgolf:SOT-553"
 			(at 215.9 1.27 0)
 			(hide yes)
 			(show_name no)
@@ -5531,7 +5531,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ncs20071-d.pdf"
 			(at 215.9 1.27 0)
 			(hide yes)
 			(show_name no)
@@ -5553,7 +5553,7 @@
 				)
 			)
 		)
-		(property "MPN" "NCS20071SN2T1G"
+		(property "MPN" "NCS20071XV53T2G"
 			(at 214.63 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6557,7 +6557,7 @@
 				)
 			)
 		)
-		(property "Value" "NCS20071XV"
+		(property "Value" "NCS20071XV53T2G"
 			(at 219.964 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6567,7 +6567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "pcbgolf:SOT-553"
 			(at 215.9 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6578,7 +6578,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ncs20071-d.pdf"
 			(at 215.9 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6600,7 +6600,7 @@
 				)
 			)
 		)
-		(property "MPN" "NCS20071SN2T1G"
+		(property "MPN" "NCS20071XV53T2G"
 			(at 214.63 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7626,7 +7626,7 @@
 				)
 			)
 		)
-		(property "Value" "NCS20071XV"
+		(property "Value" "NCS20071XV53T2G"
 			(at 219.964 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7636,7 +7636,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "pcbgolf:SOT-553"
 			(at 215.9 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7647,7 +7647,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ncs20071-d.pdf"
 			(at 215.9 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7669,7 +7669,7 @@
 				)
 			)
 		)
-		(property "MPN" "NCS20071SN2T1G"
+		(property "MPN" "NCS20071XV53T2G"
 			(at 214.63 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10290,7 +10290,7 @@
 				)
 			)
 		)
-		(property "Value" "NCS20071XV"
+		(property "Value" "NCS20071XV53T2G"
 			(at 219.964 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10300,7 +10300,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "pcbgolf:SOT-553"
 			(at 215.9 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10311,7 +10311,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ncs20071-d.pdf"
 			(at 215.9 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10333,7 +10333,7 @@
 				)
 			)
 		)
-		(property "MPN" "NCS20071SN2T1G"
+		(property "MPN" "NCS20071XV53T2G"
 			(at 214.63 146.05 0)
 			(hide yes)
 			(show_name no)

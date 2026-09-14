@@ -239,7 +239,7 @@
 	)
 	(pad "B1" thru_hole circle
 		(at 2.8 0.65)
-		(size 0.6 0.6)
+		(size 0.62 0.62)
 		(drill 0.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -247,7 +247,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "c1d0f6f7-e310-4413-93f6-e0b0098f2b74")
 	)
-	(pad "B1T" smd roundrect
+	(pad "B1" smd roundrect
 		(at 2.803368 0.649803)
 		(size 0.6096 0.6096)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -259,7 +259,7 @@
 	)
 	(pad "B2" thru_hole circle
 		(at 2.4 1.35)
-		(size 0.6 0.6)
+		(size 0.62 0.62)
 		(drill 0.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -267,7 +267,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "d5e9282d-556d-4743-8c68-fa10b9df49b2")
 	)
-	(pad "B2T" smd roundrect
+	(pad "B2" smd roundrect
 		(at 2.398456 1.353646)
 		(size 0.6096 0.6096)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -279,7 +279,7 @@
 	)
 	(pad "B3" thru_hole circle
 		(at 1.6 1.35)
-		(size 0.6 0.6)
+		(size 0.62 0.62)
 		(drill 0.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -287,7 +287,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "ee52469e-cfff-4453-9941-5ec1ed77d1b4")
 	)
-	(pad "B3T" smd roundrect
+	(pad "B3" smd roundrect
 		(at 1.602737 1.349771)
 		(size 0.6096 0.6096)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -299,7 +299,7 @@
 	)
 	(pad "B4" thru_hole circle
 		(at 1.2 0.65)
-		(size 0.6 0.6)
+		(size 0.62 0.62)
 		(drill 0.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -307,7 +307,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "c7110b17-6aab-4e35-b491-de65c7ac756d")
 	)
-	(pad "B4T" smd roundrect
+	(pad "B4" smd roundrect
 		(at 1.200821 0.65074)
 		(size 0.6096 0.6096)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -319,7 +319,7 @@
 	)
 	(pad "B5" thru_hole circle
 		(at 0.8 1.35)
-		(size 0.6 0.6)
+		(size 0.62 0.62)
 		(drill 0.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -327,7 +327,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "9f46655a-6810-4872-bf59-dad528f248ae")
 	)
-	(pad "B5T" smd roundrect
+	(pad "B5" smd roundrect
 		(at 0.796734 1.348965)
 		(size 0.6096 0.6096)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -339,7 +339,7 @@
 	)
 	(pad "B6" thru_hole circle
 		(at 0.4 0.65)
-		(size 0.6 0.6)
+		(size 0.62 0.62)
 		(drill 0.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -347,7 +347,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "ffa8caed-c3c8-4a7c-b2cb-c2187b22b462")
 	)
-	(pad "B6T" smd roundrect
+	(pad "B6" smd roundrect
 		(at 0.404793 0.651165)
 		(size 0.6096 0.6096)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -359,7 +359,7 @@
 	)
 	(pad "B7" thru_hole circle
 		(at -0.4 0.65)
-		(size 0.6 0.6)
+		(size 0.62 0.62)
 		(drill 0.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -367,7 +367,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "98231dc5-9be0-4c29-8846-e664e369c99c")
 	)
-	(pad "B7T" smd roundrect
+	(pad "B7" smd roundrect
 		(at -0.400625 0.64729)
 		(size 0.6096 0.6096)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -379,7 +379,7 @@
 	)
 	(pad "B8" thru_hole circle
 		(at -0.8 1.35)
-		(size 0.6 0.6)
+		(size 0.62 0.62)
 		(drill 0.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -387,7 +387,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "8a3b7236-12cf-4353-9f9a-a3db3d026c24")
 	)
-	(pad "B8T" smd roundrect
+	(pad "B8" smd roundrect
 		(at -0.799937 1.348496)
 		(size 0.6096 0.6096)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -399,7 +399,7 @@
 	)
 	(pad "B9" thru_hole circle
 		(at -1.2 0.65)
-		(size 0.6 0.6)
+		(size 0.62 0.62)
 		(drill 0.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -407,7 +407,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "ca9a4757-a2a8-4bc6-9e43-0cee079215cc")
 	)
-	(pad "B9T" smd roundrect
+	(pad "B9" smd roundrect
 		(at -1.200221 0.653046)
 		(size 0.6096 0.6096)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -419,7 +419,7 @@
 	)
 	(pad "B10" thru_hole circle
 		(at -1.6 1.35)
-		(size 0.6 0.6)
+		(size 0.62 0.62)
 		(drill 0.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -427,7 +427,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "4d7406a3-bc70-4cfa-9f30-661c1fffa9d1")
 	)
-	(pad "B10T" smd roundrect
+	(pad "B10" smd roundrect
 		(at -1.599509 1.3485)
 		(size 0.6096 0.6096)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -439,7 +439,7 @@
 	)
 	(pad "B11" thru_hole circle
 		(at -2.4 1.35)
-		(size 0.6 0.6)
+		(size 0.62 0.62)
 		(drill 0.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -447,7 +447,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "42bc037b-23d5-4c76-8f20-ac3f8be82aba")
 	)
-	(pad "B11T" smd roundrect
+	(pad "B11" smd roundrect
 		(at -2.397496 1.350493)
 		(size 0.6096 0.6096)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -459,7 +459,7 @@
 	)
 	(pad "B12" thru_hole circle
 		(at -2.8 0.65)
-		(size 0.6 0.6)
+		(size 0.62 0.62)
 		(drill 0.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -467,7 +467,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "1c4aaf30-ca63-4b30-ad6a-cd36bd6b7c47")
 	)
-	(pad "B12T" smd roundrect
+	(pad "B12" smd roundrect
 		(at -2.800687 0.651162)
 		(size 0.6096 0.6096)
 		(layers "F.Cu" "F.Mask" "F.Paste")

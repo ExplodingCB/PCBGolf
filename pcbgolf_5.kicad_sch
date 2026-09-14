@@ -11133,7 +11133,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TPS25942"
+		(property "Value" "TPS25944A"
 			(at 54.61 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11155,7 +11155,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps25944a.pdf"
 			(at 54.61 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11517,7 +11517,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TPS25942"
+		(property "Value" "TPS25944A"
 			(at 54.61 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -11539,7 +11539,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps25944a.pdf"
 			(at 54.61 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -11931,7 +11931,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "10k"
 			(at 94.996 102.362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11975,7 +11975,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402JR-0733KL"
+		(property "MPN" "RC0402FR-0710KL"
 			(at 95.25 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -12684,7 +12684,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TPS25942"
+		(property "Value" "TPS25944A"
 			(at 54.61 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -12706,7 +12706,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps25944a.pdf"
 			(at 54.61 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -17487,7 +17487,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "10k"
 			(at 94.996 49.022 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17531,7 +17531,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402JR-0733KL"
+		(property "MPN" "RC0402FR-0710KL"
 			(at 95.25 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -20967,7 +20967,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "10k"
 			(at 94.996 158.242 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21011,7 +21011,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402JR-0733KL"
+		(property "MPN" "RC0402FR-0710KL"
 			(at 95.25 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -22755,7 +22755,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "10k"
 			(at 94.996 211.582 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22799,7 +22799,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402JR-0733KL"
+		(property "MPN" "RC0402FR-0710KL"
 			(at 95.25 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -24069,7 +24069,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TPS25942"
+		(property "Value" "TPS25944A"
 			(at 54.61 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -24091,7 +24091,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps25944a.pdf"
 			(at 54.61 212.09 0)
 			(hide yes)
 			(show_name no)
