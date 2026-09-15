@@ -1,0 +1,887 @@
+{
+  "routed": [
+    {
+      "pads": [
+        [
+          "U14",
+          "12"
+        ],
+        [
+          "C52",
+          "1"
+        ]
+      ],
+      "net": "+12V",
+      "width_mm": 0.4,
+      "length_mm": 2.657116781186547,
+      "path_mm": [
+        [
+          22.0,
+          6.14999
+        ],
+        [
+          22.15,
+          6.29999
+        ],
+        [
+          22.15,
+          6.59999
+        ],
+        [
+          22.25,
+          6.69999
+        ],
+        [
+          22.25,
+          7.84999
+        ],
+        [
+          22.1,
+          7.99999
+        ],
+        [
+          22.1,
+          8.399989999999999
+        ],
+        [
+          22.0,
+          8.49999
+        ],
+        [
+          22.0,
+          8.6
+        ]
+      ]
+    },
+    {
+      "pads": [
+        [
+          "C48",
+          "1"
+        ],
+        [
+          "C52",
+          "1"
+        ]
+      ],
+      "net": "+12V",
+      "width_mm": 0.4,
+      "length_mm": 5.9162950903902285,
+      "path_mm": [
+        [
+          21.55,
+          11.65
+        ],
+        [
+          21.7,
+          11.8
+        ],
+        [
+          21.7,
+          11.950000000000001
+        ],
+        [
+          22.0,
+          12.25
+        ],
+        [
+          22.1,
+          12.25
+        ],
+        [
+          22.150000000000002,
+          12.3
+        ],
+        [
+          22.75,
+          12.3
+        ],
+        [
+          22.8,
+          12.25
+        ],
+        [
+          22.900000000000002,
+          12.25
+        ],
+        [
+          23.1,
+          12.05
+        ],
+        [
+          23.1,
+          11.0
+        ],
+        [
+          23.05,
+          10.950000000000001
+        ],
+        [
+          23.05,
+          10.9
+        ],
+        [
+          23.0,
+          10.85
+        ],
+        [
+          23.0,
+          10.75
+        ],
+        [
+          22.95,
+          10.700000000000001
+        ],
+        [
+          22.95,
+          10.0
+        ],
+        [
+          22.900000000000002,
+          9.95
+        ],
+        [
+          22.900000000000002,
+          9.85
+        ],
+        [
+          22.25,
+          9.2
+        ],
+        [
+          22.25,
+          9.1
+        ],
+        [
+          22.2,
+          9.05
+        ],
+        [
+          22.2,
+          9.0
+        ],
+        [
+          22.150000000000002,
+          8.95
+        ],
+        [
+          22.150000000000002,
+          8.9
+        ],
+        [
+          22.1,
+          8.85
+        ],
+        [
+          22.1,
+          8.8
+        ],
+        [
+          22.0,
+          8.7
+        ],
+        [
+          22.0,
+          8.6
+        ]
+      ]
+    },
+    {
+      "pads": [
+        [
+          "C25",
+          "2"
+        ],
+        [
+          "C19",
+          "2"
+        ]
+      ],
+      "net": "GND",
+      "width_mm": 0.2,
+      "length_mm": 1.9863961030678938,
+      "path_mm": [
+        [
+          4.5,
+          22.5
+        ],
+        [
+          4.95,
+          22.95
+        ],
+        [
+          4.95,
+          24.3
+        ]
+      ]
+    },
+    {
+      "pads": [
+        [
+          "C3",
+          "2"
+        ],
+        [
+          "C5",
+          "2"
+        ]
+      ],
+      "net": "GND",
+      "width_mm": 0.2,
+      "length_mm": 2.5627416997969514,
+      "path_mm": [
+        [
+          36.4,
+          18.15
+        ],
+        [
+          34.8,
+          19.75
+        ],
+        [
+          34.5,
+          19.75
+        ]
+      ]
+    },
+    {
+      "pads": [
+        [
+          "U3",
+          "H1"
+        ],
+        [
+          "U3",
+          "J1"
+        ]
+      ],
+      "net": "VDDA",
+      "width_mm": 0.1,
+      "length_mm": 0.7999999999999972,
+      "path_mm": [
+        [
+          6.9,
+          17.9
+        ],
+        [
+          6.9,
+          17.1
+        ]
+      ]
+    },
+    {
+      "pads": [
+        [
+          "C15",
+          "1"
+        ],
+        [
+          "C16",
+          "1"
+        ]
+      ],
+      "net": "VDDLDO",
+      "width_mm": 0.2,
+      "length_mm": 3.7834523779156077,
+      "path_mm": [
+        [
+          16.3,
+          23.1
+        ],
+        [
+          16.3,
+          22.6
+        ],
+        [
+          15.5,
+          21.8
+        ],
+        [
+          15.5,
+          21.75
+        ],
+        [
+          15.450000000000001,
+          21.700000000000003
+        ],
+        [
+          15.450000000000001,
+          20.900000000000002
+        ],
+        [
+          15.5,
+          20.85
+        ],
+        [
+          15.5,
+          20.8
+        ],
+        [
+          16.25,
+          20.05
+        ],
+        [
+          16.25,
+          20.0
+        ]
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "pads": [
+        [
+          "C47",
+          "1"
+        ],
+        [
+          "C51",
+          "1"
+        ]
+      ],
+      "net": "+12V",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.4
+    },
+    {
+      "pads": [
+        [
+          "C53",
+          "1"
+        ],
+        [
+          "C49",
+          "1"
+        ]
+      ],
+      "net": "+12V",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.4
+    },
+    {
+      "pads": [
+        [
+          "U11",
+          "5"
+        ],
+        [
+          "C49",
+          "1"
+        ]
+      ],
+      "net": "+12V",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.4
+    },
+    {
+      "pads": [
+        [
+          "C45",
+          "1"
+        ],
+        [
+          "U8",
+          "5"
+        ]
+      ],
+      "net": "+3V3",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.4
+    },
+    {
+      "pads": [
+        [
+          "U4",
+          "42"
+        ],
+        [
+          "C27",
+          "1"
+        ]
+      ],
+      "net": "+3V3",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.4
+    },
+    {
+      "pads": [
+        [
+          "U3",
+          "D6"
+        ],
+        [
+          "U3",
+          "E8"
+        ]
+      ],
+      "net": "+3V3",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.4
+    },
+    {
+      "pads": [
+        [
+          "U5",
+          "5"
+        ],
+        [
+          "C42",
+          "1"
+        ]
+      ],
+      "net": "+3V3",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.4
+    },
+    {
+      "pads": [
+        [
+          "U4",
+          "24"
+        ],
+        [
+          "U7",
+          "5"
+        ]
+      ],
+      "net": "+3V3",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.4
+    },
+    {
+      "pads": [
+        [
+          "U6",
+          "5"
+        ],
+        [
+          "C26",
+          "1"
+        ]
+      ],
+      "net": "+3V3",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.4
+    },
+    {
+      "pads": [
+        [
+          "C40",
+          "1"
+        ],
+        [
+          "U7",
+          "3"
+        ]
+      ],
+      "net": "+5V",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.4
+    },
+    {
+      "pads": [
+        [
+          "R10",
+          "2"
+        ],
+        [
+          "C10",
+          "2"
+        ]
+      ],
+      "net": "+5V",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.4
+    },
+    {
+      "pads": [
+        [
+          "U6",
+          "3"
+        ],
+        [
+          "C39",
+          "1"
+        ]
+      ],
+      "net": "+5V",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.4
+    },
+    {
+      "pads": [
+        [
+          "C12",
+          "1"
+        ],
+        [
+          "C13",
+          "1"
+        ]
+      ],
+      "net": "+5V",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.4
+    },
+    {
+      "pads": [
+        [
+          "U3",
+          "A2"
+        ],
+        [
+          "U3",
+          "A5"
+        ]
+      ],
+      "net": "BTN",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.1
+    },
+    {
+      "pads": [
+        [
+          "J6",
+          "B3"
+        ],
+        [
+          "L7",
+          "3"
+        ]
+      ],
+      "net": "CAN2_L",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.1
+    },
+    {
+      "pads": [
+        [
+          "R57",
+          "1"
+        ],
+        [
+          "J8",
+          "B3"
+        ]
+      ],
+      "net": "CAN2_L",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.1
+    },
+    {
+      "pads": [
+        [
+          "R70",
+          "2"
+        ],
+        [
+          "U13",
+          "19"
+        ]
+      ],
+      "net": "CH1_IMON",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.1
+    },
+    {
+      "pads": [
+        [
+          "U14",
+          "19"
+        ],
+        [
+          "R71",
+          "2"
+        ]
+      ],
+      "net": "CH2_IMON",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.1
+    },
+    {
+      "pads": [
+        [
+          "R72",
+          "2"
+        ],
+        [
+          "U15",
+          "19"
+        ]
+      ],
+      "net": "CH3_IMON",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.1
+    },
+    {
+      "pads": [
+        [
+          "U16",
+          "19"
+        ],
+        [
+          "R73",
+          "2"
+        ]
+      ],
+      "net": "CH4_IMON",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.1
+    },
+    {
+      "pads": [
+        [
+          "C45",
+          "2"
+        ],
+        [
+          "C36",
+          "1"
+        ]
+      ],
+      "net": "GND",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.2
+    },
+    {
+      "pads": [
+        [
+          "U3",
+          "E7"
+        ],
+        [
+          "U3",
+          "D5"
+        ]
+      ],
+      "net": "GND",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.2
+    },
+    {
+      "pads": [
+        [
+          "J5",
+          "A4"
+        ],
+        [
+          "J5",
+          "B9"
+        ]
+      ],
+      "net": "Net-(J5-VBUS-PadA4)",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.4
+    },
+    {
+      "pads": [
+        [
+          "J6",
+          "A4"
+        ],
+        [
+          "J6",
+          "B9"
+        ]
+      ],
+      "net": "Net-(J6-VBUS-PadA4)",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.4
+    },
+    {
+      "pads": [
+        [
+          "J6",
+          "A4"
+        ],
+        [
+          "J6",
+          "A9"
+        ]
+      ],
+      "net": "Net-(J6-VBUS-PadA4)",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.4
+    },
+    {
+      "pads": [
+        [
+          "J7",
+          "A4"
+        ],
+        [
+          "J7",
+          "B9"
+        ]
+      ],
+      "net": "Net-(J7-VBUS-PadA4)",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.4
+    },
+    {
+      "pads": [
+        [
+          "J7",
+          "A4"
+        ],
+        [
+          "J7",
+          "A9"
+        ]
+      ],
+      "net": "Net-(J7-VBUS-PadA4)",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.4
+    },
+    {
+      "pads": [
+        [
+          "J8",
+          "A4"
+        ],
+        [
+          "J8",
+          "B9"
+        ]
+      ],
+      "net": "Net-(J8-VBUS-PadA4)",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.4
+    },
+    {
+      "pads": [
+        [
+          "U1",
+          "2"
+        ],
+        [
+          "C4",
+          "2"
+        ]
+      ],
+      "net": "Net-(U1-SW)",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.1
+    },
+    {
+      "pads": [
+        [
+          "R66",
+          "2"
+        ],
+        [
+          "U13",
+          "17"
+        ]
+      ],
+      "net": "Net-(U13-ILIM)",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.1
+    },
+    {
+      "pads": [
+        [
+          "R67",
+          "2"
+        ],
+        [
+          "U14",
+          "17"
+        ]
+      ],
+      "net": "Net-(U14-ILIM)",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.1
+    },
+    {
+      "pads": [
+        [
+          "R68",
+          "2"
+        ],
+        [
+          "U15",
+          "17"
+        ]
+      ],
+      "net": "Net-(U15-ILIM)",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.1
+    },
+    {
+      "pads": [
+        [
+          "U16",
+          "17"
+        ],
+        [
+          "R69",
+          "2"
+        ]
+      ],
+      "net": "Net-(U16-ILIM)",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.1
+    },
+    {
+      "pads": [
+        [
+          "C36",
+          "2"
+        ],
+        [
+          "C34",
+          "1"
+        ]
+      ],
+      "net": "Net-(U4-VDD18PLL)",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.1
+    },
+    {
+      "pads": [
+        [
+          "U4",
+          "62"
+        ],
+        [
+          "C34",
+          "1"
+        ]
+      ],
+      "net": "Net-(U4-VDD18PLL)",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.1
+    },
+    {
+      "pads": [
+        [
+          "U4",
+          "61"
+        ],
+        [
+          "Y2",
+          "1"
+        ]
+      ],
+      "net": "Net-(U4-XTAL1)",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.1
+    },
+    {
+      "pads": [
+        [
+          "U3",
+          "D8"
+        ],
+        [
+          "U3",
+          "E6"
+        ]
+      ],
+      "net": "VDDLDO",
+      "reason": "no short same-side clearance-safe path",
+      "width_mm": 0.2
+    }
+  ]
+}

@@ -1,0 +1,791 @@
+{
+  "source": "candidates\\completion\\powered.kicad_pcb",
+  "vias_reduced": [
+    {
+      "uuid": "9d22d2e2-f3c7-40d9-bf88-2fa18264d1d1",
+      "net": "HUB_SDA",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "c72e9d2a-5bb5-4054-a9cf-0dea8aa629c4",
+      "net": "HUB_SDA",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "0f0fb1d3-9cf6-4155-b05d-5752f9c135ec",
+      "net": "Net-(U4-XTAL2)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "4ab862da-1871-455b-8a73-e2c66dcff9a5",
+      "net": "Net-(U4-XTAL2)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "0d20ce06-68d9-4762-b6f0-0420c2e0747e",
+      "net": "Net-(U4-RBIAS)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "f31f5be6-5e36-4e8d-9807-4e9ead072cd6",
+      "net": "Net-(U4-RBIAS)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "349c69ea-2848-467d-a303-deb614ee12c5",
+      "net": "BTN",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "5efe37ce-0775-40df-968d-f6f90cb4a6e2",
+      "net": "BTN",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "c6457a4c-7dab-4a3f-8fa1-861f5a84713f",
+      "net": "CAN3_L",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "de97439c-2f96-4110-a7d7-1be709a674a1",
+      "net": "Net-(U12--)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "c689325d-7359-44fa-a568-f26c40688879",
+      "net": "Net-(LED11-AG)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "fd6b2bb1-7b06-43cc-b432-9fdce971e81f",
+      "net": "Net-(LED11-AG)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "1c504104-a90a-44b1-bc3f-3bae08cf3a2f",
+      "net": "Net-(LED11-AR)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "b7be7f6c-628d-403f-b7ac-28da647009b1",
+      "net": "Net-(LED11-AR)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "1e0c50ee-e7fe-4bbf-b0fc-7de963366c0a",
+      "net": "CH2_SBU1_IGN",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "01e9f174-457a-46b3-a57a-4963504e74ca",
+      "net": "Net-(J2-CMD)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "3aaf9a99-f931-4578-9964-5803831d57c3",
+      "net": "Net-(J2-CMD)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "3cc0dc86-a141-405a-a159-f3d04388ea5b",
+      "net": "CH4_SBU1_RELAY",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "858d5c07-e23a-4510-92bb-1747a24dbbaf",
+      "net": "CH4_SBU1_RELAY",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "6e240649-fa42-49a7-b696-b3e5ac542139",
+      "net": "Net-(Q5-D2)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "75bc473a-908d-4b62-bcc2-c29c187f4511",
+      "net": "Net-(Q5-D2)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "c8bd348f-81c6-4943-a76e-b5ad6ca24c5a",
+      "net": "Net-(Q5-D2)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "1c592cd4-daf9-4370-b8d0-d642ac9ec5b0",
+      "net": "Net-(Q5-D1)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "4b95b0db-aeec-4cb2-8cc1-1aae2168d193",
+      "net": "Net-(Q5-D1)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "9dc82473-e04d-47a0-b72a-3d7373478f51",
+      "net": "Net-(Q5-D1)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "2a4832f4-4ad4-46c9-9fe9-48e3d97ddbf2",
+      "net": "Net-(J3-CC1)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "d8788a20-2505-41bb-8455-230a336b3deb",
+      "net": "Net-(J3-CC2-PadB5)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "8704d309-504c-44bb-b3e3-10206c84105c",
+      "net": "CH3_SBU2_IGN",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "8d00ef48-7cb9-433a-bf24-57de577d7312",
+      "net": "CH3_SBU2_IGN",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "e603cac2-446f-4a76-ac2c-f5ab1d7568a3",
+      "net": "CH3_SBU2_IGN",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "876e221c-d13e-4705-a2e5-64b32ecd5a80",
+      "net": "CH3_SBU2_RELAY",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "a0985e30-4b1e-47b5-84c4-650af50316cc",
+      "net": "CH3_SBU2_RELAY",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "246c73a8-a776-464e-9ff2-50ce3a8915ac",
+      "net": "Net-(Q8-D1)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "60f65fd0-d9a7-4c0d-b522-b3537594dd54",
+      "net": "Net-(Q8-D1)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "7e6c80ac-ab66-4990-81eb-566c3d1a8eb1",
+      "net": "Net-(Q8-D1)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "ca1e09e3-a94e-4331-86b1-540354094a9c",
+      "net": "Net-(Q8-D1)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "6d2d815d-ad41-4e70-9492-6e88cbf10794",
+      "net": "SD_CMD",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "2099eb7a-a7e7-47a1-91e1-faef8bc1cd81",
+      "net": "Net-(LED4-PadA)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "6aa8dcbb-92ec-4d8f-be72-9e189c338d81",
+      "net": "Net-(LED4-PadA)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "9a49d22d-633a-442d-9f91-57676496c918",
+      "net": "CAN3_H",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "ffa797d0-1b75-43ef-b32c-7f6a275b450f",
+      "net": "SD_CLK",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "1b8614ca-6e1b-4447-b56b-1ae24a1f26f3",
+      "net": "Net-(J2-CLK)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "f1fd2692-01dc-43bd-96c2-51fe972af6d8",
+      "net": "Net-(J2-CLK)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "a1f52022-d0e0-47d0-a038-c5154546943a",
+      "net": "CH1_SBU2_RELAY",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "8b3fdccb-02de-40c8-9409-efd9b9a7bdff",
+      "net": "CH4_SBU1",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "df1a816e-e608-4486-a2aa-1c636e1f3c68",
+      "net": "CH4_SBU1",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "e0ea3e16-1548-4b24-afd5-cb4456bb3cee",
+      "net": "CH4_SBU1",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "32f450dd-e95e-4253-814d-18fecb21b390",
+      "net": "CAN0_H",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "6333802d-c9a6-448b-ab69-5c0e75d56f4f",
+      "net": "CAN0_H",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "709a40cb-662d-41b9-8aec-2a895bffd02c",
+      "net": "CAN0_H",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "dd1adf14-0c3a-47c4-a724-6da1e6ee9801",
+      "net": "CAN0_H",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "1ec5d1e7-e7fb-40e5-a4d5-788469da8c94",
+      "net": "CAN1_L",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "35cd7005-e576-4eab-abf6-7560da412e99",
+      "net": "CAN1_L",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "4274068a-ae4f-4912-bd51-738403d98165",
+      "net": "CAN1_L",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "7f5e10ec-971a-4910-b76f-44d189d197c3",
+      "net": "CAN1_L",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "0856d6d0-d69f-46fa-8410-20cfb08d3b23",
+      "net": "CAN2_L",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "7954c3e3-d9ac-4a9e-9f05-ecdb4ed3759f",
+      "net": "CAN2_L",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "dda488f1-8e60-4121-aced-42c1982c18c0",
+      "net": "CAN2_L",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "e0ee392c-5835-49f3-8e4a-a3fa0ca00978",
+      "net": "CAN2_H",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "86b21116-a541-4af3-bbbe-f7b2d0b3c150",
+      "net": "Net-(LED13-AR)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "a69b16b4-fdaf-4f99-b6b0-a5a1f1c1e05f",
+      "net": "Net-(LED13-AR)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "e1841e12-8ce8-4648-9f97-a769c3158f92",
+      "net": "Net-(LED13-AR)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "064795b6-a513-49b4-8523-0e49ae3b7623",
+      "net": "CH4_SBU2_IGN",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "3435d482-7f1f-46ac-bcd8-69bfb924ca7c",
+      "net": "CH4_SBU2_IGN",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "100d39a8-b005-486f-a4e2-3daa99783232",
+      "net": "CH4_SBU2_RELAY",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "a5259325-5265-4771-8cbc-b88a13f571bc",
+      "net": "Net-(Q9-D2)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "0942946c-7b89-43fd-bba1-347c14ccb7fc",
+      "net": "Net-(Q9-D1)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "2eca0260-8be7-465a-9904-a1f055af2812",
+      "net": "Net-(Q9-D1)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "cb9c0c50-7e6b-46f2-9026-f8d0f1d4d535",
+      "net": "Net-(Q9-D1)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "eb0c3c67-8dea-4d64-a775-0329f75f24fb",
+      "net": "Net-(Q9-D1)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "e80be6a3-0456-452b-9c5d-12c590fdc6de",
+      "net": "SD_D0",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "68cee713-9622-4479-bb53-b69ca0cf8f2f",
+      "net": "Net-(J2-DAT0)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "5de812ea-5d4c-4da8-9927-ea12314242f7",
+      "net": "Net-(LED15-AG)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "7d7a0409-e93e-4d65-b828-bdebba304547",
+      "net": "Net-(LED15-AG)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "b8fc95f0-6408-4c6e-b7f3-7be96476f184",
+      "net": "Net-(LED15-AG)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "81302a16-19e4-4880-ae3d-00b76979cf5e",
+      "net": "Net-(J2-DAT1)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "95e48a50-68d0-4c7c-9c80-e1b96aa5c9d2",
+      "net": "Net-(J2-DAT2)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "a4836bd4-6db5-47e5-a1bf-b1c5e8bce68e",
+      "net": "Net-(J2-CD{slash}DAT3)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "ebcf8d02-440f-45b1-a03c-e6cf3ada7181",
+      "net": "Net-(J2-CD{slash}DAT3)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "52cc940b-bfb1-4aa7-8fba-9233a692ba72",
+      "net": "Net-(LED17-AG)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "ca7b6e10-8afc-48d3-9904-46dc641b4575",
+      "net": "Net-(LED17-AG)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "d5015937-d7ef-4136-8c2f-87eca0afee16",
+      "net": "Net-(LED14-AR)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "df40deb2-39b5-4a01-8619-e2a2ad556dea",
+      "net": "Net-(LED14-AR)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "4b421d20-564a-4f24-9b2a-acc402c0e163",
+      "net": "Net-(R62-Pad1)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "54796818-f295-429d-b5e0-d1177820184f",
+      "net": "Net-(R62-Pad1)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "b16b32c7-4dd8-4392-b051-13100c3ea4fe",
+      "net": "Net-(R62-Pad1)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "e036ce19-b3e2-49f2-a279-ece5103157f2",
+      "net": "Net-(R62-Pad1)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "922653cd-4956-4e78-ad13-0820e3fcea5a",
+      "net": "CH1_SBU2",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "943d95fe-bc56-4065-98d7-3288902fc3fb",
+      "net": "SD_D1",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "c1af89a3-9ece-46e8-a743-fb0ba6226b92",
+      "net": "SD_D1",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "bc8229b6-ad46-4678-94c4-e67ddf07d9e3",
+      "net": "CH4_SBU2",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "fd53e139-77d3-4ce6-9634-5d127556cd37",
+      "net": "CAN1_TX",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "1263e380-fb8e-42f9-b757-0b7bc4d8f191",
+      "net": "CAN1_RX",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "2b4b93be-eca1-4bdb-94b2-d620150e3267",
+      "net": "CAN1_RX",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "400f08e6-7ae1-493c-a4e8-9d5e87491d0d",
+      "net": "Net-(LED16-AR)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "a48ae835-1025-4dff-b8fd-dde778724a54",
+      "net": "Net-(LED16-AR)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "08078ab2-8999-4be7-8f02-2c81f9f40901",
+      "net": "Net-(U9--)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "89ab67be-edf0-4985-8c40-da5a5427be37",
+      "net": "Net-(U9--)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "9c62a695-e1f5-4c7c-baf8-b88f1b40eae5",
+      "net": "Net-(U9--)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "b0d1f809-63c9-4e99-b04e-d883c2bbb090",
+      "net": "Net-(U9--)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "f34dd334-6add-40e3-a06a-9d08644f66b0",
+      "net": "Net-(U9--)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "066675d8-d909-4ac2-8579-8c925004a28a",
+      "net": "Net-(LED13-AG)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "aaf0690c-43af-419f-8318-5f19940c86f7",
+      "net": "Net-(LED13-AG)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "d79af401-ea80-49cf-a79b-f5f40f47aad8",
+      "net": "CH3_SBU1_RELAY",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "3ce267c8-66c9-422c-8bac-ec40a0044823",
+      "net": "Net-(LED1-B-)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "fd7e7840-d713-4be4-8945-22a938d65ac1",
+      "net": "LED_B",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "42f56386-f365-4f9a-86e4-584d29e8e364",
+      "net": "Net-(U5-CANH)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "66793b4b-aab9-41d3-94f2-e9a63137fafa",
+      "net": "Net-(U5-CANH)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "5ad153ec-40ac-4559-a04a-f6c0f337d92d",
+      "net": "CH2_SBU2_IGN",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "f25758f7-9cc3-4a74-824b-61df7a615e9b",
+      "net": "CH2_SBU2_IGN",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "4452d662-37cf-4955-b5c5-b353c26b9099",
+      "net": "CH1_SBU1",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "a0570198-be21-40cd-bf89-e894143adf0b",
+      "net": "CH1_SBU1",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "0882a441-5f9f-4ecf-9e49-4e2e33e5fa38",
+      "net": "Net-(Q4-D1)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "1ade6c01-fb63-43c0-a50a-3c744d12a804",
+      "net": "Net-(Q4-D1)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "a840dcc1-c150-45fa-b2fb-c3435567e1b8",
+      "net": "Net-(Q4-D1)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "4f18a6dd-13b8-4b24-9d75-c067d730524a",
+      "net": "CH1_SBU2_IGN",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "ea73ac57-bfa8-45f3-81cf-9d42b2d64296",
+      "net": "CH1_SBU2_IGN",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "0f333f36-351b-4d81-8db0-485bf1371d99",
+      "net": "Net-(U3-PDR_ON)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "182923cf-61e8-4e3f-b98e-33555f31ffdd",
+      "net": "SD_D2",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "a502628e-a6e8-4a1c-9f98-790fe7f21615",
+      "net": "SD_D2",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "cb22f256-1507-4d98-85f9-2009043d2187",
+      "net": "LED_R",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "ce023c74-fc5a-4c19-967f-0bb27a45521e",
+      "net": "CAN0_TX",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "60ac7030-ee0a-47e5-b427-38fa8022b6ee",
+      "net": "Net-(U3-PC2_C)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "2c51fbb1-8a9f-488a-97c1-3fcbbc38e73e",
+      "net": "Net-(U3-PC3_C)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "14b2b898-9946-41bf-a65f-281850ee2d95",
+      "net": "Net-(LED6-PadA)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "34dc1960-ff29-4640-a223-fa9c3ea4c1ee",
+      "net": "Net-(LED6-PadA)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "40f15720-710a-422b-abb9-a05464639e71",
+      "net": "Net-(LED1-R-)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "c7c4217b-d128-4135-9a2e-23b26d7ec1f4",
+      "net": "Net-(LED1-R-)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "16f5f086-939c-4ca8-821f-b1f1b3a3d840",
+      "net": "Net-(U11-+)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    },
+    {
+      "uuid": "bb94317f-98a2-4562-815d-e9b26252bac0",
+      "net": "Net-(U11-+)",
+      "old_diameter_mm": 0.45,
+      "old_drill_mm": 0.2
+    }
+  ],
+  "new_diameter_mm": 0.3,
+  "new_drill_mm": 0.15,
+  "opens_before": 191,
+  "opens_after": 190,
+  "native_drc_required": true,
+  "fabrication_source": "https://jlcpcb.com/capabilities/pcb-capabilities"
+}

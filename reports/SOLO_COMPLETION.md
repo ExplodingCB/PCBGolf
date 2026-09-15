@@ -2,7 +2,9 @@
 
 The owner requested a WIP push followed by continued work without subagents. All three agents are stopped. Continue toward a valid submission; do not restart size optimization or claim the active challenge goal is complete.
 
-## Current checked checkpoint
+> **Superseded at the September 14, 2026 handoff.** The owner stopped work and requested a push for another engineer. Read `../HANDOFF.md`. Latest pushed board: 184 missing connections, zero physical DRC errors. No router or subagent is running. The following entries are chronological notes, not current instructions.
+
+## Earlier checked checkpoint
 
 `candidates/completion/finish.kicad_pcb`, copied into `work-in-progress/pcbgolf.kicad_pcb`: 45 × 37 mm, four layers, 239 components, 2,297 track segments and 417 vias. Native DRC: 220 opens, zero physical errors, zero hole-spacing warnings. No valid score or submission yet.
 
@@ -27,3 +29,12 @@ The local router JAR has only its existing normalization-loop limit reduced from
 Complete all signals and power pad groups, repair any imported physical errors, recheck USB geometry/reference copper and clock preservation, verify power distribution and current capacity, final five-sheet parity, complete assembly and mating checks, final score and self-contained ZIP, then the official submission form. The form requires Google authentication; no submission has been made.
 
 Experimental firmware compiled and linked. The new `audit_firmware_pinmap.py` checks 44 GPIO/ADC/CAN allocations against the schematic allocation and official ST pin data; all pass. `firmware/pcbgolf/pinmap.json` holds the results. Hardware operation and unimplemented peripheral behavior remain untested.
+
+## Later solo routing handoff (21:30 local)
+The 220-open WIP was pushed as commit 259a4a1. True via-at-SMD mode produced candidates/completion/pofv.kicad_pcb: 207 native opens, 2454 tracks, 447 vias, zero physical errors. connect_short_nets.py then connected 6 of 43 attempted local pairs; candidates/completion/short-links.kicad_pcb is the new router source (native preflight passes). Current running job: long-run.dsn -> long-run.ses, source hash in long-run.preflight.json, log long-router.log, ten passes and a twenty-minute timeout, started about21:27:40. Exec session5241. Do not run another concurrent router or reactivate agents. Import its SES into the matching short-links source, then run native DRC and uncapped connectivity.
+connect_power_vias.py is written but NOT YET RUN. Apply it to the best completed general-routing result. It proposes legal0.4/0.2mm filled/capped vias on disconnected power/GND pad groups, refills, and prunes additions whose removal does not worsen pad-group count. Native DRC, final power capacity and USB reference review remain mandatory. The final four-layer board is still incomplete; do not claim ready or submit.
+
+
+## Dense-routing constraints found (21:42 local)
+The long job completed two passes with the same191 internal unrouted count (no improvement on pass2); it is due to time out around21:47:40. Do not repeat unchanged settings. DSN Default class had a use_via restriction to0.45/0.20mm even though the0.40/0.20mm padstack already existed. prepare_router.py now selects the0.40/0.20mm stack when filled-via mode is enabled; that change is NOT in the currently running long-run.dsn. Verified generated DSN has both control/via_at_smd on and class/use_via400. For the next completion run, increase --router.scoring.unrouted_net_penalty=100000000 (default5000000) so false router-only DRC counts cannot outweigh completing connections. Do not disable native checks or change manufacturing rules. The router internal score is higher-is-better and includes a1000000 penalty for each router DRC record; native PCB currently has no physical errors despite hundreds of router-only reports.
+If a six-layer power-distribution change eventually becomes necessary, official JLCPCB stackup page https://jlcpcb.com/impedance lists JLC06161H-3313 with the same0.09940mm outer prepreg as current4L;0.55mm cores,0.1088mm central prepreg,0.0152mm inner copper. This is only research, no6L conversion has been applied. First finish the0.4mm-via path and power connections on4L.

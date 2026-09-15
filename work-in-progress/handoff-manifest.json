@@ -1,0 +1,26 @@
+{
+  "status": "stopped engineering handoff; incomplete; not submitted",
+  "date": "2026-09-14",
+  "missing_connections": 184,
+  "physical_drc_errors": 0,
+  "copper_layers": 4,
+  "vias": 484,
+  "component_placements_match_existing_step_checkpoint": true,
+  "files": {
+    "pcbgolf.kicad_pcb": "c3fe9e917e2cd3e1b535c11c9e3d74f681d75fe6ccf06d9560ae4becc781c144",
+    "pcbgolf.kicad_pro": "f7876b9a7556ab68e1a688739d2f471bf18e1639610401a5f3311ace47e6c2fe",
+    "pcbgolf.kicad_dru": "a66c2400fd62d5546e4194ff79e261073dc22fda56ac74ddd9ad6cbabe77ffc2",
+    "pcbgolf.kicad_sch": "ec926c98dd2bcd72ba58ece82fa91daf63985e00a7ebb5c9718edb5e118c0ae1",
+    "pcbgolf_2.kicad_sch": "bfb6d32fe0b4e74c11ba79fb92a0c100f2bbed23cf4f967b35143bf13abfb686",
+    "pcbgolf_3.kicad_sch": "07a7c13e8c7f7c1bb19307dc8347971e3e8fc6d8faf30e21ca0c74be36bc9277",
+    "pcbgolf_4.kicad_sch": "26c41e2f50ac17e4d27d04a0a76a4319bf81fdb261cca2358497fd6266de6d6d",
+    "pcbgolf_5.kicad_sch": "9ad7ddafb3aa1ec95fd022bdd1ba87d60c02aad302ed56b744e7edd1fb1e8d16",
+    "assembly.step": "6c001581d666f38c02108d20a359384d77959bcb76bda9e17f17110a17e1da77",
+    "drc.json": "8fa2d8cae07afaf318d1e8604f6f46d46b47c595ac15b451ef42c26443ade1e6",
+    "net-groups.json": "209d758b3513428c4357b71642ccdce8333f16e880530ee1787d12207af9c143",
+    "connectivity-parity.json": "d16a3853ab62580e923f1d9fa15ae681b04aa333c804fba3672dc2ce6db2f6e8",
+    "usb-reference-audit.json": "3b0ba4ceb87f6505c7b4811a23f3fdd668310c5c2df1066ba707213512e3bec3",
+    "routing-source.kicad_pcb": "df8d61e6956c5c2a64a11f79dc2b57c7447d3698bc6aab627df862884638ad6f",
+    "small-via-trial.kicad_pcb": "1449f5f04bdb6f9fd299eefa114f5528e366d71afb65c4468605232e3efed176"
+  }
+}

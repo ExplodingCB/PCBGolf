@@ -1,0 +1,13 @@
+{
+  "board": "work-in-progress/pcbgolf.kicad_pcb",
+  "step": "work-in-progress/assembly.step",
+  "models": 236,
+  "size_mm": [
+    45.0000001,
+    37.0,
+    14.2300002
+  ],
+  "volume_mm3": 23692.950385651,
+  "component_bbox_collisions": [],
+  "scope": "AABB separation screens component collisions; board solder and hole overlap excluded. Mating access is a separate audit."
+}

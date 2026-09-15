@@ -1,0 +1,6930 @@
+{
+  "board": "work-in-progress/pcbgolf.kicad_pcb",
+  "corridor_half_width_mm": 0.25,
+  "numeric_fill_tolerance_mm": 0.003,
+  "antipad_polygon_tolerance_mm": 0.012,
+  "zone_minimum_neck_width_mm": 0.15,
+  "tracks": 223,
+  "bad_track_count": 1,
+  "bad_tracks": [
+    {
+      "track_index": 142,
+      "net": "CH3_D_P",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.599999999999998,
+      "missing_area_mm2": 0.4807213414142198,
+      "unexplained_missing_area_mm2": 0.011141291400706988,
+      "unexplained_bounds": [
+        19.982036464610037,
+        9.200139258940585,
+        20.20963437213169,
+        9.283516894599174
+      ],
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            20.401436,
+            9.037792
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            19.80159,
+            9.024221
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            19.80159002160215,
+            9.024221147019418
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            20.40143652101889,
+            9.037792334789028
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    }
+  ],
+  "all_tracks": [
+    {
+      "track_index": 0,
+      "net": "CH4_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.66850205691531,
+      "missing_area_mm2": 0.04811296686611337,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            3.1,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            3.1,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 1,
+      "net": "CH4_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.3500000000000001,
+      "missing_area_mm2": 0.10237427997886712,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            3.1,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            3.25,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            3.1,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            3.25,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 2,
+      "net": "CH4_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.36619666847201093,
+      "missing_area_mm2": 0.22714668565508475,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            3.25,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            3.25,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 3,
+      "net": "CH4_D_P",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 1.0530332378894791,
+      "missing_area_mm2": 0.22715349198650847,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            2.42,
+            4.99999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            2.42,
+            4.99999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 4,
+      "net": "CH4_D_P",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.8276472678623424,
+      "missing_area_mm2": 0.227146883680007,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            3.25,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            3.25,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 5,
+      "net": "CH4_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6963476143421476,
+      "missing_area_mm2": 0.23463615631689072,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            3.1,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            2.42,
+            4.99999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            3.1,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            2.42,
+            4.99999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 6,
+      "net": "CH4_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6873136110975834,
+      "missing_area_mm2": 0.22713636840800835,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            3.4,
+            5.09999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            3.4,
+            5.09999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 7,
+      "net": "CH4_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.8077747210701756,
+      "missing_area_mm2": 0.454271946641742,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            3.4,
+            5.09999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            3.1,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            3.1,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            3.4,
+            5.09999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 8,
+      "net": "CH4_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6855107584859627,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 9,
+      "net": "CH4_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.3418708500235006,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 10,
+      "net": "CH4_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 3.8151159938586665,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 11,
+      "net": "CH4_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.18267794709007806,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 12,
+      "net": "CH4_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 3.144082486928868,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 13,
+      "net": "CH4_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.5395331880577439,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 14,
+      "net": "CH4_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6400000000000006,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 15,
+      "net": "CH4_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.1883622191333554,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 16,
+      "net": "CH4_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 3.3429328440756927,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 17,
+      "net": "CH4_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.7227856849992544,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 18,
+      "net": "CH4_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.8015075759508257,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 19,
+      "net": "CH4_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.0850000000000009,
+      "missing_area_mm2": 0.05169420175700559,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            21.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            21.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 20,
+      "net": "CH4_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.75823808925693,
+      "missing_area_mm2": 0.062124125771397816,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            21.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            21.7,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            21.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            21.7,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 21,
+      "net": "CH4_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6855107584859627,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 22,
+      "net": "CH4_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.25812914997649905,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 23,
+      "net": "CH4_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 3.654569782691777,
+      "missing_area_mm2": 0.06831157017413887,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "+12V",
+          "pos": [
+            6.5,
+            6.94999
+          ],
+          "radius": 0.4
+        }
+      ]
+    },
+    {
+      "track_index": 24,
+      "net": "CH4_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.17953745843541902,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 25,
+      "net": "CH4_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 3.3047313574924444,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 26,
+      "net": "CH4_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 4.92,
+      "missing_area_mm2": 0.05162442235905118,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            12.125492,
+            9.424999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            11.525492,
+            9.424999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            11.525492424049173,
+            9.424999999999999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            12.125492424049174,
+            9.424999999999999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 27,
+      "net": "CH4_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.36556349186103776,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 28,
+      "net": "CH4_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6400000000000006,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 29,
+      "net": "CH4_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.3572221931382142,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 30,
+      "net": "CH4_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 3.3429328440756927,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 31,
+      "net": "CH4_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.727895407191102,
+      "missing_area_mm2": 0.02000796928922972,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "+12V",
+          "pos": [
+            19.994365,
+            13.205635
+          ],
+          "radius": 0.4
+        }
+      ]
+    },
+    {
+      "track_index": 32,
+      "net": "CH4_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6784924240491712,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 33,
+      "net": "CH4_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.5749999999999993,
+      "missing_area_mm2": 0.15110907206202154,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            21.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            21.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 34,
+      "net": "CH4_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.19500000000000028,
+      "missing_area_mm2": 0.22718315518014257,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            21.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            21.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 35,
+      "net": "CH4_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.5161395160225579,
+      "missing_area_mm2": 0.22714212950128257,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            21.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            21.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 36,
+      "net": "CH4_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.20000000000000107,
+      "missing_area_mm2": 0.003964630621281754,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            21.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            21.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 37,
+      "net": "CH4_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.8732124598286495,
+      "missing_area_mm2": 0.2271376510121951,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            21.7,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            21.7,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 38,
+      "net": "CH3_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6685020569153092,
+      "missing_area_mm2": 0.048112966866112925,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            10.6,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            10.6,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 39,
+      "net": "CH3_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.3500000000000001,
+      "missing_area_mm2": 0.10237427997886653,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            10.6,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            10.75,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            10.6,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            10.75,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 40,
+      "net": "CH3_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.3661966684720115,
+      "missing_area_mm2": 0.2271466856550846,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            10.75,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            10.75,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 41,
+      "net": "CH3_D_P",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 1.0530332378894791,
+      "missing_area_mm2": 0.227153491986508,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            9.92,
+            4.99999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            9.92,
+            4.99999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 42,
+      "net": "CH3_D_P",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.8276472678623424,
+      "missing_area_mm2": 0.22714687965608538,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            10.75,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            10.75,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 43,
+      "net": "CH3_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6963476143421472,
+      "missing_area_mm2": 0.23463615631689025,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            10.6,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            9.92,
+            4.99999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            10.6,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            9.92,
+            4.99999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 44,
+      "net": "CH3_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6873136110975829,
+      "missing_area_mm2": 0.22713636840800794,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            10.9,
+            5.09999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            10.9,
+            5.09999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 45,
+      "net": "CH3_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.8077747210701759,
+      "missing_area_mm2": 0.4542719466417421,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            10.9,
+            5.09999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            10.6,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            10.6,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            10.9,
+            5.09999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 46,
+      "net": "CH3_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6855107584859627,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 47,
+      "net": "CH3_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.36077350536871045,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 48,
+      "net": "CH3_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 2.7570089989762923,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 49,
+      "net": "CH3_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.5365380481215708,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 50,
+      "net": "CH3_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.7553496039534515,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 51,
+      "net": "CH3_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 2.767207862317913,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 52,
+      "net": "CH3_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.3583921465420503,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 53,
+      "net": "CH3_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 3.7034924240491733,
+      "missing_area_mm2": 0.05169420175700559,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            22.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            22.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 54,
+      "net": "CH3_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.75823808925693,
+      "missing_area_mm2": 0.062124125771397816,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            22.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            22.7,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            22.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            22.7,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 55,
+      "net": "CH3_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6855107584859627,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 56,
+      "net": "CH3_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.23922649463129098,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 57,
+      "net": "CH3_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 2.6633404362907735,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 58,
+      "net": "CH3_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6514013442718276,
+      "missing_area_mm2": 0.04454345376010307,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "+12V",
+          "pos": [
+            13.792893,
+            7.892893
+          ],
+          "radius": 0.4
+        }
+      ]
+    },
+    {
+      "track_index": 59,
+      "net": "CH3_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.7646503960465498,
+      "missing_area_mm2": 0.021255814727840362,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "+12V",
+          "pos": [
+            13.792893,
+            7.892893
+          ],
+          "radius": 0.4
+        }
+      ]
+    },
+    {
+      "track_index": 60,
+      "net": "CH3_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 2.7645188120578186,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 61,
+      "net": "CH3_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 4.416521063513781,
+      "missing_area_mm2": 0.05162519857154245,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            20.401436,
+            9.037792
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            19.80159,
+            9.024221
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            19.80159002160215,
+            9.024221147019418
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            20.40143652101889,
+            9.037792334789028
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 62,
+      "net": "CH3_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.1871922657295193,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 63,
+      "net": "CH3_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 3.316507575950828,
+      "missing_area_mm2": 0.1511090720620219,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            22.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            22.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 64,
+      "net": "CH3_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.19500000000000028,
+      "missing_area_mm2": 0.22718315518014245,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            22.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            22.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 65,
+      "net": "CH3_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.5161395160225579,
+      "missing_area_mm2": 0.22714212950128257,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            22.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            22.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 66,
+      "net": "CH3_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.20000000000000107,
+      "missing_area_mm2": 0.040754777224331594,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            22.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            21.7,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            21.7,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            22.2,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 67,
+      "net": "CH3_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.8732124598286495,
+      "missing_area_mm2": 0.2689027963490032,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            22.7,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            21.7,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_N",
+          "pos": [
+            21.7,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_N",
+          "pos": [
+            22.7,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 68,
+      "net": "CH2_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6685020569153075,
+      "missing_area_mm2": 0.04811296686611268,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            18.1,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            18.1,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 69,
+      "net": "CH2_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.3500000000000001,
+      "missing_area_mm2": 0.10237427997886625,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            18.1,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            18.25,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            18.1,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            18.25,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 70,
+      "net": "CH2_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.3661966684720115,
+      "missing_area_mm2": 0.22714668565508495,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            18.25,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            18.25,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 71,
+      "net": "CH2_D_P",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 1.0530332378894791,
+      "missing_area_mm2": 0.22715350209048565,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            17.42,
+            4.99999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            17.42,
+            4.99999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 72,
+      "net": "CH2_D_P",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.8276472678623424,
+      "missing_area_mm2": 0.22714686660989503,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            18.25,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            18.25,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 73,
+      "net": "CH2_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6963476143421472,
+      "missing_area_mm2": 0.23463615631689216,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            18.1,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            17.42,
+            4.99999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            18.1,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            17.42,
+            4.99999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 74,
+      "net": "CH2_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6873136110975829,
+      "missing_area_mm2": 0.22713642107865228,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            18.4,
+            5.09999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            18.4,
+            5.09999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 75,
+      "net": "CH2_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.8077747210701746,
+      "missing_area_mm2": 0.45427194476543714,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            18.1,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            18.4,
+            5.09999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            18.1,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            18.4,
+            5.09999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 76,
+      "net": "CH2_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6855107584859643,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 77,
+      "net": "CH2_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.34349265527997375,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 78,
+      "net": "CH2_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.9678959571360297,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 79,
+      "net": "CH2_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 2.488452662069475,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 80,
+      "net": "CH2_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 2.1800917411888885,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 81,
+      "net": "CH2_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.8752435820225245,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 82,
+      "net": "CH2_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.22150757595082737,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 83,
+      "net": "CH2_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.0850000000000009,
+      "missing_area_mm2": 0.05169420175700559,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            23.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            23.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 84,
+      "net": "CH2_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.75823808925693,
+      "missing_area_mm2": 0.062124125771397816,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            23.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            24.2,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            23.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            24.2,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 85,
+      "net": "CH2_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6855107584859643,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 86,
+      "net": "CH2_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.2565073447200277,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 87,
+      "net": "CH2_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.7939262609386069,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 88,
+      "net": "CH2_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 2.300000231230438,
+      "missing_area_mm2": 0.05162553290139138,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            21.735,
+            6.886507
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            21.735,
+            7.486507
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            21.735,
+            6.886507691566046
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            21.735,
+            7.486507691566046
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 89,
+      "net": "CH2_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 2.4895790774838216,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 90,
+      "net": "CH2_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 2.1800917411888885,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 91,
+      "net": "CH2_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.0480868628048838,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 92,
+      "net": "CH2_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.09849242404917291,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 93,
+      "net": "CH2_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.5749999999999993,
+      "missing_area_mm2": 0.15110907206202154,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            23.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            23.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 94,
+      "net": "CH2_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.19500000000000028,
+      "missing_area_mm2": 0.22718315518014257,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            23.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            23.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 95,
+      "net": "CH2_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.5161395160225579,
+      "missing_area_mm2": 0.22714212950128257,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            23.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            23.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 96,
+      "net": "CH2_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.20000000000000107,
+      "missing_area_mm2": 0.003964630621281754,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            23.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            23.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 97,
+      "net": "CH2_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.8732124598286495,
+      "missing_area_mm2": 0.2271376510121951,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            24.2,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            24.2,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 98,
+      "net": "CH1_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6685020569153075,
+      "missing_area_mm2": 0.04811296686611268,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            25.6,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            25.6,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 99,
+      "net": "CH1_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.3500000000000001,
+      "missing_area_mm2": 0.10237427997886625,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            25.6,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            25.75,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            25.6,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            25.75,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 100,
+      "net": "CH1_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.3661966684720115,
+      "missing_area_mm2": 0.22714668565508495,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            25.75,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            25.75,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 101,
+      "net": "CH1_D_P",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 1.0530332378894791,
+      "missing_area_mm2": 0.22715349198650808,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            24.92,
+            4.99999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            24.92,
+            4.99999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 102,
+      "net": "CH1_D_P",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.8276472678623424,
+      "missing_area_mm2": 0.22722698311667616,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            25.75,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            25.75,
+            3.6
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 103,
+      "net": "CH1_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6963476143421472,
+      "missing_area_mm2": 0.23463615662558482,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            25.6,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            24.92,
+            4.99999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            25.6,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            24.92,
+            4.99999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 104,
+      "net": "CH1_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6873136110975829,
+      "missing_area_mm2": 0.22713636840800927,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            25.9,
+            5.09999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            25.9,
+            5.09999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 105,
+      "net": "CH1_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.8077747210701746,
+      "missing_area_mm2": 0.4542719466417421,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            25.6,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            25.9,
+            5.09999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            25.6,
+            4.34999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            25.9,
+            5.09999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 106,
+      "net": "CH1_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6855107584859643,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 107,
+      "net": "CH1_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.3429634075786403,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 108,
+      "net": "CH1_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.7275424380681055,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 109,
+      "net": "CH1_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 2.107515755971833,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 110,
+      "net": "CH1_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 2.5200000000000014,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 111,
+      "net": "CH1_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.48296464556281754,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 112,
+      "net": "CH1_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.5199999999999996,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 113,
+      "net": "CH1_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.25242640687119255,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 114,
+      "net": "CH1_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.2965075759508249,
+      "missing_area_mm2": 0.05169420175700559,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            24.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            24.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 115,
+      "net": "CH1_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.75823808925693,
+      "missing_area_mm2": 0.062124125771397816,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            25.2,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            24.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            24.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            25.2,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 116,
+      "net": "CH1_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6855107584859643,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 117,
+      "net": "CH1_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.2570365924213611,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 118,
+      "net": "CH1_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.553568959065491,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 119,
+      "net": "CH1_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.9324842440281662,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 120,
+      "net": "CH1_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 2.3758787847868,
+      "missing_area_mm2": 0.05162605722749532,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            27.949644,
+            9.192401
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            28.373908,
+            8.768137
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            28.3739087296526,
+            8.768137084989846
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            27.949644660940674,
+            9.192401153701773
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 121,
+      "net": "CH1_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 2.5200000000000014,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 122,
+      "net": "CH1_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.3089949493661114,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 123,
+      "net": "CH1_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.5199999999999996,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 124,
+      "net": "CH1_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.4263961030678962,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 125,
+      "net": "CH1_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.0834924240491741,
+      "missing_area_mm2": 0.15110907206202154,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            24.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            24.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 126,
+      "net": "CH1_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.19500000000000028,
+      "missing_area_mm2": 0.22718315518014257,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            24.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            24.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 127,
+      "net": "CH1_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.5161395160225579,
+      "missing_area_mm2": 0.22714212950128257,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            24.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            24.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 128,
+      "net": "CH1_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.20000000000000107,
+      "missing_area_mm2": 0.040754777224331594,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            24.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            24.2,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            24.2,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            24.7,
+            13.68
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 129,
+      "net": "CH1_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.8732124598286495,
+      "missing_area_mm2": 0.2689027963490032,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            25.2,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            24.2,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_N",
+          "pos": [
+            24.2,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_N",
+          "pos": [
+            25.2,
+            14.65
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 130,
+      "net": "CH1_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.5879393923934002,
+      "missing_area_mm2": 0.041495310253052926,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            28.373908,
+            8.768137
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            28.3739087296526,
+            8.768137084989846
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 131,
+      "net": "CH1_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.39051248379533177,
+      "missing_area_mm2": 0.22714499880034877,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            28.373908,
+            8.768137
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            28.3739087296526,
+            8.768137084989846
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 132,
+      "net": "CH1_D_P",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.5999999999999989,
+      "missing_area_mm2": 0.4655627009656887,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            27.949644,
+            9.192401
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            28.373908,
+            8.768137
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            28.3739087296526,
+            8.768137084989846
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            27.949644660940674,
+            9.192401153701773
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 133,
+      "net": "CH1_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.3905124837953337,
+      "missing_area_mm2": 0.2271453492548352,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            27.949644,
+            9.192401
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            27.949644660940674,
+            9.192401153701773
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 134,
+      "net": "CH1_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.5879393923934009,
+      "missing_area_mm2": 0.04149557381889734,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            27.949644,
+            9.192401
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH1_D_P",
+          "pos": [
+            27.949644660940674,
+            9.192401153701773
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 135,
+      "net": "CH2_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.549999884384782,
+      "missing_area_mm2": 0.041495568783250995,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            21.735,
+            6.886507
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            21.735,
+            6.886507691566046
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 136,
+      "net": "CH2_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.3905124837953326,
+      "missing_area_mm2": 0.22714535582168774,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            21.735,
+            6.886507
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            21.735,
+            6.886507691566046
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 137,
+      "net": "CH2_D_P",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.5999999999999996,
+      "missing_area_mm2": 0.46556273303273943,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            21.735,
+            6.886507
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            21.735,
+            7.486507
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            21.735,
+            6.886507691566046
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            21.735,
+            7.486507691566046
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 138,
+      "net": "CH2_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.3905124837953326,
+      "missing_area_mm2": 0.22714467170822522,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            21.735,
+            7.486507
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            21.735,
+            7.486507691566046
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 139,
+      "net": "CH2_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.549999884384782,
+      "missing_area_mm2": 0.04149501960877394,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            21.735,
+            7.486507
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH2_D_P",
+          "pos": [
+            21.735,
+            7.486507691566046
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 140,
+      "net": "CH3_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 2.2767317088138115,
+      "missing_area_mm2": 0.0523464766522853,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            19.80159,
+            9.024221
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            19.80159002160215,
+            9.024221147019418
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "NPTH",
+          "ref": "J6",
+          "pad": "",
+          "net": "",
+          "pos": [
+            18.25,
+            8.49999
+          ]
+        }
+      ]
+    },
+    {
+      "track_index": 141,
+      "net": "CH3_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.3905124837953339,
+      "missing_area_mm2": 0.22713693543193586,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            19.80159,
+            9.024221
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            19.80159002160215,
+            9.024221147019418
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 142,
+      "net": "CH3_D_P",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.599999999999998,
+      "missing_area_mm2": 0.4807213414142198,
+      "unexplained_missing_area_mm2": 0.011141291400706988,
+      "unexplained_bounds": [
+        19.982036464610037,
+        9.200139258940585,
+        20.20963437213169,
+        9.283516894599174
+      ],
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            20.401436,
+            9.037792
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            19.80159,
+            9.024221
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            19.80159002160215,
+            9.024221147019418
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            20.40143652101889,
+            9.037792334789028
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 143,
+      "net": "CH3_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.39051248379533515,
+      "missing_area_mm2": 0.22715872659262404,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            20.401436,
+            9.037792
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            20.40143652101889,
+            9.037792334789028
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 144,
+      "net": "CH3_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.9490093816689735,
+      "missing_area_mm2": 0.041503177186944976,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            20.401436,
+            9.037792
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH3_D_P",
+          "pos": [
+            20.40143652101889,
+            9.037792334789028
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 145,
+      "net": "CH4_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.1219999999999999,
+      "missing_area_mm2": 0.04149509276874473,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            11.525492,
+            9.424999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            11.525492424049173,
+            9.424999999999999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 146,
+      "net": "CH4_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.3905124837953319,
+      "missing_area_mm2": 0.22714478934934568,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            11.525492,
+            9.424999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            11.525492424049173,
+            9.424999999999999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 147,
+      "net": "CH4_D_P",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.6000000000000014,
+      "missing_area_mm2": 0.46556262610423843,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            12.125492,
+            9.424999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            11.525492,
+            9.424999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            11.525492424049173,
+            9.424999999999999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            12.125492424049174,
+            9.424999999999999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 148,
+      "net": "CH4_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.3905124837953319,
+      "missing_area_mm2": 0.22714444702635403,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            12.125492,
+            9.424999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            12.125492424049174,
+            9.424999999999999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 149,
+      "net": "CH4_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 2.5980000000000008,
+      "missing_area_mm2": 0.041494833880490585,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            12.125492,
+            9.424999
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "CH4_D_P",
+          "pos": [
+            12.125492424049174,
+            9.424999999999999
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 150,
+      "net": "STM_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.5206006146750115,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 151,
+      "net": "STM_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.3110945924660733,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 152,
+      "net": "STM_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.3501074750473632,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 153,
+      "net": "STM_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 2.3005310717930385,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 154,
+      "net": "STM_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.5293442159063495,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 155,
+      "net": "STM_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 8.88002252249396,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 156,
+      "net": "STM_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6223924332567234,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 157,
+      "net": "STM_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 2.066984848098347,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 158,
+      "net": "STM_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.7375230867899767,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 159,
+      "net": "STM_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.763492424049172,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 160,
+      "net": "STM_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.5,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 161,
+      "net": "STM_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.759621616332762,
+      "missing_area_mm2": 0.22713518978124628,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "STM_D_P",
+          "pos": [
+            13.3,
+            21.1
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "STM_D_P",
+          "pos": [
+            13.3,
+            21.1
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 162,
+      "net": "STM_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.5206006146750115,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 163,
+      "net": "STM_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.08890540753392528,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 164,
+      "net": "STM_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.133840994627485,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 165,
+      "net": "STM_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 2.2194689282069575,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 166,
+      "net": "STM_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.355651451334763,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 167,
+      "net": "STM_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 8.88002252249396,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 168,
+      "net": "STM_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6221155016316038,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 169,
+      "net": "STM_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.893015151901654,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 170,
+      "net": "STM_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.5635533905932706,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 171,
+      "net": "STM_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.6765075759508257,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 172,
+      "net": "STM_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.5,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 173,
+      "net": "STM_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.04499999999999993,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 174,
+      "net": "STM_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.1101801655587273,
+      "missing_area_mm2": 0.2561684325768568,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "STM_D_N",
+          "pos": [
+            13.7,
+            20.7
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "STM_D_P",
+          "pos": [
+            13.3,
+            21.1
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "STM_D_P",
+          "pos": [
+            13.3,
+            21.1
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "STM_D_N",
+          "pos": [
+            13.7,
+            20.7
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 175,
+      "net": "STM_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.5656854249492398,
+      "missing_area_mm2": 0.2272344309206543,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "STM_D_N",
+          "pos": [
+            13.7,
+            20.7
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "STM_D_N",
+          "pos": [
+            13.7,
+            20.7
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 176,
+      "net": "USB_D_P",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.595000000000006,
+      "missing_area_mm2": 0.22899769009307963,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            37.645,
+            30.75
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            37.645,
+            31.75
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            37.645,
+            31.25
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            37.645,
+            31.25
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            37.645,
+            30.75
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            37.645,
+            31.75
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 177,
+      "net": "USB_D_P",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 1.0,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 178,
+      "net": "USB_D_P",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.595000000000006,
+      "missing_area_mm2": 0.2280905567562448,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            37.645,
+            30.75
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            37.645,
+            30.25
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            37.645,
+            30.75
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            37.645,
+            30.25
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 179,
+      "net": "USB_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.36124783736376487,
+      "missing_area_mm2": 0.2713148331249602,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            37.645,
+            30.75
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            37.645,
+            31.25
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            37.645,
+            30.25
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            37.645,
+            31.25
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            37.645,
+            30.75
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            37.645,
+            30.25
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 180,
+      "net": "USB_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.18867962264113297,
+      "missing_area_mm2": 0.11156252513488069,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            37.645,
+            30.75
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            37.645,
+            31.25
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            37.645,
+            31.25
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            37.645,
+            30.75
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 181,
+      "net": "USB_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.20000000000000284,
+      "missing_area_mm2": 0.06812381492504403,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            37.645,
+            30.75
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            37.645,
+            31.75
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            37.645,
+            31.25
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            37.645,
+            31.25
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            37.645,
+            30.75
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            37.645,
+            31.75
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 182,
+      "net": "USB_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.18867962264113297,
+      "missing_area_mm2": 0.11156250049300724,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            37.645,
+            31.75
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            37.645,
+            31.25
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            37.645,
+            31.25
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            37.645,
+            31.75
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 183,
+      "net": "USB_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.36124783736376487,
+      "missing_area_mm2": 0.2713148479015365,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            37.645,
+            31.75
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            37.645,
+            31.25
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            37.645,
+            31.25
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            37.645,
+            31.75
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 184,
+      "net": "USB_D_N",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 1.1450000000000031,
+      "missing_area_mm2": 0.4552735326792313,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            36.5,
+            31.75
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            37.645,
+            31.75
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            37.645,
+            31.25
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            37.645,
+            31.25
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            37.645,
+            31.75
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            36.5,
+            31.75
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 185,
+      "net": "USB_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.3277424449041353,
+      "missing_area_mm2": 0.22716660917443027,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            36.45,
+            31.0
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            36.45,
+            31.0
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 186,
+      "net": "USB_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.28538730772311993,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 187,
+      "net": "USB_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.4872951158184333,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 188,
+      "net": "USB_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.9984903605007425,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 189,
+      "net": "USB_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.7658073580374243,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 190,
+      "net": "USB_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.46000000000000085,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 191,
+      "net": "USB_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.2706601717798294,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 192,
+      "net": "USB_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.5470429142381938,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 193,
+      "net": "USB_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 4.330968744816018,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 194,
+      "net": "USB_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 2.5440723854883993,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 195,
+      "net": "USB_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.5400000000000027,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 196,
+      "net": "USB_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.2807106781186488,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 197,
+      "net": "USB_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.6600000000000001,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 198,
+      "net": "USB_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.5112489168102826,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 199,
+      "net": "USB_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6588775465083465,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 200,
+      "net": "USB_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.38897300677553504,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 201,
+      "net": "USB_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.24461487754082611,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 202,
+      "net": "USB_D_P",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.5206006146750115,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 203,
+      "net": "USB_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.3767352686700531,
+      "missing_area_mm2": 0.22716181777940886,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            36.5,
+            31.75
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_N",
+          "pos": [
+            36.5,
+            31.75
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 204,
+      "net": "USB_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.4146126922768829,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 205,
+      "net": "USB_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6665246274690518,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 206,
+      "net": "USB_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.9615096394992584,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 207,
+      "net": "USB_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.5918376618407382,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 208,
+      "net": "USB_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.46000000000000085,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 209,
+      "net": "USB_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.4446298679765155,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 210,
+      "net": "USB_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.5729570857618107,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 211,
+      "net": "USB_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 4.246769884916176,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 212,
+      "net": "USB_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 2.433959354064895,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 213,
+      "net": "USB_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.5400000000000027,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 214,
+      "net": "USB_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.45468037431535496,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 215,
+      "net": "USB_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 1.6600000000000001,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 216,
+      "net": "USB_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.33727922061357646,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 217,
+      "net": "USB_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.6611224534916538,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 218,
+      "net": "USB_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.38897300677553504,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 219,
+      "net": "USB_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.15538512245917246,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 220,
+      "net": "USB_D_N",
+      "layer": 0,
+      "reference_layer": 4,
+      "length_mm": 0.5206006146750115,
+      "missing_area_mm2": 0.0,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": []
+    },
+    {
+      "track_index": 221,
+      "net": "USB_D_P",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.3824925443312598,
+      "missing_area_mm2": 0.04550274283369876,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            36.45,
+            31.0
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            36.45,
+            31.0
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "track_index": 222,
+      "net": "USB_D_P",
+      "layer": 2,
+      "reference_layer": 6,
+      "length_mm": 0.38249254302404634,
+      "missing_area_mm2": 0.2271402932899726,
+      "unexplained_missing_area_mm2": 0.0,
+      "unexplained_bounds": null,
+      "exceptions": [
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            36.45,
+            31.0
+          ],
+          "radius": 0.30000000000000004
+        },
+        {
+          "kind": "via",
+          "net": "USB_D_P",
+          "pos": [
+            36.45,
+            31.0
+          ],
+          "radius": 0.30000000000000004
+        }
+      ]
+    }
+  ],
+  "return_vias": [
+    {
+      "pos": [
+        36.650000000000034,
+        30.50000000000003
+      ],
+      "native_connected_in1": true,
+      "native_connected_in2": true,
+      "connected_gnd_zones": [
+        {
+          "layer": 6,
+          "name": "USB In2 reference 2"
+        },
+        {
+          "layer": 4,
+          "name": ""
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 4"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 8"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 9"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 5"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 1"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 6"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 10"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 3"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "pos": [
+        23.00000000000002,
+        14.000000000000012
+      ],
+      "native_connected_in1": true,
+      "native_connected_in2": true,
+      "connected_gnd_zones": [
+        {
+          "layer": 6,
+          "name": "USB In2 reference 2"
+        },
+        {
+          "layer": 4,
+          "name": ""
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 4"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 8"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 9"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 5"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 1"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 6"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 10"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 3"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "pos": [
+        20.90000000000002,
+        8.100000000000007
+      ],
+      "native_connected_in1": true,
+      "native_connected_in2": true,
+      "connected_gnd_zones": [
+        {
+          "layer": 6,
+          "name": "USB In2 reference 2"
+        },
+        {
+          "layer": 4,
+          "name": ""
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 4"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 8"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 9"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 5"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 1"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 6"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 10"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 3"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "pos": [
+        3.2000000000000024,
+        5.600000000000005
+      ],
+      "native_connected_in1": true,
+      "native_connected_in2": true,
+      "connected_gnd_zones": [
+        {
+          "layer": 6,
+          "name": "USB In2 reference 2"
+        },
+        {
+          "layer": 4,
+          "name": ""
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 4"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 8"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 9"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 5"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 1"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 6"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 10"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 3"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "pos": [
+        10.70000000000001,
+        5.600000000000005
+      ],
+      "native_connected_in1": true,
+      "native_connected_in2": true,
+      "connected_gnd_zones": [
+        {
+          "layer": 6,
+          "name": "USB In2 reference 2"
+        },
+        {
+          "layer": 4,
+          "name": ""
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 4"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 8"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 9"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 5"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 1"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 6"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 10"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 3"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "pos": [
+        18.200000000000017,
+        5.600000000000005
+      ],
+      "native_connected_in1": true,
+      "native_connected_in2": true,
+      "connected_gnd_zones": [
+        {
+          "layer": 6,
+          "name": "USB In2 reference 2"
+        },
+        {
+          "layer": 4,
+          "name": ""
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 4"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 8"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 9"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 5"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 1"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 6"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 10"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 3"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "pos": [
+        25.700000000000024,
+        5.600000000000005
+      ],
+      "native_connected_in1": true,
+      "native_connected_in2": true,
+      "connected_gnd_zones": [
+        {
+          "layer": 6,
+          "name": "USB In2 reference 2"
+        },
+        {
+          "layer": 4,
+          "name": ""
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 4"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 8"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 9"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 5"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 1"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 6"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 10"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 3"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "pos": [
+        11.85000000000001,
+        9.000000000000007
+      ],
+      "native_connected_in1": true,
+      "native_connected_in2": true,
+      "connected_gnd_zones": [
+        {
+          "layer": 6,
+          "name": "USB In2 reference 2"
+        },
+        {
+          "layer": 4,
+          "name": ""
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 4"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 8"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 9"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 5"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 1"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 6"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 10"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 3"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "pos": [
+        28.450000000000024,
+        9.300000000000008
+      ],
+      "native_connected_in1": true,
+      "native_connected_in2": true,
+      "connected_gnd_zones": [
+        {
+          "layer": 6,
+          "name": "USB In2 reference 2"
+        },
+        {
+          "layer": 4,
+          "name": ""
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 4"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 8"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 9"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 5"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 1"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 6"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 10"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 3"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "pos": [
+        12.950000000000012,
+        20.700000000000017
+      ],
+      "native_connected_in1": true,
+      "native_connected_in2": true,
+      "connected_gnd_zones": [
+        {
+          "layer": 6,
+          "name": "USB In2 reference 2"
+        },
+        {
+          "layer": 4,
+          "name": ""
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 4"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 8"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 9"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 5"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 1"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 6"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 10"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 3"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "pos": [
+        25.650000000000023,
+        14.150000000000013
+      ],
+      "native_connected_in1": true,
+      "native_connected_in2": true,
+      "connected_gnd_zones": [
+        {
+          "layer": 6,
+          "name": "USB In2 reference 2"
+        },
+        {
+          "layer": 4,
+          "name": ""
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 4"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 8"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 9"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 5"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 1"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 6"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 10"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 3"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "pos": [
+        3.2500000000000027,
+        3.1000000000000023
+      ],
+      "native_connected_in1": true,
+      "native_connected_in2": true,
+      "connected_gnd_zones": [
+        {
+          "layer": 6,
+          "name": "USB In2 reference 2"
+        },
+        {
+          "layer": 4,
+          "name": ""
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 4"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 8"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 9"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 5"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 1"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 6"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 10"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 3"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "pos": [
+        10.750000000000009,
+        3.1000000000000023
+      ],
+      "native_connected_in1": true,
+      "native_connected_in2": true,
+      "connected_gnd_zones": [
+        {
+          "layer": 6,
+          "name": "USB In2 reference 2"
+        },
+        {
+          "layer": 4,
+          "name": ""
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 4"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 8"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 9"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 5"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 1"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 6"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 10"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 3"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "pos": [
+        18.250000000000014,
+        3.1000000000000023
+      ],
+      "native_connected_in1": true,
+      "native_connected_in2": true,
+      "connected_gnd_zones": [
+        {
+          "layer": 6,
+          "name": "USB In2 reference 2"
+        },
+        {
+          "layer": 4,
+          "name": ""
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 4"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 8"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 9"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 5"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 1"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 6"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 10"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 3"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "pos": [
+        25.75000000000002,
+        3.1000000000000023
+      ],
+      "native_connected_in1": true,
+      "native_connected_in2": true,
+      "connected_gnd_zones": [
+        {
+          "layer": 6,
+          "name": "USB In2 reference 2"
+        },
+        {
+          "layer": 4,
+          "name": ""
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 4"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 8"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 9"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 5"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 1"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 6"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 10"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 3"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "pos": [
+        20.700000000000017,
+        13.700000000000012
+      ],
+      "native_connected_in1": true,
+      "native_connected_in2": true,
+      "connected_gnd_zones": [
+        {
+          "layer": 6,
+          "name": "USB In2 reference 2"
+        },
+        {
+          "layer": 4,
+          "name": ""
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 4"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 8"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 9"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 5"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 1"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 6"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 10"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 3"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        }
+      ]
+    },
+    {
+      "pos": [
+        38.500000000000036,
+        31.55000000000003
+      ],
+      "native_connected_in1": true,
+      "native_connected_in2": true,
+      "connected_gnd_zones": [
+        {
+          "layer": 6,
+          "name": "USB In2 reference 2"
+        },
+        {
+          "layer": 4,
+          "name": ""
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 4"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 8"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 9"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 5"
+        },
+        {
+          "layer": 2,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 1"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 6"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 10"
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 3"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": "USB In2 reference 7"
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        },
+        {
+          "layer": 6,
+          "name": ""
+        }
+      ]
+    }
+  ],
+  "all_returns_connected": true
+}

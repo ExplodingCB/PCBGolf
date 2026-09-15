@@ -32,7 +32,8 @@ def run(b, links=None, endpoints=None):
                 obstacles.append(track_shape(t).buffer(width/2+.102));obstacles.append(Point(xy(t.GetPosition())).buffer(pcb.ToMM(t.GetDrill())/2+width/2+.202))
             elif t.GetLayer()==layer:obstacles.append(track_shape(t).buffer(width/2+.102))
         shape=unary_union(obstacles);blocked=prep(shape)
-        allowed=box(max(.31,min(start[0],end[0])-margin),max(.31,min(start[1],end[1])-margin),min(44.69,max(start[0],end[0])+margin),min(36.69,max(start[1],end[1])+margin))
+        edge=.301+width/2
+        allowed=box(max(edge,min(start[0],end[0])-margin),max(edge,min(start[1],end[1])-margin),min(45-edge,max(start[0],end[0])+margin),min(37-edge,max(start[1],end[1])+margin))
         def legal(path):return allowed.covers(LineString(path)) and not blocked.intersects(LineString(path))
         paths=[v for v in octilinear_paths(start,end) if legal(v)]
         route=min(paths,key=lambda v:sum(math.dist(s,e) for s,e in zip(v,v[1:]))) if paths else None

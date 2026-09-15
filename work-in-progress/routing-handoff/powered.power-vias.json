@@ -1,0 +1,209 @@
+{
+  "initial_missing_connections": 192,
+  "final_missing_connections": 191,
+  "kept_vias": [
+    {
+      "uuid": "c593ebe9-7073-4a69-a5d8-7e8396e486da",
+      "net": "GND",
+      "at_mm": [
+        27.15,
+        19.85
+      ],
+      "pad": "C36.1",
+      "filled_and_capped_required": true
+    }
+  ],
+  "rejected_vias": [
+    {
+      "uuid": "7de0cdc2-9137-4e5d-bdf5-a8f9270b91a3",
+      "net": "+12V",
+      "at_mm": [
+        34.6,
+        18.15
+      ],
+      "pad": "C3.1",
+      "filled_and_capped_required": true
+    },
+    {
+      "uuid": "81eb08b3-9f59-40ef-ab7a-c1e84f7e5076",
+      "net": "+3V3",
+      "at_mm": [
+        19.15,
+        12.299999
+      ],
+      "pad": "C31.2",
+      "filled_and_capped_required": true
+    },
+    {
+      "uuid": "10d17bd9-8a2c-4a9e-abf0-82515ce7721b",
+      "net": "+3V3",
+      "at_mm": [
+        23.57,
+        29.15
+      ],
+      "pad": "U6.5",
+      "filled_and_capped_required": true
+    },
+    {
+      "uuid": "40749a6d-c035-4aef-b4a9-6809f9ffe72c",
+      "net": "+3V3",
+      "at_mm": [
+        3.15,
+        24.3
+      ],
+      "pad": "C19.1",
+      "filled_and_capped_required": true
+    },
+    {
+      "uuid": "298b3948-e6a4-4622-a1a3-93ab2ba78dbc",
+      "net": "+3V3",
+      "at_mm": [
+        28.4,
+        21.38
+      ],
+      "pad": "U8.5",
+      "filled_and_capped_required": true
+    },
+    {
+      "uuid": "319009fb-5bab-41d2-a39d-bdfd5f950a51",
+      "net": "+3V3",
+      "at_mm": [
+        21.55,
+        24.65
+      ],
+      "pad": "C27.1",
+      "filled_and_capped_required": true
+    },
+    {
+      "uuid": "ea605577-0e61-471e-b6a1-2eb90bb385fc",
+      "net": "+3V3",
+      "at_mm": [
+        7.15,
+        1.7
+      ],
+      "pad": "R34.1",
+      "filled_and_capped_required": true
+    },
+    {
+      "uuid": "a0036964-ee8c-47c6-bae8-cd4a66130a3b",
+      "net": "+5V",
+      "at_mm": [
+        27.9,
+        24.22
+      ],
+      "pad": "U8.3",
+      "filled_and_capped_required": true
+    },
+    {
+      "uuid": "72881cf9-49c3-482b-ad6a-eec2b0dbf9b1",
+      "net": "+5V",
+      "at_mm": [
+        14.7,
+        25.15
+      ],
+      "pad": "C40.1",
+      "filled_and_capped_required": true
+    },
+    {
+      "uuid": "77e6c7e0-b788-412b-88c1-a75fc9ced437",
+      "net": "+5V",
+      "at_mm": [
+        20.73,
+        28.65
+      ],
+      "pad": "U6.3",
+      "filled_and_capped_required": true
+    },
+    {
+      "uuid": "6ed58f6e-c07f-4987-b599-70a1185ea2d7",
+      "net": "+5V",
+      "at_mm": [
+        15.4,
+        23.82
+      ],
+      "pad": "U7.3",
+      "filled_and_capped_required": true
+    },
+    {
+      "uuid": "095258a5-b243-4aee-851b-5d6de4ee310b",
+      "net": "+5V",
+      "at_mm": [
+        19.2,
+        30.9
+      ],
+      "pad": "C39.1",
+      "filled_and_capped_required": true
+    },
+    {
+      "uuid": "224a7635-a123-444c-99ed-7ced998e2f8e",
+      "net": "+5V",
+      "at_mm": [
+        27.0,
+        20.5
+      ],
+      "pad": "C2.1",
+      "filled_and_capped_required": true
+    },
+    {
+      "uuid": "37c63bc4-298e-4e8d-ba79-fcf79badbb5c",
+      "net": "GND",
+      "at_mm": [
+        30.15,
+        19.6
+      ],
+      "pad": "C11.2",
+      "filled_and_capped_required": true
+    },
+    {
+      "uuid": "3cd97ce0-2dec-499a-aa86-34470568acc2",
+      "net": "GND",
+      "at_mm": [
+        34.5,
+        19.75
+      ],
+      "pad": "C5.2",
+      "filled_and_capped_required": true
+    },
+    {
+      "uuid": "aa62e939-7844-44ae-aeb3-c4cc32a0f830",
+      "net": "Net-(J5-VBUS-PadA4)",
+      "at_mm": [
+        3.2,
+        7.4
+      ],
+      "pad": "R74.1",
+      "filled_and_capped_required": true
+    },
+    {
+      "uuid": "79cf54e2-fe24-496f-8a4c-54b07ac85464",
+      "net": "Net-(J7-VBUS-PadA4)",
+      "at_mm": [
+        21.7,
+        0.9
+      ],
+      "pad": "R76.1",
+      "filled_and_capped_required": true
+    },
+    {
+      "uuid": "2a66fcbe-7a7d-4ca2-8819-77d2bf3c0b8b",
+      "net": "Net-(J8-VBUS-PadA4)",
+      "at_mm": [
+        2.42,
+        5.99999
+      ],
+      "pad": "J8.B4",
+      "filled_and_capped_required": true
+    },
+    {
+      "uuid": "c297666d-b30c-4ffa-b8c1-a260a487418a",
+      "net": "VDDLDO",
+      "at_mm": [
+        2.52,
+        20.7
+      ],
+      "pad": "C21.1",
+      "filled_and_capped_required": true
+    }
+  ],
+  "native_drc_required": true
+}

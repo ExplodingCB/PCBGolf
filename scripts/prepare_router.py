@@ -89,7 +89,7 @@ def dump_dsn(node):
     return str(node)
 
 
-def sanitize(raw,geometry,allow_filled_via_in_pad=False):
+def sanitize(raw,geometry,allow_filled_via_in_pad=False,signal_via_mm=.4,route_width_mm=None):
     import sexpdata as sx
     from shapely.geometry import Polygon
     from shapely.ops import unary_union
@@ -102,6 +102,14 @@ def sanitize(raw,geometry,allow_filled_via_in_pad=False):
         structure.append([S('keepout'),polygon(region['shell'])]+[
             [S('window'),polygon(h)] for h in region['holes']])
     library=child(tree,'library');network=child(tree,'network');placement=child(tree,'placement')
+    if route_width_mm is not None:
+        # Router search width only. Existing critical copper is preserved;
+        # power ampacity is a separate acceptance check.
+        for owner in [structure]+children(network,'class'):
+            rule=child(owner,'rule')
+            if rule is not None:
+                width=child(rule,'width')
+                if width is not None:width[1]=round(route_width_mm*1000)
     if allow_filled_via_in_pad:
         control=child(structure,'control')
         if control is None:control=[S('control')];structure.append(control)
@@ -112,10 +120,19 @@ def sanitize(raw,geometry,allow_filled_via_in_pad=False):
             if str(stack[1]).startswith('Via'):
                 attach=child(stack,'attach')
                 if attach is not None:attach[1]=S('on')
+        via_suffix='300:150' if signal_via_mm==.3 else '400:200'
+        compact_vias=[str(stack[1]) for stack in children(library,'padstack')
+                      if re.fullmatch(r'Via\[0-\d+\]_'+via_suffix+'_um',str(stack[1]))]
+        if len(compact_vias)!=1:raise ValueError('Expected one existing '+via_suffix+' through-via padstack')
+        for netclass in children(network,'class'):
+            circuit=child(netclass,'circuit')
+            if circuit is not None:
+                use=child(circuit,'use_via')
+                if use is not None:use[:]=[S('use_via'),compact_vias[0]]
         # A through-via drill must clear foreign PTH copper by .30 mm.
         # .20 mm copper spacing plus >=.10 mm via ring satisfies that rule.
         rule=child(structure,'rule')
-        rule.append([S('clearance'),200,[S('type'),S('via_pin')]])
+        rule.append([S('clearance'),225 if signal_via_mm==.3 else 200,[S('type'),S('via_pin')]])
     wiring=child(tree,'wiring')
     if wiring is None:wiring=[S('wiring')];tree.append(wiring)
     images={str(row[1]):row for row in children(library,'image')}
@@ -186,6 +203,10 @@ def main():
     ap.add_argument('--kicad-python',type=Path,default=Path('tools/kicad/bin/python.exe'))
     ap.add_argument('--kicad-cli',type=Path,default=Path('tools/kicad/bin/kicad-cli.exe'))
     ap.add_argument('--allow-filled-via-in-pad',action='store_true',help='Require filled and capped processing for every new via overlapping an SMD land')
+    ap.add_argument('--routing-via-mm',type=float,choices=(.3,.4),default=.4,
+                    help='Through-via diameter; .30/.15mm requires the corresponding padstack in the native source')
+    ap.add_argument('--route-width-mm',type=float,choices=(.1,.127),
+                    help='Optional router search width; power current capacity requires separate review')
     args=ap.parse_args();board=args.board.resolve();out=args.output.resolve();out.parent.mkdir(parents=True,exist_ok=True)
     before=digest(board);raw=out.with_suffix('.raw.dsn');geo=out.with_suffix('.geometry.json');drc=out.with_suffix('.native-drc.json')
     run=subprocess.run([str(args.kicad_cli.resolve()),'pcb','drc','--format','json','--severity-all','--all-track-errors',
@@ -195,11 +216,13 @@ def main():
     errors=[v for v in data['violations'] if v.get('severity')=='error']
     if errors:raise RuntimeError('Native physical DRC errors must be fixed before preparing router input: '+str(collections.Counter(v['type'] for v in errors)))
     subprocess.run([str(args.kicad_python.resolve()),str(Path(__file__).resolve()),'--native-export',str(board),str(raw),str(geo)],check=True)
-    geometry=json.loads(geo.read_text());text,events=sanitize(raw.read_text(encoding='utf-8'),geometry,args.allow_filled_via_in_pad)
+    geometry=json.loads(geo.read_text());text,events=sanitize(raw.read_text(encoding='utf-8'),geometry,args.allow_filled_via_in_pad,args.routing_via_mm,args.route_width_mm)
     if digest(board)!=before:raise RuntimeError('Source board changed during export; discard and rerun')
     out.write_text(text,encoding='utf-8')
     report=dict(source_board=str(board),source_sha256=before,source_board_unchanged=True,dsn=str(out),dsn_sha256=digest(out),
                 filled_capped_via_in_pad_enabled=args.allow_filled_via_in_pad,
+                routing_via_mm=[args.routing_via_mm,.15 if args.routing_via_mm==.3 else .2] if args.allow_filled_via_in_pad else None,
+                router_search_width_mm=args.route_width_mm,
                 native_physical_errors=0,native_drc_unconnected_reported=len(data['unconnected_items']),
                 native_drc_unconnected_count_may_be_capped=len(data['unconnected_items'])>=499,
                 nc_pads_cleared_in_router_only=geometry['nc_pads_cleared'],non_octilinear_tracks=geometry['non_octilinear_tracks'],

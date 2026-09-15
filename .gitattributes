@@ -1,0 +1,3 @@
+# Preserve the exact hashed native artifacts and router interchange files.
+# Line-ending conversion would invalidate the SES source-hash preflight.
+work-in-progress/** -text -whitespace

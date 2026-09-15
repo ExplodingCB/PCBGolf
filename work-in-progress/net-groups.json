@@ -2,7 +2,7 @@
   "nets": {
     "+12V": {
       "pad_count": 40,
-      "group_count": 9,
+      "group_count": 7,
       "groups": [
         {
           "pads": [
@@ -147,6 +147,26 @@
               ]
             },
             {
+              "ref": "C52",
+              "pin": "1",
+              "uuid": "ab147778-0cbd-43fc-8ecc-4642a408fc95",
+              "x": 22.0,
+              "y": 8.6,
+              "layers": [
+                "B.Cu"
+              ]
+            },
+            {
+              "ref": "C48",
+              "pin": "1",
+              "uuid": "daa5dfc8-e199-4f2a-86f3-670ae7dec189",
+              "x": 21.55,
+              "y": 11.65,
+              "layers": [
+                "B.Cu"
+              ]
+            },
+            {
               "ref": "U14",
               "pin": "11",
               "uuid": "f3120bd7-071c-44d4-8135-3bcfe3501d8d",
@@ -157,7 +177,7 @@
               ]
             }
           ],
-          "connected_item_count": 11
+          "connected_item_count": 53
         },
         {
           "pads": [
@@ -252,6 +272,16 @@
               "uuid": "1376b35e-5f9e-4830-835e-aba76fcb959f",
               "x": 34.965,
               "y": 12.57,
+              "layers": [
+                "B.Cu"
+              ]
+            },
+            {
+              "ref": "U12",
+              "pin": "5",
+              "uuid": "15f3a9e6-3f32-411f-8809-608d90ce418a",
+              "x": 39.6,
+              "y": 9.4,
               "layers": [
                 "B.Cu"
               ]
@@ -357,16 +387,6 @@
               ]
             },
             {
-              "ref": "C48",
-              "pin": "1",
-              "uuid": "daa5dfc8-e199-4f2a-86f3-670ae7dec189",
-              "x": 21.55,
-              "y": 11.65,
-              "layers": [
-                "B.Cu"
-              ]
-            },
-            {
               "ref": "U2",
               "pin": "3",
               "uuid": "e0ddeb45-e746-4393-92fb-b385a0985f10",
@@ -387,7 +407,7 @@
               ]
             }
           ],
-          "connected_item_count": 69
+          "connected_item_count": 71
         },
         {
           "pads": [
@@ -397,21 +417,6 @@
               "uuid": "a1905622-a4c9-4bc0-900c-aaa9721cad85",
               "x": 28.45,
               "y": 16.0,
-              "layers": [
-                "B.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
-            {
-              "ref": "U12",
-              "pin": "5",
-              "uuid": "15f3a9e6-3f32-411f-8809-608d90ce418a",
-              "x": 39.6,
-              "y": 9.4,
               "layers": [
                 "B.Cu"
               ]
@@ -433,27 +438,12 @@
             }
           ],
           "connected_item_count": 1
-        },
-        {
-          "pads": [
-            {
-              "ref": "C52",
-              "pin": "1",
-              "uuid": "ab147778-0cbd-43fc-8ecc-4642a408fc95",
-              "x": 22.0,
-              "y": 8.6,
-              "layers": [
-                "B.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 4
         }
       ]
     },
     "+3V3": {
       "pad_count": 52,
-      "group_count": 10,
+      "group_count": 11,
       "groups": [
         {
           "pads": [
@@ -891,7 +881,12 @@
               "layers": [
                 "F.Cu"
               ]
-            },
+            }
+          ],
+          "connected_item_count": 8
+        },
+        {
+          "pads": [
             {
               "ref": "C26",
               "pin": "1",
@@ -913,7 +908,7 @@
               ]
             }
           ],
-          "connected_item_count": 10
+          "connected_item_count": 3
         },
         {
           "pads": [
@@ -1023,13 +1018,13 @@
               ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 10
         }
       ]
     },
     "+5V": {
       "pad_count": 22,
-      "group_count": 13,
+      "group_count": 10,
       "groups": [
         {
           "pads": [
@@ -1067,57 +1062,7 @@
               "layers": [
                 "F.Cu"
               ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
-            {
-              "ref": "U6",
-              "pin": "3",
-              "uuid": "484229ca-eab7-44ce-bee1-a4fd4c4fdadd",
-              "x": 20.73,
-              "y": 28.65,
-              "layers": [
-                "F.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
-            {
-              "ref": "U7",
-              "pin": "3",
-              "uuid": "4e068aea-35c8-4dd3-b19b-5e449cd7d81d",
-              "x": 15.4,
-              "y": 23.82,
-              "layers": [
-                "F.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
-            {
-              "ref": "C39",
-              "pin": "1",
-              "uuid": "6226f359-5b39-49e8-ad82-52833e52ff25",
-              "x": 19.2,
-              "y": 30.9,
-              "layers": [
-                "F.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
+            },
             {
               "ref": "U1",
               "pin": "3",
@@ -1136,6 +1081,16 @@
               "y": 18.15,
               "layers": [
                 "B.Cu"
+              ]
+            },
+            {
+              "ref": "U6",
+              "pin": "3",
+              "uuid": "484229ca-eab7-44ce-bee1-a4fd4c4fdadd",
+              "x": 20.73,
+              "y": 28.65,
+              "layers": [
+                "F.Cu"
               ]
             },
             {
@@ -1199,7 +1154,37 @@
               ]
             }
           ],
-          "connected_item_count": 45
+          "connected_item_count": 59
+        },
+        {
+          "pads": [
+            {
+              "ref": "U7",
+              "pin": "3",
+              "uuid": "4e068aea-35c8-4dd3-b19b-5e449cd7d81d",
+              "x": 15.4,
+              "y": 23.82,
+              "layers": [
+                "F.Cu"
+              ]
+            }
+          ],
+          "connected_item_count": 1
+        },
+        {
+          "pads": [
+            {
+              "ref": "C39",
+              "pin": "1",
+              "uuid": "6226f359-5b39-49e8-ad82-52833e52ff25",
+              "x": 19.2,
+              "y": 30.9,
+              "layers": [
+                "F.Cu"
+              ]
+            }
+          ],
+          "connected_item_count": 1
         },
         {
           "pads": [
@@ -1267,12 +1252,7 @@
               "layers": [
                 "B.Cu"
               ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
+            },
             {
               "ref": "R58",
               "pin": "2",
@@ -1284,7 +1264,7 @@
               ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 17
         },
         {
           "pads": [
@@ -1365,7 +1345,7 @@
               ]
             }
           ],
-          "connected_item_count": 21
+          "connected_item_count": 19
         },
         {
           "pads": [
@@ -1416,7 +1396,7 @@
               ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 5
         }
       ]
     },
@@ -1508,7 +1488,7 @@
               ]
             }
           ],
-          "connected_item_count": 105
+          "connected_item_count": 102
         },
         {
           "pads": [
@@ -1559,7 +1539,7 @@
     },
     "CAN0_L": {
       "pad_count": 8,
-      "group_count": 5,
+      "group_count": 3,
       "groups": [
         {
           "pads": [
@@ -1613,9 +1593,29 @@
               "layers": [
                 "F.Cu"
               ]
+            },
+            {
+              "ref": "R51",
+              "pin": "1",
+              "uuid": "3d4f6502-5c63-4273-a81a-03abe93c6a38",
+              "x": 43.75,
+              "y": 9.7,
+              "layers": [
+                "B.Cu"
+              ]
+            },
+            {
+              "ref": "R46",
+              "pin": "1",
+              "uuid": "43eb102c-0b0a-4e5c-b8c2-c7bd8e9993b8",
+              "x": 44.0,
+              "y": 25.7,
+              "layers": [
+                "B.Cu"
+              ]
             }
           ],
-          "connected_item_count": 32
+          "connected_item_count": 54
         },
         {
           "pads": [
@@ -1650,7 +1650,7 @@
               ]
             }
           ],
-          "connected_item_count": 86
+          "connected_item_count": 83
         },
         {
           "pads": [
@@ -1662,36 +1662,6 @@
               "y": 29.36349,
               "layers": [
                 "F.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
-            {
-              "ref": "R46",
-              "pin": "1",
-              "uuid": "43eb102c-0b0a-4e5c-b8c2-c7bd8e9993b8",
-              "x": 44.0,
-              "y": 25.7,
-              "layers": [
-                "B.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
-            {
-              "ref": "R51",
-              "pin": "1",
-              "uuid": "3d4f6502-5c63-4273-a81a-03abe93c6a38",
-              "x": 43.75,
-              "y": 9.7,
-              "layers": [
-                "B.Cu"
               ]
             }
           ],
@@ -1895,7 +1865,7 @@
               ]
             }
           ],
-          "connected_item_count": 135
+          "connected_item_count": 134
         },
         {
           "pads": [
@@ -1931,7 +1901,7 @@
     },
     "CAN1_L": {
       "pad_count": 8,
-      "group_count": 4,
+      "group_count": 5,
       "groups": [
         {
           "pads": [
@@ -1987,7 +1957,32 @@
               ]
             }
           ],
-          "connected_item_count": 21
+          "connected_item_count": 20
+        },
+        {
+          "pads": [
+            {
+              "ref": "J6",
+              "pin": "A10",
+              "uuid": "8783723b-34b5-4e38-aa8b-a69d5c6f139c",
+              "x": 19.08,
+              "y": 6.49999,
+              "layers": [
+                "F.Cu"
+              ]
+            },
+            {
+              "ref": "J7",
+              "pin": "A10",
+              "uuid": "ae19f6e0-73e5-4a5c-8c64-d689b1b6749b",
+              "x": 11.58,
+              "y": 6.49999,
+              "layers": [
+                "F.Cu"
+              ]
+            }
+          ],
+          "connected_item_count": 41
         },
         {
           "pads": [
@@ -2010,29 +2005,9 @@
               "layers": [
                 "F.Cu"
               ]
-            },
-            {
-              "ref": "J6",
-              "pin": "A10",
-              "uuid": "8783723b-34b5-4e38-aa8b-a69d5c6f139c",
-              "x": 19.08,
-              "y": 6.49999,
-              "layers": [
-                "F.Cu"
-              ]
-            },
-            {
-              "ref": "J7",
-              "pin": "A10",
-              "uuid": "ae19f6e0-73e5-4a5c-8c64-d689b1b6749b",
-              "x": 11.58,
-              "y": 6.49999,
-              "layers": [
-                "F.Cu"
-              ]
             }
           ],
-          "connected_item_count": 107
+          "connected_item_count": 62
         },
         {
           "pads": [
@@ -2068,7 +2043,7 @@
     },
     "CAN1_RX": {
       "pad_count": 2,
-      "group_count": 2,
+      "group_count": 1,
       "groups": [
         {
           "pads": [
@@ -2081,12 +2056,7 @@
               "layers": [
                 "F.Cu"
               ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
+            },
             {
               "ref": "U3",
               "pin": "A6",
@@ -2098,7 +2068,7 @@
               ]
             }
           ],
-          "connected_item_count": 2
+          "connected_item_count": 21
         }
       ]
     },
@@ -2166,10 +2136,30 @@
     },
     "CAN2_H": {
       "pad_count": 8,
-      "group_count": 5,
+      "group_count": 3,
       "groups": [
         {
           "pads": [
+            {
+              "ref": "R48",
+              "pin": "2",
+              "uuid": "27f84013-2449-47bf-8b43-96fbcbb72749",
+              "x": 43.75,
+              "y": 6.55,
+              "layers": [
+                "B.Cu"
+              ]
+            },
+            {
+              "ref": "R56",
+              "pin": "1",
+              "uuid": "ab90da9a-b942-4fc7-9cd3-3e990fe60eb2",
+              "x": 37.8,
+              "y": 10.75,
+              "layers": [
+                "B.Cu"
+              ]
+            },
             {
               "ref": "J4",
               "pin": "6",
@@ -2212,7 +2202,7 @@
               ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 24
         },
         {
           "pads": [
@@ -2222,6 +2212,16 @@
               "uuid": "4349dd3d-d908-4f88-aa07-c730754a70d5",
               "x": 9.92,
               "y": 6.99999,
+              "layers": [
+                "F.Cu"
+              ]
+            },
+            {
+              "ref": "L7",
+              "pin": "4",
+              "uuid": "4e82293f-f73b-45e3-a9a3-a904f1056726",
+              "x": 16.16349,
+              "y": 10.15,
               "layers": [
                 "F.Cu"
               ]
@@ -2247,22 +2247,7 @@
               ]
             }
           ],
-          "connected_item_count": 35
-        },
-        {
-          "pads": [
-            {
-              "ref": "L7",
-              "pin": "4",
-              "uuid": "4e82293f-f73b-45e3-a9a3-a904f1056726",
-              "x": 16.16349,
-              "y": 10.15,
-              "layers": [
-                "F.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 1
+          "connected_item_count": 39
         },
         {
           "pads": [
@@ -2277,38 +2262,13 @@
               ]
             }
           ],
-          "connected_item_count": 3
-        },
-        {
-          "pads": [
-            {
-              "ref": "R48",
-              "pin": "2",
-              "uuid": "27f84013-2449-47bf-8b43-96fbcbb72749",
-              "x": 43.75,
-              "y": 6.55,
-              "layers": [
-                "B.Cu"
-              ]
-            },
-            {
-              "ref": "R56",
-              "pin": "1",
-              "uuid": "ab90da9a-b942-4fc7-9cd3-3e990fe60eb2",
-              "x": 37.8,
-              "y": 10.75,
-              "layers": [
-                "B.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 14
+          "connected_item_count": 2
         }
       ]
     },
     "CAN2_L": {
       "pad_count": 8,
-      "group_count": 6,
+      "group_count": 5,
       "groups": [
         {
           "pads": [
@@ -2379,6 +2339,16 @@
               ]
             },
             {
+              "ref": "L7",
+              "pin": "3",
+              "uuid": "52fd3922-dae5-4879-9fc4-580d514b2076",
+              "x": 17.61349,
+              "y": 10.15,
+              "layers": [
+                "F.Cu"
+              ]
+            },
+            {
               "ref": "J6",
               "pin": "B3",
               "uuid": "ecc3729f-590e-4741-bccd-6b7ecebd0efe",
@@ -2389,22 +2359,7 @@
               ]
             }
           ],
-          "connected_item_count": 70
-        },
-        {
-          "pads": [
-            {
-              "ref": "L7",
-              "pin": "3",
-              "uuid": "52fd3922-dae5-4879-9fc4-580d514b2076",
-              "x": 17.61349,
-              "y": 10.15,
-              "layers": [
-                "F.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 1
+          "connected_item_count": 83
         },
         {
           "pads": [
@@ -2449,7 +2404,7 @@
               ]
             }
           ],
-          "connected_item_count": 3
+          "connected_item_count": 4
         }
       ]
     },
@@ -2563,7 +2518,7 @@
     },
     "CAN3_H": {
       "pad_count": 8,
-      "group_count": 5,
+      "group_count": 4,
       "groups": [
         {
           "pads": [
@@ -2624,6 +2579,16 @@
               ]
             },
             {
+              "ref": "R49",
+              "pin": "2",
+              "uuid": "c3cc0864-6900-499e-aadb-2e3b4e13899e",
+              "x": 44.0,
+              "y": 27.05,
+              "layers": [
+                "B.Cu"
+              ]
+            },
+            {
               "ref": "J5",
               "pin": "B11",
               "uuid": "fec60545-b902-40da-b012-09f0088743ce",
@@ -2634,7 +2599,7 @@
               ]
             }
           ],
-          "connected_item_count": 42
+          "connected_item_count": 47
         },
         {
           "pads": [
@@ -2669,7 +2634,7 @@
               ]
             }
           ],
-          "connected_item_count": 77
+          "connected_item_count": 75
         },
         {
           "pads": [
@@ -2679,21 +2644,6 @@
               "uuid": "4d486f2f-43cc-42b2-b56e-85062436107d",
               "x": 25.7,
               "y": 7.4,
-              "layers": [
-                "B.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
-            {
-              "ref": "R49",
-              "pin": "2",
-              "uuid": "c3cc0864-6900-499e-aadb-2e3b4e13899e",
-              "x": 44.0,
-              "y": 27.05,
               "layers": [
                 "B.Cu"
               ]
@@ -2791,7 +2741,7 @@
               ]
             }
           ],
-          "connected_item_count": 43
+          "connected_item_count": 41
         },
         {
           "pads": [
@@ -2821,7 +2771,7 @@
               ]
             }
           ],
-          "connected_item_count": 4
+          "connected_item_count": 3
         },
         {
           "pads": [
@@ -3083,7 +3033,7 @@
     },
     "CH1_SBU1": {
       "pad_count": 4,
-      "group_count": 4,
+      "group_count": 3,
       "groups": [
         {
           "pads": [
@@ -3111,12 +3061,7 @@
               "layers": [
                 "B.Cu"
               ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
+            },
             {
               "ref": "R90",
               "pin": "2",
@@ -3128,7 +3073,7 @@
               ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 9
         },
         {
           "pads": [
@@ -3143,7 +3088,7 @@
               ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 10
         }
       ]
     },
@@ -3184,7 +3129,7 @@
               ]
             }
           ],
-          "connected_item_count": 12
+          "connected_item_count": 11
         },
         {
           "pads": [
@@ -3322,10 +3267,20 @@
     },
     "CH1_SBU2_IGN": {
       "pad_count": 4,
-      "group_count": 3,
+      "group_count": 2,
       "groups": [
         {
           "pads": [
+            {
+              "ref": "Q6",
+              "pin": "1",
+              "uuid": "92083c91-c59b-45f9-8ac5-c07c533f6517",
+              "x": 21.8499,
+              "y": 35.1,
+              "layers": [
+                "B.Cu"
+              ]
+            },
             {
               "ref": "U3",
               "pin": "A8",
@@ -3347,7 +3302,7 @@
               ]
             }
           ],
-          "connected_item_count": 6
+          "connected_item_count": 16
         },
         {
           "pads": [
@@ -3357,21 +3312,6 @@
               "uuid": "2bc5b478-5cce-4138-872d-b9a32c4e6f88",
               "x": 35.4,
               "y": 32.6,
-              "layers": [
-                "B.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
-            {
-              "ref": "Q6",
-              "pin": "1",
-              "uuid": "92083c91-c59b-45f9-8ac5-c07c533f6517",
-              "x": 21.8499,
-              "y": 35.1,
               "layers": [
                 "B.Cu"
               ]
@@ -3862,7 +3802,7 @@
     },
     "CH2_SBU2_IGN": {
       "pad_count": 4,
-      "group_count": 4,
+      "group_count": 3,
       "groups": [
         {
           "pads": [
@@ -3882,6 +3822,16 @@
         {
           "pads": [
             {
+              "ref": "Q7",
+              "pin": "1",
+              "uuid": "84029535-c3a4-4fab-93e1-db3be3ed5548",
+              "x": 1.2,
+              "y": 25.8499,
+              "layers": [
+                "B.Cu"
+              ]
+            },
+            {
               "ref": "U3",
               "pin": "J9",
               "uuid": "e513021f-152d-4518-9548-d558387e2cc0",
@@ -3892,7 +3842,7 @@
               ]
             }
           ],
-          "connected_item_count": 3
+          "connected_item_count": 21
         },
         {
           "pads": [
@@ -3902,21 +3852,6 @@
               "uuid": "0d4d0b2c-19a6-4eec-a2b0-f65e66db57ff",
               "x": 1.2,
               "y": 0.9,
-              "layers": [
-                "B.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
-            {
-              "ref": "Q7",
-              "pin": "1",
-              "uuid": "84029535-c3a4-4fab-93e1-db3be3ed5548",
-              "x": 1.2,
-              "y": 25.8499,
               "layers": [
                 "B.Cu"
               ]
@@ -4280,7 +4215,7 @@
     },
     "CH3_SBU1_RELAY": {
       "pad_count": 4,
-      "group_count": 2,
+      "group_count": 1,
       "groups": [
         {
           "pads": [
@@ -4292,6 +4227,16 @@
               "y": 10.45,
               "layers": [
                 "F.Cu"
+              ]
+            },
+            {
+              "ref": "R100",
+              "pin": "2",
+              "uuid": "81f600ea-2af0-4c86-9d94-8fd8151a10f5",
+              "x": 40.15,
+              "y": 26.95,
+              "layers": [
+                "B.Cu"
               ]
             },
             {
@@ -4315,22 +4260,7 @@
               ]
             }
           ],
-          "connected_item_count": 17
-        },
-        {
-          "pads": [
-            {
-              "ref": "R100",
-              "pin": "2",
-              "uuid": "81f600ea-2af0-4c86-9d94-8fd8151a10f5",
-              "x": 40.15,
-              "y": 26.95,
-              "layers": [
-                "B.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 1
+          "connected_item_count": 25
         }
       ]
     },
@@ -4402,25 +4332,20 @@
     },
     "CH3_SBU2_IGN": {
       "pad_count": 4,
-      "group_count": 3,
+      "group_count": 1,
       "groups": [
         {
           "pads": [
             {
-              "ref": "Q8",
+              "ref": "R104",
               "pin": "1",
-              "uuid": "6de63d75-c73e-4034-ab05-71a238b3f15c",
-              "x": 22.95,
-              "y": 33.7001,
+              "uuid": "0da1c4c1-f052-4bd9-9abc-9965f0b7e20f",
+              "x": 40.65,
+              "y": 25.6,
               "layers": [
-                "F.Cu"
+                "B.Cu"
               ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
+            },
             {
               "ref": "U3",
               "pin": "H8",
@@ -4440,30 +4365,25 @@
               "layers": [
                 "F.Cu"
               ]
-            }
-          ],
-          "connected_item_count": 15
-        },
-        {
-          "pads": [
+            },
             {
-              "ref": "R104",
+              "ref": "Q8",
               "pin": "1",
-              "uuid": "0da1c4c1-f052-4bd9-9abc-9965f0b7e20f",
-              "x": 40.65,
-              "y": 25.6,
+              "uuid": "6de63d75-c73e-4034-ab05-71a238b3f15c",
+              "x": 22.95,
+              "y": 33.7001,
               "layers": [
-                "B.Cu"
+                "F.Cu"
               ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 46
         }
       ]
     },
     "CH3_SBU2_RELAY": {
       "pad_count": 4,
-      "group_count": 2,
+      "group_count": 1,
       "groups": [
         {
           "pads": [
@@ -4488,6 +4408,16 @@
               ]
             },
             {
+              "ref": "R124",
+              "pin": "2",
+              "uuid": "c4467c42-8718-4fb7-a8be-9e45cb730b62",
+              "x": 31.35,
+              "y": 35.65,
+              "layers": [
+                "B.Cu"
+              ]
+            },
+            {
               "ref": "R110",
               "pin": "2",
               "uuid": "ff2dd81c-42cf-4e81-96de-9dd2842adf9c",
@@ -4498,22 +4428,7 @@
               ]
             }
           ],
-          "connected_item_count": 23
-        },
-        {
-          "pads": [
-            {
-              "ref": "R124",
-              "pin": "2",
-              "uuid": "c4467c42-8718-4fb7-a8be-9e45cb730b62",
-              "x": 31.35,
-              "y": 35.65,
-              "layers": [
-                "B.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 1
+          "connected_item_count": 34
         }
       ]
     },
@@ -4688,7 +4603,7 @@
     },
     "CH4_SBU1": {
       "pad_count": 4,
-      "group_count": 4,
+      "group_count": 3,
       "groups": [
         {
           "pads": [
@@ -4716,9 +4631,19 @@
               "layers": [
                 "F.Cu"
               ]
+            },
+            {
+              "ref": "R97",
+              "pin": "2",
+              "uuid": "dd424a78-8e63-452d-b439-587c8b2beac1",
+              "x": 33.75,
+              "y": 11.3,
+              "layers": [
+                "B.Cu"
+              ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 18
         },
         {
           "pads": [
@@ -4730,21 +4655,6 @@
               "y": 5.49999,
               "layers": [
                 "F.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
-            {
-              "ref": "R97",
-              "pin": "2",
-              "uuid": "dd424a78-8e63-452d-b439-587c8b2beac1",
-              "x": 33.75,
-              "y": 11.3,
-              "layers": [
-                "B.Cu"
               ]
             }
           ],
@@ -4810,23 +4720,8 @@
     },
     "CH4_SBU1_RELAY": {
       "pad_count": 4,
-      "group_count": 3,
+      "group_count": 1,
       "groups": [
-        {
-          "pads": [
-            {
-              "ref": "Q5",
-              "pin": "3",
-              "uuid": "26f4546b-0658-4bad-b1f3-30e6afa8f80d",
-              "x": 28.35,
-              "y": 32.2001,
-              "layers": [
-                "F.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 1
-        },
         {
           "pads": [
             {
@@ -4840,6 +4735,16 @@
               ]
             },
             {
+              "ref": "Q5",
+              "pin": "3",
+              "uuid": "26f4546b-0658-4bad-b1f3-30e6afa8f80d",
+              "x": 28.35,
+              "y": 32.2001,
+              "layers": [
+                "F.Cu"
+              ]
+            },
+            {
               "ref": "R88",
               "pin": "2",
               "uuid": "48e19e84-4645-4725-ade6-11307c15b4b0",
@@ -4848,12 +4753,7 @@
               "layers": [
                 "F.Cu"
               ]
-            }
-          ],
-          "connected_item_count": 12
-        },
-        {
-          "pads": [
+            },
             {
               "ref": "R101",
               "pin": "2",
@@ -4865,7 +4765,7 @@
               ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 46
         }
       ]
     },
@@ -5282,16 +5182,6 @@
               ]
             },
             {
-              "ref": "C5",
-              "pin": "2",
-              "uuid": "124e1ea7-5f86-4e93-bcb7-78ca0e5762a5",
-              "x": 34.5,
-              "y": 19.75,
-              "layers": [
-                "B.Cu"
-              ]
-            },
-            {
               "ref": "C15",
               "pin": "2",
               "uuid": "12c33328-429b-47da-b4f1-c8dbd5d12517",
@@ -5407,16 +5297,6 @@
               "uuid": "22a7dbe0-f50e-4ee6-98a1-8916b6fb2b40",
               "x": 42.4,
               "y": 10.2,
-              "layers": [
-                "B.Cu"
-              ]
-            },
-            {
-              "ref": "C3",
-              "pin": "2",
-              "uuid": "24b48732-cf91-4d5c-86a9-98bd8a2f1e2b",
-              "x": 36.4,
-              "y": 18.15,
               "layers": [
                 "B.Cu"
               ]
@@ -6157,6 +6037,16 @@
               ]
             },
             {
+              "ref": "C19",
+              "pin": "2",
+              "uuid": "69ff344d-b8db-416b-b499-d874776aef9c",
+              "x": 4.95,
+              "y": 24.3,
+              "layers": [
+                "B.Cu"
+              ]
+            },
+            {
               "ref": "U4",
               "pin": "PAD",
               "uuid": "6ac6a3c5-e740-499e-b4ba-44d0da6b193b",
@@ -6477,6 +6367,16 @@
               ]
             },
             {
+              "ref": "C36",
+              "pin": "1",
+              "uuid": "8e170f99-1691-43df-ba08-eb408f40bcb4",
+              "x": 27.15,
+              "y": 19.85,
+              "layers": [
+                "F.Cu"
+              ]
+            },
+            {
               "ref": "R125",
               "pin": "1",
               "uuid": "8ef3f717-de38-478d-ac47-5c357517a784",
@@ -6770,16 +6670,6 @@
               ]
             },
             {
-              "ref": "J1",
-              "pin": "GND",
-              "uuid": "a80afc9b-8965-40ef-a43f-46160fbdc813",
-              "x": 39.5,
-              "y": 9.5,
-              "layers": [
-                "F.Cu"
-              ]
-            },
-            {
               "ref": "R67",
               "pin": "1",
               "uuid": "a8319343-a729-4edf-a541-6d308a426e26",
@@ -6886,16 +6776,6 @@
               "uuid": "ae68749d-79fe-4a8d-ad12-40a6c1be4cc9",
               "x": 7.0,
               "y": 10.4,
-              "layers": [
-                "B.Cu"
-              ]
-            },
-            {
-              "ref": "R45",
-              "pin": "2",
-              "uuid": "af127799-0a8a-4b05-b54b-521c62a9d9cb",
-              "x": 41.15,
-              "y": 30.45,
               "layers": [
                 "B.Cu"
               ]
@@ -7204,16 +7084,6 @@
               ]
             },
             {
-              "ref": "LED11",
-              "pin": "3",
-              "uuid": "cb45c35d-f804-4c69-b05e-e4f71f013d4c",
-              "x": 40.4,
-              "y": 14.2,
-              "layers": [
-                "B.Cu"
-              ]
-            },
-            {
               "ref": "LED13",
               "pin": "3",
               "uuid": "cd943848-cb95-4e9d-937c-a552a215bfa8",
@@ -7421,16 +7291,6 @@
               "uuid": "dffe50a0-ea18-44bb-9d1d-64662b863444",
               "x": 29.95,
               "y": 24.75,
-              "layers": [
-                "B.Cu"
-              ]
-            },
-            {
-              "ref": "U12",
-              "pin": "2",
-              "uuid": "e0513df9-a189-4492-99a5-a5a9d9351c95",
-              "x": 38.2,
-              "y": 8.9,
               "layers": [
                 "B.Cu"
               ]
@@ -7769,22 +7629,62 @@
               ]
             }
           ],
-          "connected_item_count": 644
+          "connected_item_count": 631
         },
         {
           "pads": [
             {
-              "ref": "C36",
-              "pin": "1",
-              "uuid": "8e170f99-1691-43df-ba08-eb408f40bcb4",
-              "x": 27.15,
-              "y": 19.85,
+              "ref": "C5",
+              "pin": "2",
+              "uuid": "124e1ea7-5f86-4e93-bcb7-78ca0e5762a5",
+              "x": 34.5,
+              "y": 19.75,
+              "layers": [
+                "B.Cu"
+              ]
+            },
+            {
+              "ref": "C3",
+              "pin": "2",
+              "uuid": "24b48732-cf91-4d5c-86a9-98bd8a2f1e2b",
+              "x": 36.4,
+              "y": 18.15,
+              "layers": [
+                "B.Cu"
+              ]
+            },
+            {
+              "ref": "J1",
+              "pin": "GND",
+              "uuid": "a80afc9b-8965-40ef-a43f-46160fbdc813",
+              "x": 39.5,
+              "y": 9.5,
               "layers": [
                 "F.Cu"
               ]
+            },
+            {
+              "ref": "LED11",
+              "pin": "3",
+              "uuid": "cb45c35d-f804-4c69-b05e-e4f71f013d4c",
+              "x": 40.4,
+              "y": 14.2,
+              "layers": [
+                "B.Cu"
+              ]
+            },
+            {
+              "ref": "U12",
+              "pin": "2",
+              "uuid": "e0513df9-a189-4492-99a5-a5a9d9351c95",
+              "x": 38.2,
+              "y": 8.9,
+              "layers": [
+                "B.Cu"
+              ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 18
         },
         {
           "pads": [
@@ -7814,17 +7714,17 @@
         {
           "pads": [
             {
-              "ref": "C19",
+              "ref": "R45",
               "pin": "2",
-              "uuid": "69ff344d-b8db-416b-b499-d874776aef9c",
-              "x": 4.95,
-              "y": 24.3,
+              "uuid": "af127799-0a8a-4b05-b54b-521c62a9d9cb",
+              "x": 41.15,
+              "y": 30.45,
               "layers": [
                 "B.Cu"
               ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 4
         }
       ]
     },
@@ -7881,7 +7781,7 @@
     },
     "HUB_SDA": {
       "pad_count": 3,
-      "group_count": 3,
+      "group_count": 2,
       "groups": [
         {
           "pads": [
@@ -7894,12 +7794,7 @@
               "layers": [
                 "F.Cu"
               ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
+            },
             {
               "ref": "U3",
               "pin": "J7",
@@ -7911,7 +7806,7 @@
               ]
             }
           ],
-          "connected_item_count": 3
+          "connected_item_count": 21
         },
         {
           "pads": [
@@ -7932,7 +7827,7 @@
     },
     "LED_B": {
       "pad_count": 2,
-      "group_count": 2,
+      "group_count": 1,
       "groups": [
         {
           "pads": [
@@ -7945,12 +7840,7 @@
               "layers": [
                 "F.Cu"
               ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
+            },
             {
               "ref": "U3",
               "pin": "A3",
@@ -7962,7 +7852,7 @@
               ]
             }
           ],
-          "connected_item_count": 2
+          "connected_item_count": 14
         }
       ]
     },
@@ -8035,7 +7925,7 @@
     },
     "Net-(D2-A)": {
       "pad_count": 3,
-      "group_count": 2,
+      "group_count": 1,
       "groups": [
         {
           "pads": [
@@ -8058,12 +7948,7 @@
               "layers": [
                 "B.Cu"
               ]
-            }
-          ],
-          "connected_item_count": 7
-        },
-        {
-          "pads": [
+            },
             {
               "ref": "Q1",
               "pin": "4",
@@ -8075,7 +7960,7 @@
               ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 16
         }
       ]
     },
@@ -8172,7 +8057,7 @@
     },
     "Net-(J2-CD{slash}DAT3)": {
       "pad_count": 3,
-      "group_count": 3,
+      "group_count": 2,
       "groups": [
         {
           "pads": [
@@ -8185,9 +8070,19 @@
               "layers": [
                 "F.Cu"
               ]
+            },
+            {
+              "ref": "R36",
+              "pin": "2",
+              "uuid": "f1e23078-062b-4895-8bc1-aef24e6e7b9c",
+              "x": 8.35,
+              "y": 35.65,
+              "layers": [
+                "B.Cu"
+              ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 11
         },
         {
           "pads": [
@@ -8203,27 +8098,12 @@
             }
           ],
           "connected_item_count": 1
-        },
-        {
-          "pads": [
-            {
-              "ref": "R36",
-              "pin": "2",
-              "uuid": "f1e23078-062b-4895-8bc1-aef24e6e7b9c",
-              "x": 8.35,
-              "y": 35.65,
-              "layers": [
-                "B.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 1
         }
       ]
     },
     "Net-(J2-CLK)": {
       "pad_count": 2,
-      "group_count": 2,
+      "group_count": 1,
       "groups": [
         {
           "pads": [
@@ -8236,12 +8116,7 @@
               "layers": [
                 "F.Cu"
               ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
+            },
             {
               "ref": "J2",
               "pin": "5",
@@ -8253,7 +8128,7 @@
               ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 11
         }
       ]
     },
@@ -9091,7 +8966,7 @@
     },
     "Net-(LED1-R-)": {
       "pad_count": 2,
-      "group_count": 2,
+      "group_count": 1,
       "groups": [
         {
           "pads": [
@@ -9104,12 +8979,7 @@
               "layers": [
                 "B.Cu"
               ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
+            },
             {
               "ref": "R21",
               "pin": "1",
@@ -9121,7 +8991,7 @@
               ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 13
         }
       ]
     },
@@ -9462,23 +9332,8 @@
     },
     "Net-(LED15-AG)": {
       "pad_count": 2,
-      "group_count": 2,
+      "group_count": 1,
       "groups": [
-        {
-          "pads": [
-            {
-              "ref": "LED15",
-              "pin": "2",
-              "uuid": "a965e73a-a7f2-410c-85bc-2be2493fd228",
-              "x": 16.2,
-              "y": 33.0,
-              "layers": [
-                "F.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 1
-        },
         {
           "pads": [
             {
@@ -9490,9 +9345,19 @@
               "layers": [
                 "B.Cu"
               ]
+            },
+            {
+              "ref": "LED15",
+              "pin": "2",
+              "uuid": "a965e73a-a7f2-410c-85bc-2be2493fd228",
+              "x": 16.2,
+              "y": 33.0,
+              "layers": [
+                "F.Cu"
+              ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 20
         }
       ]
     },
@@ -9627,7 +9492,7 @@
     },
     "Net-(LED17-AR)": {
       "pad_count": 2,
-      "group_count": 2,
+      "group_count": 1,
       "groups": [
         {
           "pads": [
@@ -9640,12 +9505,7 @@
               "layers": [
                 "F.Cu"
               ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
+            },
             {
               "ref": "R113",
               "pin": "1",
@@ -9657,7 +9517,7 @@
               ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 13
         }
       ]
     },
@@ -9735,7 +9595,7 @@
     },
     "Net-(LED4-PadA)": {
       "pad_count": 2,
-      "group_count": 2,
+      "group_count": 1,
       "groups": [
         {
           "pads": [
@@ -9748,12 +9608,7 @@
               "layers": [
                 "F.Cu"
               ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
+            },
             {
               "ref": "R64",
               "pin": "2",
@@ -9765,7 +9620,7 @@
               ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 20
         }
       ]
     },
@@ -10250,7 +10105,7 @@
     },
     "Net-(Q6-D2)": {
       "pad_count": 2,
-      "group_count": 2,
+      "group_count": 1,
       "groups": [
         {
           "pads": [
@@ -10263,12 +10118,7 @@
               "layers": [
                 "F.Cu"
               ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
+            },
             {
               "ref": "Q6",
               "pin": "4",
@@ -10280,7 +10130,7 @@
               ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 28
         }
       ]
     },
@@ -10353,7 +10203,7 @@
     },
     "Net-(Q8-D1)": {
       "pad_count": 2,
-      "group_count": 2,
+      "group_count": 1,
       "groups": [
         {
           "pads": [
@@ -10366,12 +10216,7 @@
               "layers": [
                 "F.Cu"
               ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
+            },
             {
               "ref": "R118",
               "pin": "1",
@@ -10383,7 +10228,7 @@
               ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 22
         }
       ]
     },
@@ -10492,7 +10337,7 @@
     },
     "Net-(R62-Pad1)": {
       "pad_count": 2,
-      "group_count": 2,
+      "group_count": 1,
       "groups": [
         {
           "pads": [
@@ -10505,12 +10350,7 @@
               "layers": [
                 "F.Cu"
               ]
-            }
-          ],
-          "connected_item_count": 1
-        },
-        {
-          "pads": [
+            },
             {
               "ref": "U9",
               "pin": "4",
@@ -10522,7 +10362,7 @@
               ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 21
         }
       ]
     },
@@ -10877,23 +10717,8 @@
     },
     "Net-(U11-+)": {
       "pad_count": 2,
-      "group_count": 2,
+      "group_count": 1,
       "groups": [
-        {
-          "pads": [
-            {
-              "ref": "U11",
-              "pin": "1",
-              "uuid": "448a2706-0dee-4246-93e8-8ef72b275e4a",
-              "x": 27.05,
-              "y": 16.0,
-              "layers": [
-                "B.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 1
-        },
         {
           "pads": [
             {
@@ -10905,9 +10730,19 @@
               "layers": [
                 "B.Cu"
               ]
+            },
+            {
+              "ref": "U11",
+              "pin": "1",
+              "uuid": "448a2706-0dee-4246-93e8-8ef72b275e4a",
+              "x": 27.05,
+              "y": 16.0,
+              "layers": [
+                "B.Cu"
+              ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 16
         }
       ]
     },
@@ -11364,7 +11199,7 @@
               ]
             }
           ],
-          "connected_item_count": 4
+          "connected_item_count": 5
         },
         {
           "pads": [
@@ -11452,23 +11287,8 @@
     },
     "Net-(U3-PC3_C)": {
       "pad_count": 2,
-      "group_count": 2,
+      "group_count": 1,
       "groups": [
-        {
-          "pads": [
-            {
-              "ref": "U3",
-              "pin": "G4",
-              "uuid": "b1c523c2-8482-4cf3-b9dd-573b350ae0bd",
-              "x": 9.3,
-              "y": 18.7,
-              "layers": [
-                "B.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 9
-        },
         {
           "pads": [
             {
@@ -11480,9 +11300,19 @@
               "layers": [
                 "B.Cu"
               ]
+            },
+            {
+              "ref": "U3",
+              "pin": "G4",
+              "uuid": "b1c523c2-8482-4cf3-b9dd-573b350ae0bd",
+              "x": 9.3,
+              "y": 18.7,
+              "layers": [
+                "B.Cu"
+              ]
             }
           ],
-          "connected_item_count": 4
+          "connected_item_count": 16
         }
       ]
     },
@@ -11852,7 +11682,7 @@
               ]
             }
           ],
-          "connected_item_count": 7
+          "connected_item_count": 6
         }
       ]
     },
@@ -12031,7 +11861,7 @@
               ]
             }
           ],
-          "connected_item_count": 6
+          "connected_item_count": 12
         },
         {
           "pads": [
@@ -12129,23 +11959,8 @@
     },
     "Net-(U6-CANH)": {
       "pad_count": 2,
-      "group_count": 2,
+      "group_count": 1,
       "groups": [
-        {
-          "pads": [
-            {
-              "ref": "U6",
-              "pin": "7",
-              "uuid": "fdec3a4a-78ec-4f4d-8802-a63a1d69d29d",
-              "x": 23.57,
-              "y": 28.15,
-              "layers": [
-                "F.Cu"
-              ]
-            }
-          ],
-          "connected_item_count": 1
-        },
         {
           "pads": [
             {
@@ -12157,9 +11972,19 @@
               "layers": [
                 "F.Cu"
               ]
+            },
+            {
+              "ref": "U6",
+              "pin": "7",
+              "uuid": "fdec3a4a-78ec-4f4d-8802-a63a1d69d29d",
+              "x": 23.57,
+              "y": 28.15,
+              "layers": [
+                "F.Cu"
+              ]
             }
           ],
-          "connected_item_count": 1
+          "connected_item_count": 11
         }
       ]
     },
@@ -12833,7 +12658,7 @@
     },
     "VDDA": {
       "pad_count": 4,
-      "group_count": 3,
+      "group_count": 2,
       "groups": [
         {
           "pads": [
@@ -12871,12 +12696,7 @@
               "layers": [
                 "B.Cu"
               ]
-            }
-          ],
-          "connected_item_count": 2
-        },
-        {
-          "pads": [
+            },
             {
               "ref": "U3",
               "pin": "J1",
@@ -12888,7 +12708,7 @@
               ]
             }
           ],
-          "connected_item_count": 2
+          "connected_item_count": 5
         }
       ]
     },
@@ -12989,7 +12809,7 @@
               ]
             }
           ],
-          "connected_item_count": 33
+          "connected_item_count": 42
         },
         {
           "pads": [
@@ -13050,7 +12870,7 @@
       ]
     }
   },
-  "missing_pad_group_connections": 220,
+  "missing_pad_group_connections": 184,
   "incomplete_nets": [
     "+12V",
     "+3V3",
@@ -13062,7 +12882,6 @@
     "CAN1_EN",
     "CAN1_H",
     "CAN1_L",
-    "CAN1_RX",
     "CAN2_H",
     "CAN2_L",
     "CAN2_RX",
@@ -13092,26 +12911,19 @@
     "CH3_PWR_EN",
     "CH3_SBU1",
     "CH3_SBU1_IGN",
-    "CH3_SBU1_RELAY",
     "CH3_SBU2",
-    "CH3_SBU2_IGN",
-    "CH3_SBU2_RELAY",
     "CH4_IMON",
     "CH4_PWR_EN",
     "CH4_SBU1",
     "CH4_SBU1_IGN",
-    "CH4_SBU1_RELAY",
     "CH4_SBU2",
     "CH4_SBU2_IGN",
     "CH4_SBU2_RELAY",
     "GND",
     "HUB_SCL",
     "HUB_SDA",
-    "LED_B",
     "LED_G",
-    "Net-(D2-A)",
     "Net-(J2-CD{slash}DAT3)",
-    "Net-(J2-CLK)",
     "Net-(J2-DAT0)",
     "Net-(J2-DAT1)",
     "Net-(J2-DAT2)",
@@ -13120,18 +12932,14 @@
     "Net-(J7-VBUS-PadA4)",
     "Net-(J8-VBUS-PadA4)",
     "Net-(LED1-G-)",
-    "Net-(LED1-R-)",
     "Net-(LED10-AG)",
     "Net-(LED10-AR)",
     "Net-(LED12-AG)",
     "Net-(LED12-AR)",
     "Net-(LED14-AG)",
-    "Net-(LED15-AG)",
     "Net-(LED15-AR)",
-    "Net-(LED17-AR)",
     "Net-(LED2-PadA)",
     "Net-(LED3-PadA)",
-    "Net-(LED4-PadA)",
     "Net-(LED7-PadA)",
     "Net-(LED8-PadA)",
     "Net-(LED9-PadA)",
@@ -13141,18 +12949,14 @@
     "Net-(Q3-D2)",
     "Net-(Q4-D2)",
     "Net-(Q6-D1)",
-    "Net-(Q6-D2)",
     "Net-(Q7-D1)",
-    "Net-(Q8-D1)",
     "Net-(Q8-D2)",
     "Net-(Q9-D2)",
-    "Net-(R62-Pad1)",
     "Net-(R63-Pad1)",
     "Net-(R64-Pad1)",
     "Net-(U1-SW)",
     "Net-(U10-+)",
     "Net-(U10--)",
-    "Net-(U11-+)",
     "Net-(U11--)",
     "Net-(U12-+)",
     "Net-(U13-ILIM)",
@@ -13161,7 +12965,6 @@
     "Net-(U16-ILIM)",
     "Net-(U3-PC0)",
     "Net-(U3-PC1)",
-    "Net-(U3-PC3_C)",
     "Net-(U3-PF10)",
     "Net-(U3-PF7)",
     "Net-(U3-PF8)",
@@ -13172,7 +12975,6 @@
     "Net-(U4-XTAL1)",
     "Net-(U4-XTAL2)",
     "Net-(U5-CANL)",
-    "Net-(U6-CANH)",
     "Net-(U6-CANL)",
     "Net-(U7-CANH)",
     "Net-(U7-CANL)",
@@ -13188,7 +12990,7 @@
     "Connected-pad group count excludes orphan copper, DRC violations and functional checks.",
     "Uses native GetConnectedItems after BuildConnectivity on the saved board."
   ],
-  "board": "work-in-progress\\pcbgolf.kicad_pcb",
-  "board_sha256": "32b24c25f355fa67a3d14ce84174e18a722ed2e56c62990ef8d83ff87e18f8e5",
+  "board": "candidates\\completion\\via400.kicad_pcb",
+  "board_sha256": "c3fe9e917e2cd3e1b535c11c9e3d74f681d75fe6ccf06d9560ae4becc781c144",
   "board_unchanged": true
 }

@@ -1,0 +1,64 @@
+(version 1)
+
+# DRAFT: JLCPCB rigid 4-layer FR4, 1 oz outer copper, through vias.
+# Sources and limitations: reports/manufacturing-rules.md.
+# General rules first; more specific rules later (KiCad reverse precedence).
+# This file does not certify stackup, impedance, current capacity or assembly.
+
+(rule "JLC 4L conservative copper clearance"
+  (constraint clearance (min 0.10mm)))
+
+(rule "JLC 4L conservative routed trace width"
+  (constraint track_width (min 0.10mm)))
+
+(rule "Project routed copper to board edge margin"
+  (constraint edge_clearance (min 0.30mm)))
+
+(rule "JLC drilled hole to foreign copper"
+  (constraint hole_clearance (min 0.20mm)))
+
+(rule "JLC mechanical drill separation default"
+  (constraint hole_to_hole (min 0.20mm)))
+
+(rule "JLC through-via fabrication floor"
+  (condition "A.Type == 'Via'")
+  (constraint hole_size (min 0.15mm) (opt 0.20mm))
+  (constraint via_diameter (min 0.25mm) (opt 0.45mm))
+  (constraint annular_width (min 0.05mm)))
+
+(rule "Project no unqualified blind buried or micro vias"
+  (constraint disallow micro_via blind_via buried_via))
+
+(rule "JLC 4L component PTH annular ring"
+  (condition "A.Type == 'Pad' && A.isPlated()")
+  (constraint annular_width (min 0.15mm)))
+
+(rule "JLC component PTH round drill"
+  (condition "A.Type == 'Pad' && A.isPlated() && A.Hole_Size_X == A.Hole_Size_Y")
+  (constraint hole_size (min 0.15mm) (max 6.30mm)))
+
+(rule "JLC component plated slot width"
+  (condition "A.Type == 'Pad' && A.isPlated() && A.Hole_Size_X != A.Hole_Size_Y")
+  (constraint hole_size (min 0.35mm)))
+
+(rule "JLC component PTH drill to PTH drill"
+  (condition "A.Type == 'Pad' && A.isPlated() && B.Type == 'Pad' && B.isPlated()")
+  (constraint hole_to_hole (min 0.45mm)))
+
+# The documented PTH hole-to-track minimum is 0.28 mm outside, 0.30 mm
+# inside. Applying 0.30 mm on all layers is deliberately conservative.
+(rule "JLC PTH drill to foreign copper conservative all layers"
+  (condition "A.Type == 'Pad' && A.isPlated()")
+  (constraint hole_clearance (min 0.30mm)))
+
+(rule "JLC NPTH round drill minimum"
+  (condition "A.Pad_Type == 'NPTH, mechanical' && A.Hole_Size_X == A.Hole_Size_Y")
+  (constraint hole_size (min 0.50mm)))
+
+(rule "JLC NPTH routed slot minimum"
+  (condition "A.Pad_Type == 'NPTH, mechanical' && A.Hole_Size_X != A.Hole_Size_Y")
+  (constraint hole_size (min 1.00mm)))
+
+(rule "JLC different-net SMD pad clearance"
+  (condition "A.Type == 'Pad' && A.Pad_Type == 'SMD' && B.Type == 'Pad' && B.Pad_Type == 'SMD'")
+  (constraint clearance (min 0.15mm)))

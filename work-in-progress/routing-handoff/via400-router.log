@@ -1,0 +1,38 @@
+2026-09-14 21:51:15.645 INFO   Freerouting v2.4.1 (build-date: 2026-09-03)
+2026-09-14 21:51:17.104 INFO   [19AD94\7A5DA3] Loading board file 'via400.dsn'...
+2026-09-14 21:51:17.340 INFO   Applied drill-hole clearance override: 200.0 um (2000 board units), 48 hole keepouts reclassified.
+2026-09-14 21:51:17.363 INFO   [19AD94\7A5DA3] Job '19AD94\7A5DA3' started at 2026-09-15T01:51:17.362692800Z.
+2026-09-14 21:51:17.751 INFO   [19AD94\7A5DA3] Auto-routing stage started on board '34440d962008a59139791b3139aa7ccc' for 184 unrouted items.
+2026-09-14 21:51:29.596 INFO   Necked retry routed net 'Net-(J2-CD{slash}DAT3)' at 100.0 um trace width.
+2026-09-14 21:51:33.557 INFO   Necked retry routed net 'CH4_SBU2_IGN' at 100.0 um trace width.
+2026-09-14 21:51:38.571 WARN   BasicBoard.normalizeTraces: reached 0064 iterations for net 'CAN2_L' — stopping to prevent hang. The board geometry for this net may be oscillating (split/combine cycle); traces are kept as-is and further normalization for this net is suppressed on this board candidate.
+2026-09-14 21:51:38.571 INFO   Necked retry routed net 'CAN2_L' at 100.0 um trace width.
+2026-09-14 21:51:41.971 WARN   BasicBoard.normalizeTraces: reached 0064 iterations for net 'CAN1_L' — stopping to prevent hang. The board geometry for this net may be oscillating (split/combine cycle); traces are kept as-is and further normalization for this net is suppressed on this board candidate.
+2026-09-14 21:51:52.200 INFO   Necked retry routed net 'CH2_SBU1_IGN' at 100.0 um trace width.
+2026-09-14 21:51:57.411 INFO   Necked retry routed net 'Net-(U3-PC1)' at 100.0 um trace width.
+2026-09-14 21:51:58.509 INFO   Necked retry routed net 'CAN0_EN' at 100.0 um trace width.
+2026-09-14 21:52:47.017 INFO   Necked retry routed net 'Net-(Q3-D1)' at 100.0 um trace width.
+2026-09-14 21:53:14.983 INFO   Necked retry routed net 'Net-(LED2-PadA)' at 100.0 um trace width.
+2026-09-14 21:54:47.788 INFO   Necked retry routed net 'CH2_SBU2' at 100.0 um trace width.
+2026-09-14 21:55:38.021 INFO   Necked retry routed net 'Net-(R63-Pad1)' at 100.0 um trace width.
+2026-09-14 21:56:56.184 INFO   Necked retry routed net 'CH3_SBU1_IGN' at 100.0 um trace width.
+2026-09-14 21:57:14.242 INFO   Necked retry routed net 'Net-(LED2-PadA)' at 100.0 um trace width.
+2026-09-14 21:57:33.453 INFO   Necked retry routed net 'HUB_SCL' at 100.0 um trace width.
+2026-09-14 21:57:37.775 INFO   [19AD94\7A5DA3] Auto-routing pass #1 on board '34440d962008a59139791b3139aa7ccc' was completed in 376.06 seconds with score 750.05 (178 unrouted and 696 violations), using 360.66 CPU seconds and the job allocated 2108.94 GB of memory so far.
+2026-09-14 21:57:56.614 INFO   Necked retry routed net 'CAN2_L' at 100.0 um trace width.
+2026-09-14 21:58:09.136 INFO   Necked retry routed net 'CH2_SBU1_IGN' at 100.0 um trace width.
+2026-09-14 21:58:14.172 INFO   Necked retry routed net 'Net-(U3-PC1)' at 100.0 um trace width.
+2026-09-14 21:58:39.812 INFO   Necked retry routed net 'CAN3_RX' at 100.0 um trace width.
+2026-09-14 21:58:56.813 INFO   Necked retry routed net 'Net-(Q3-D1)' at 100.0 um trace width.
+2026-09-14 21:58:57.471 INFO   Necked retry routed net 'CH2_SBU1_RELAY' at 100.0 um trace width.
+2026-09-14 21:59:14.250 WARN   BasicBoard.normalizeTraces: reached 0064 iterations for net 'CAN0_EN' — stopping to prevent hang. The board geometry for this net may be oscillating (split/combine cycle); traces are kept as-is and further normalization for this net is suppressed on this board candidate.
+2026-09-14 21:59:14.256 INFO   Necked retry routed net 'CAN0_EN' at 100.0 um trace width.
+2026-09-14 21:59:40.910 INFO   Necked retry routed net 'CH3_SBU2' at 100.0 um trace width.
+2026-09-14 22:01:05.450 INFO   Necked retry routed net 'CH2_SBU2' at 100.0 um trace width.
+2026-09-14 22:01:07.480 INFO   Necked retry routed net 'Net-(Q4-D2)' at 100.0 um trace width.
+2026-09-14 22:01:10.124 INFO   Necked retry routed net 'Net-(LED17-AR)' at 100.0 um trace width.
+2026-09-14 22:01:22.507 INFO   [19AD94\7A5DA3] Auto-routing pass #2 on board '7c17711e4c94dad138297c5edb5498fe' was completed in 220.77 seconds with score 751.40 (177 unrouted and 696 violations), using 570.41 CPU seconds and the job allocated 3397.08 GB of memory so far.
+2026-09-14 22:01:26.547 INFO   [19AD94\7A5DA3] Auto-routing stage completed with timeout: started with 184 unrouted nets, completed in 607.10 seconds, final score: 751.40 (177 unrouted and 696 violations), using 570.41 total CPU seconds, 3397.08 GB total allocated, and 1468.1 MB peak heap usage.
+2026-09-14 22:01:26.602 INFO   [19AD94\7A5DA3] Job '19AD94\7A5DA3' finished with state: COMPLETED (elapsed: 10 minutes 9.24 seconds, finished at UTC: 2026-09-15T02:01:26.601188300Z).
+2026-09-14 22:01:26.689 INFO   Saving output file 'D:\Projects\PCBGolf\candidates\completion\via400.ses' (SES)...
+2026-09-14 22:01:26.691 INFO   Successfully saved output file 'D:\Projects\PCBGolf\candidates\completion\via400.ses' (278428 bytes).

@@ -1,0 +1,120 @@
+{
+  "placement": "candidates\\completion\\actual-placement.json",
+  "source": "https://www.usb.org/sites/default/files/USB%20Type-C_Compliance%20Document_Rev_2_1b_June_2021.pdf",
+  "source_table": "Table B-1, printed page49",
+  "usb_if_maximum_overmold_cross_section_mm": [
+    12.35,
+    6.5
+  ],
+  "audit_overmold_cross_section_mm": [
+    12.5,
+    7.0
+  ],
+  "overmold_z_min_global_mm": 10.195,
+  "plugs": [
+    {
+      "name": "J5 mating plug",
+      "ref": "J5",
+      "bounds": [
+        22.25,
+        -1.5000099999999996,
+        10.195,
+        29.25,
+        10.99999,
+        50.195
+      ]
+    },
+    {
+      "name": "J6 mating plug",
+      "ref": "J6",
+      "bounds": [
+        14.75,
+        -1.5000099999999996,
+        10.195,
+        21.75,
+        10.99999,
+        50.195
+      ]
+    },
+    {
+      "name": "J7 mating plug",
+      "ref": "J7",
+      "bounds": [
+        7.25,
+        -1.5000099999999996,
+        10.195,
+        14.25,
+        10.99999,
+        50.195
+      ]
+    },
+    {
+      "name": "J8 mating plug",
+      "ref": "J8",
+      "bounds": [
+        -0.25000000000000044,
+        -1.5000099999999996,
+        10.195,
+        6.75,
+        10.99999,
+        50.195
+      ]
+    }
+  ],
+  "pair_gaps": [
+    {
+      "refs": [
+        "J5",
+        "J6"
+      ],
+      "separation_mm": 0.5
+    },
+    {
+      "refs": [
+        "J5",
+        "J7"
+      ],
+      "separation_mm": 8.0
+    },
+    {
+      "refs": [
+        "J5",
+        "J8"
+      ],
+      "separation_mm": 15.5
+    },
+    {
+      "refs": [
+        "J6",
+        "J7"
+      ],
+      "separation_mm": 0.5
+    },
+    {
+      "refs": [
+        "J6",
+        "J8"
+      ],
+      "separation_mm": 8.0
+    },
+    {
+      "refs": [
+        "J7",
+        "J8"
+      ],
+      "separation_mm": 0.5
+    }
+  ],
+  "plug_pair_conflicts": [],
+  "actual_model_conflicts": [],
+  "closest_actual_component": {
+    "plug": "J5",
+    "component": "J1",
+    "separation_mm": 0.3500000000000014
+  },
+  "limits": [
+    "Nominal exported component positions checked. Drawing/manufacturing tolerances and representative physical insertion/retention test remain required.",
+    "No comma-specific overmold drawing was found. Audit uses USB-IF full-featured Type-C maximum enlarged to12.5x7mm; custom oversized or unusual right-angle cable housings require their actual dimensions.",
+    "Cable bend space and the optional DNP J4 populated mating header are not represented by these straight-plug prisms."
+  ]
+}
