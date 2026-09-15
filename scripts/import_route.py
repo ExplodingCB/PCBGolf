@@ -21,8 +21,14 @@ def main():
         if actual != expected:
             raise ValueError('Board changed since DSN export; refusing an incompatible SES import')
     board=pcbnew.LoadBoard(str(args.board.resolve()))
+    placements={f.GetReference():(f.GetPosition(),f.GetOrientationDegrees()) for f in board.GetFootprints()}
     if not pcbnew.ImportSpecctraSES(board,str(args.session.resolve())):
         raise RuntimeError('KiCad could not import the SES routing')
+    for f in board.GetFootprints():
+        pos,angle=placements[f.GetReference()]
+        if abs(f.GetPosition().x-pos.x)>100 or abs(f.GetPosition().y-pos.y)>100 or abs(f.GetOrientationDegrees()-angle)>.000001:
+            raise ValueError('Unexpected placement change during SES import: '+f.GetReference())
+        f.SetPosition(pos)
     board.BuildConnectivity()
     pcbnew.ZONE_FILLER(board).Fill(board.Zones())
     pcbnew.SaveBoard(str(args.out.resolve()),board)

@@ -9,11 +9,12 @@ from route_ground import xy,copper_shape,hole_shape,track_shape,COPPER
 from preconnect import octilinear_paths
 MM=pcb.FromMM
 def vec(v):return pcb.VECTOR2I(MM(v[0]),MM(v[1]))
-def run(b):
+def run(b, links=None, endpoints=None):
     refs={f.GetReference():f for f in b.GetFootprints()};report={'routed':[],'unresolved':[]}
     is_bga=any(q.GetNumber()=='D2' for q in refs['U3'].Pads())
     cx,cy=xy(refs['U3'].GetPosition())
     ends={('U3','D2'):(cx-4.4,cy+.8),('U3','E2'):(cx-4.4,cy)} if is_bga else {}
+    if endpoints:ends.update(endpoints)
     def pad(ref,n):return next(q for q in refs[ref].Pads() if q.GetNumber()==n)
     def link(a,z,width,margin=2.0,maxlength=12):
         p,q=pad(*a),pad(*z);net=p.GetNetname();layer=p.GetParentFootprint().GetLayer()
@@ -64,7 +65,7 @@ def run(b):
             if math.dist(s,e)<.000001:continue
             t=pcb.PCB_TRACK(b);t.SetStart(vec(s));t.SetEnd(vec(e));t.SetWidth(MM(width));t.SetLayer(layer);t.SetNet(p.GetNet());t.SetLocked(True);b.Add(t)
         report['routed'].append({'pads':[a,z],'net':net,'width_mm':width,'length_mm':sum(math.dist(s,e) for s,e in zip(route,route[1:])),'path_mm':route})
-    for a,z,w,maxlen in [
+    for a,z,w,maxlen in (links if links is not None else [
         (('U3','D2' if is_bga else '15'),('L4','2'),.30,6),(('L4','2'),('C25','1'),.20,5),
         (('L4','1'),('U3','E2' if is_bga else '17'),.25,8),
         (('U3','E1' if is_bga else '16'),('C23','1'),.30,6),
@@ -76,7 +77,7 @@ def run(b):
         (('L1','2'),('C8','1'),.6,7),(('L2','2'),('C12','1'),.6,7),
         (('U1','4'),('C6','1'),.127,6),(('U2','4'),('C10','1'),.127,6),
         (('L4','1'),('C21','1'),.5,5),(('L4','1'),('C15','1'),.5,5),
-    ]:link(a,z,w,maxlength=maxlen)
+    ]):link(a,z,w,maxlength=maxlen)
     b.BuildConnectivity();pcb.ZONE_FILLER(b).Fill(b.Zones());return report
 if __name__=='__main__':
     ap=argparse.ArgumentParser();ap.add_argument('board');ap.add_argument('--out',required=True);ap.add_argument('--report',type=Path,required=True);a=ap.parse_args()

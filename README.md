@@ -1,4 +1,4 @@
-> **Work in progress — not fabrication-ready or submitted.** The latest combined 45 × 37 mm, four-layer BGA100 design is in [work-in-progress/](work-in-progress/README.md). Routing is incomplete and known physical conflicts remain. Optimization was stopped at the owner's request on September 14, 2026. The root KiCad project is an earlier placement baseline.
+> **Work in progress — not fabrication-ready or submitted.** The latest 45 × 37 mm, four-layer BGA100 checkpoint is in [work-in-progress/](work-in-progress/README.md), including an assembly STEP. It has 220 remaining pad-group connections and zero physical DRC errors. Completion continues with one agent; all subagents are stopped. The root KiCad project is an earlier placement baseline.
 
 <div align="center">
 <h1>PCBGolf Challenge</h1>

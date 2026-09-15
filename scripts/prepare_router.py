@@ -42,7 +42,18 @@ def native_export(board_path,dsn_path,geometry_path):
             a,b=item.GetStart(),item.GetEnd();dx=abs(a.x-b.x);dy=abs(a.y-b.y)
             if min(dx,dy)>2 and abs(dx-dy)>2:tracks.append(item.m_Uuid.AsString())
     if not pcbnew.ExportSpecctraDSN(board,str(dsn_path)):raise RuntimeError('Native DSN export failed')
-    geometry_path.write_text(json.dumps(dict(pads=pads,nc_pads_cleared=nc,non_octilinear_tracks=tracks)),encoding='utf-8')
+    protected=[]
+    def chain_um(outline):
+        return [[outline.CPoint(i).x/1000,-outline.CPoint(i).y/1000] for i in range(outline.PointCount())]
+    for z in board.Zones():
+        if not z.GetIsRuleArea() or not z.GetDoNotAllowTracks():continue
+        poly=z.Outline()
+        for layer in z.GetLayerSet().CuStack():
+            for i in range(poly.OutlineCount()):
+                protected.append(dict(layer=board.GetLayerName(layer),shell=chain_um(poly.COutline(i)),
+                    holes=[chain_um(poly.CHole(i,j)) for j in range(poly.HoleCount(i))]))
+    geometry_path.write_text(json.dumps(dict(pads=pads,nc_pads_cleared=nc,non_octilinear_tracks=tracks,
+        protected_reference_regions=protected)),encoding='utf-8')
 
 
 def children(node,key):return [r for r in node if isinstance(r,list) and r and str(r[0])==key]
@@ -78,14 +89,33 @@ def dump_dsn(node):
     return str(node)
 
 
-def sanitize(raw,geometry):
+def sanitize(raw,geometry,allow_filled_via_in_pad=False):
     import sexpdata as sx
     from shapely.geometry import Polygon
     from shapely.ops import unary_union
     S=sx.Symbol
     # Specctra's quote declaration is not a conventional quoted S-expression.
     tree=parse_dsn(raw)
+    structure=child(tree,'structure')
+    for region in geometry.get('protected_reference_regions',[]):
+        def polygon(points):return [S('polygon'),region['layer'],0]+[v for xy in points for v in xy]
+        structure.append([S('keepout'),polygon(region['shell'])]+[
+            [S('window'),polygon(h)] for h in region['holes']])
     library=child(tree,'library');network=child(tree,'network');placement=child(tree,'placement')
+    if allow_filled_via_in_pad:
+        control=child(structure,'control')
+        if control is None:control=[S('control')];structure.append(control)
+        setting=child(control,'via_at_smd')
+        if setting is None:control.append([S('via_at_smd'),S('on')])
+        else:setting[1]=S('on')
+        for stack in children(library,'padstack'):
+            if str(stack[1]).startswith('Via'):
+                attach=child(stack,'attach')
+                if attach is not None:attach[1]=S('on')
+        # A through-via drill must clear foreign PTH copper by .30 mm.
+        # .20 mm copper spacing plus >=.10 mm via ring satisfies that rule.
+        rule=child(structure,'rule')
+        rule.append([S('clearance'),200,[S('type'),S('via_pin')]])
     wiring=child(tree,'wiring')
     if wiring is None:wiring=[S('wiring')];tree.append(wiring)
     images={str(row[1]):row for row in children(library,'image')}
@@ -155,6 +185,7 @@ def main():
     ap.add_argument('--output',type=Path,required=True)
     ap.add_argument('--kicad-python',type=Path,default=Path('tools/kicad/bin/python.exe'))
     ap.add_argument('--kicad-cli',type=Path,default=Path('tools/kicad/bin/kicad-cli.exe'))
+    ap.add_argument('--allow-filled-via-in-pad',action='store_true',help='Require filled and capped processing for every new via overlapping an SMD land')
     args=ap.parse_args();board=args.board.resolve();out=args.output.resolve();out.parent.mkdir(parents=True,exist_ok=True)
     before=digest(board);raw=out.with_suffix('.raw.dsn');geo=out.with_suffix('.geometry.json');drc=out.with_suffix('.native-drc.json')
     run=subprocess.run([str(args.kicad_cli.resolve()),'pcb','drc','--format','json','--severity-all','--all-track-errors',
@@ -164,10 +195,11 @@ def main():
     errors=[v for v in data['violations'] if v.get('severity')=='error']
     if errors:raise RuntimeError('Native physical DRC errors must be fixed before preparing router input: '+str(collections.Counter(v['type'] for v in errors)))
     subprocess.run([str(args.kicad_python.resolve()),str(Path(__file__).resolve()),'--native-export',str(board),str(raw),str(geo)],check=True)
-    geometry=json.loads(geo.read_text());text,events=sanitize(raw.read_text(encoding='utf-8'),geometry)
+    geometry=json.loads(geo.read_text());text,events=sanitize(raw.read_text(encoding='utf-8'),geometry,args.allow_filled_via_in_pad)
     if digest(board)!=before:raise RuntimeError('Source board changed during export; discard and rerun')
     out.write_text(text,encoding='utf-8')
     report=dict(source_board=str(board),source_sha256=before,source_board_unchanged=True,dsn=str(out),dsn_sha256=digest(out),
+                filled_capped_via_in_pad_enabled=args.allow_filled_via_in_pad,
                 native_physical_errors=0,native_drc_unconnected_reported=len(data['unconnected_items']),
                 native_drc_unconnected_count_may_be_capped=len(data['unconnected_items'])>=499,
                 nc_pads_cleared_in_router_only=geometry['nc_pads_cleared'],non_octilinear_tracks=geometry['non_octilinear_tracks'],

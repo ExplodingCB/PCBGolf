@@ -65,6 +65,7 @@ def connect_ground(board, radius_limit=1.4):
     ground_pads = {layer: [] for layer in layers}
     connected_holes = []
     drill_obstacles = []
+    pth_via_obstacles = []
     # Avoid drilling into any component's solderable land; through vias are
     # ordinary tented dogbones, not an unqualified via-in-pad process.
     smd_lands = []
@@ -94,6 +95,8 @@ def connect_ground(board, radius_limit=1.4):
             if not is_gnd:
                 for layer in COPPER:
                     other[layer].append(h.buffer(clearance))
+                if pad.GetAttribute() == pcb.PAD_ATTRIB_PTH:
+                    pth_via_obstacles.append(copper_shape(pad, pcb.F_Cu).buffer(0.301 + 0.1))
             elif pad.GetAttribute() == pcb.PAD_ATTRIB_PTH:
                 connected_holes.append(Point(xy(pad.GetPosition())))
     for track in board.GetTracks():
@@ -120,6 +123,7 @@ def connect_ground(board, radius_limit=1.4):
     via_blocked = prep(unary_union(list(other_shapes.values())).buffer(via_diameter / 2 + 0.001)
                        .union(unary_union(smd_lands).buffer(via_drill / 2 + 0.051))
                        .union(unary_union(drill_obstacles)))
+    via_blocked = prep(via_blocked.context.union(unary_union(pth_via_obstacles)))
     outline = board.GetBoardEdgesBoundingBox()
     x0, y0 = xy(outline.GetPosition())
     x1, y1 = x0 + pcb.ToMM(outline.GetWidth()), y0 + pcb.ToMM(outline.GetHeight())

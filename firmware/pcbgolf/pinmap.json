@@ -1,0 +1,414 @@
+{
+  "status": "GPIO and ADC allocation checks passed; hardware not tested",
+  "checks": [
+    {
+      "kind": "GPIO",
+      "array": "power_pins",
+      "channel": 1,
+      "ball": "G3",
+      "function": "PA0",
+      "net": "CH1_PWR_EN",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "power_pins",
+      "channel": 2,
+      "ball": "J2",
+      "function": "PA1",
+      "net": "CH2_PWR_EN",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "power_pins",
+      "channel": 3,
+      "ball": "K1",
+      "function": "PA4",
+      "net": "CH3_PWR_EN",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "power_pins",
+      "channel": 4,
+      "ball": "K2",
+      "function": "PA5",
+      "net": "CH4_PWR_EN",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "sbu1_ignition_pins",
+      "channel": 1,
+      "ball": "C7",
+      "function": "PD0",
+      "net": "CH1_SBU1_IGN",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "sbu1_ignition_pins",
+      "channel": 2,
+      "ball": "D7",
+      "function": "PD5",
+      "net": "CH2_SBU1_IGN",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "sbu1_ignition_pins",
+      "channel": 3,
+      "ball": "A1",
+      "function": "PE6",
+      "net": "CH3_SBU1_IGN",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "sbu1_ignition_pins",
+      "channel": 4,
+      "ball": "G7",
+      "function": "PD14",
+      "net": "CH4_SBU1_IGN",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "sbu1_relay_pins",
+      "channel": 1,
+      "ball": "B8",
+      "function": "PD1",
+      "net": "CH1_SBU1_RELAY",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "sbu1_relay_pins",
+      "channel": 2,
+      "ball": "A7",
+      "function": "PD6",
+      "net": "CH2_SBU1_RELAY",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "sbu1_relay_pins",
+      "channel": 3,
+      "ball": "H7",
+      "function": "PD11",
+      "net": "CH3_SBU1_RELAY",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "sbu1_relay_pins",
+      "channel": 4,
+      "ball": "G8",
+      "function": "PD15",
+      "net": "CH4_SBU1_RELAY",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "sbu2_ignition_pins",
+      "channel": 1,
+      "ball": "A8",
+      "function": "PD3",
+      "net": "CH1_SBU2_IGN",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "sbu2_ignition_pins",
+      "channel": 2,
+      "ball": "J9",
+      "function": "PD8",
+      "net": "CH2_SBU2_IGN",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "sbu2_ignition_pins",
+      "channel": 3,
+      "ball": "H8",
+      "function": "PD9",
+      "net": "CH3_SBU2_IGN",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "sbu2_ignition_pins",
+      "channel": 4,
+      "ball": "B4",
+      "function": "PE0",
+      "net": "CH4_SBU2_IGN",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "sbu2_relay_pins",
+      "channel": 1,
+      "ball": "B7",
+      "function": "PD4",
+      "net": "CH1_SBU2_RELAY",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "sbu2_relay_pins",
+      "channel": 2,
+      "ball": "J10",
+      "function": "PD10",
+      "net": "CH2_SBU2_RELAY",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "sbu2_relay_pins",
+      "channel": 3,
+      "ball": "H5",
+      "function": "PE7",
+      "net": "CH3_SBU2_RELAY",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "sbu2_relay_pins",
+      "channel": 4,
+      "ball": "C4",
+      "function": "PE1",
+      "net": "CH4_SBU2_RELAY",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "can_enable_pins",
+      "channel": 1,
+      "ball": "B5",
+      "function": "PB7",
+      "net": "CAN0_EN",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "can_enable_pins",
+      "channel": 2,
+      "ball": "B6",
+      "function": "PB3",
+      "net": "CAN1_EN",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "can_enable_pins",
+      "channel": 3,
+      "ball": "C6",
+      "function": "PD7",
+      "net": "CAN2_EN",
+      "connected": true
+    },
+    {
+      "kind": "GPIO",
+      "array": "can_enable_pins",
+      "channel": 4,
+      "ball": "C5",
+      "function": "PB4",
+      "net": "CAN3_EN",
+      "connected": true
+    },
+    {
+      "kind": "ADC",
+      "array": "imon_channels",
+      "channel": 1,
+      "signal": "ADC1_INP4",
+      "ball": "H4",
+      "function": "PC4",
+      "net": "CH1_IMON",
+      "connected": true
+    },
+    {
+      "kind": "ADC",
+      "array": "imon_channels",
+      "channel": 2,
+      "signal": "ADC1_INP5",
+      "ball": "K5",
+      "function": "PB1",
+      "net": "CH2_IMON",
+      "connected": true
+    },
+    {
+      "kind": "ADC",
+      "array": "imon_channels",
+      "channel": 3,
+      "signal": "ADC1_INP9",
+      "ball": "K4",
+      "function": "PB0",
+      "net": "CH3_IMON",
+      "connected": true
+    },
+    {
+      "kind": "ADC",
+      "array": "imon_channels",
+      "channel": 4,
+      "signal": "ADC1_INP3",
+      "ball": "J3",
+      "function": "PA6",
+      "net": "CH4_IMON",
+      "connected": true
+    },
+    {
+      "kind": "ADC",
+      "array": "sbu1_channels",
+      "channel": 1,
+      "signal": "ADC3_INP0",
+      "ball": "F4",
+      "function": "PC2_C",
+      "net": "Net-(U3-PC2_C)",
+      "connected": true
+    },
+    {
+      "kind": "ADC",
+      "array": "sbu1_channels",
+      "channel": 2,
+      "signal": "ADC1_INP7",
+      "ball": "K3",
+      "function": "PA7",
+      "net": "Net-(U3-PF9)",
+      "connected": true
+    },
+    {
+      "kind": "ADC",
+      "array": "sbu1_channels",
+      "channel": 3,
+      "signal": "ADC3_INP10",
+      "ball": "F3",
+      "function": "PC0",
+      "net": "Net-(U3-PC0)",
+      "connected": true
+    },
+    {
+      "kind": "ADC",
+      "array": "sbu1_channels",
+      "channel": 4,
+      "signal": "ADC1_INP8",
+      "ball": "J4",
+      "function": "PC5",
+      "net": "Net-(U3-PF10)",
+      "connected": true
+    },
+    {
+      "kind": "ADC",
+      "array": "sbu2_channels",
+      "channel": 1,
+      "signal": "ADC3_INP1",
+      "ball": "G4",
+      "function": "PC3_C",
+      "net": "Net-(U3-PC3_C)",
+      "connected": true
+    },
+    {
+      "kind": "ADC",
+      "array": "sbu2_channels",
+      "channel": 2,
+      "signal": "ADC1_INP14",
+      "ball": "H3",
+      "function": "PA2",
+      "net": "Net-(U3-PF7)",
+      "connected": true
+    },
+    {
+      "kind": "ADC",
+      "array": "sbu2_channels",
+      "channel": 3,
+      "signal": "ADC3_INP11",
+      "ball": "F1",
+      "function": "PC1",
+      "net": "Net-(U3-PC1)",
+      "connected": true
+    },
+    {
+      "kind": "ADC",
+      "array": "sbu2_channels",
+      "channel": 4,
+      "signal": "ADC1_INP15",
+      "ball": "G5",
+      "function": "PA3",
+      "net": "Net-(U3-PF8)",
+      "connected": true
+    },
+    {
+      "kind": "CAN alternate function",
+      "signal": "FDCAN1_RX",
+      "ball": "A4",
+      "function": "PB8",
+      "net": "CAN0_RX",
+      "connected": true
+    },
+    {
+      "kind": "CAN alternate function",
+      "signal": "FDCAN1_TX",
+      "ball": "E3",
+      "function": "PB9",
+      "net": "CAN0_TX",
+      "connected": true
+    },
+    {
+      "kind": "CAN alternate function",
+      "signal": "FDCAN2_RX",
+      "ball": "A6",
+      "function": "PB5",
+      "net": "CAN1_RX",
+      "connected": true
+    },
+    {
+      "kind": "CAN alternate function",
+      "signal": "FDCAN2_TX",
+      "ball": "D4",
+      "function": "PB6",
+      "net": "CAN1_TX",
+      "connected": true
+    },
+    {
+      "kind": "CAN alternate function",
+      "signal": "FDCAN3_RX",
+      "ball": "H9",
+      "function": "PD12",
+      "net": "CAN2_RX",
+      "connected": true
+    },
+    {
+      "kind": "CAN alternate function",
+      "signal": "FDCAN3_TX",
+      "ball": "H10",
+      "function": "PD13",
+      "net": "CAN2_TX",
+      "connected": true
+    },
+    {
+      "kind": "CAN alternate function",
+      "signal": "FDCAN2_RX",
+      "ball": "K8",
+      "function": "PB12",
+      "net": "CAN3_RX",
+      "connected": true
+    },
+    {
+      "kind": "CAN alternate function",
+      "signal": "FDCAN2_TX",
+      "ball": "J8",
+      "function": "PB13",
+      "net": "CAN3_TX",
+      "connected": true
+    }
+  ],
+  "sources": {
+    "firmware\\pcbgolf\\pcbgolf_bga100.h": "65f1820d7fee09ccce26dfe67e25de7f79faf6ea9d59719a63fa7c02b014ea8c",
+    "reports\\mcu-bga100-feasibility.json": "59883ca3b3230ceeda7e8383087b36459c3b876e73e2cfba9f085b10290c125c",
+    "reports\\mcu-100pin-functions.json": "8fd8cc6ae10ce633b62f946e6b156cf3f4bc7e1faa123c4549ac107de7306cff"
+  },
+  "limitations": [
+    "Checks the allocation documented by schematic parity and official ST pin data.",
+    "Does not validate firmware timing, all peripherals, power-up behavior or electrical operation."
+  ]
+}

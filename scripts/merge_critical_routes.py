@@ -54,6 +54,7 @@ def main():
             target=pcb.PCB_VIA(base);target.SetPosition(source.GetPosition())
             target.SetWidth(source.GetWidth(pcb.F_Cu));target.SetDrill(source.GetDrillValue())
             target.SetViaType(source.GetViaType());target.SetLayerPair(source.TopLayer(),source.BottomLayer())
+            target.SetIsFree(True)
         elif isinstance(source,pcb.PCB_ARC):
             target=pcb.PCB_ARC(base);target.SetStart(source.GetStart());target.SetMid(source.GetMid());target.SetEnd(source.GetEnd())
             target.SetWidth(source.GetWidth());target.SetLayer(source.GetLayer())

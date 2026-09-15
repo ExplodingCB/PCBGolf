@@ -1,20 +1,21 @@
 # PCBGolf engineering checkpoint
 
-Saved September 14, 2026. **Incomplete, not fabrication-ready, and not submitted to the leaderboard. No valid challenge score is claimed.** Work and parallel agents were stopped at the owner's request to conserve usage. Resume engineering only when requested.
+Updated September 14, 2026. **Incomplete, not fabrication-ready, and not submitted to the leaderboard. No valid challenge score is claimed.** The owner requested a public checkpoint and continued work by one agent. All subagents remain stopped. Work now focuses on completing and checking this layout.
 
 ## Current design
 
 - 45 × 37 mm outline, four copper layers, 1.6 mm PCB thickness, 239 components.
 - STM32H725VGH6 in an 8 × 8 mm TFBGA100 package, with corresponding schematic and GPIO changes.
 - Project-local schematic symbols, footprints and 3D models are included. Open `pcbgolf.kicad_pro` here; the repository-root project is an earlier placement baseline.
-- This snapshot combines the BGA100 power-routing candidate with the frozen USB-routing candidate. `pcbgolf.merge.json` records source hashes and merge details.
+- This snapshot is the current `candidates/completion/finish.kicad_pcb` result: merged USB/power routing, ground connections, partial CAN routing, completed local MCU power paths and crystal routing, followed by bounded general routing. `pcbgolf.merge.json` records the earlier initial merge only.
+- `assembly.step` was freshly exported from this checkpoint with all populated components.
 
 ## Known blockers
 
-- `net-groups.json` reports **519 missing connections between connected pad groups across 173 nets**. The DRC unconnected list is capped and understates remaining work.
-- `drc.json` contains **four physical error records and three hole-spacing warnings**: a VDDLDO via conflicts with the STM32 USB pair, and three connector VBUS via pairs violate hole spacing. Other warnings also need review.
+- `net-groups.json` reports **220 missing connections between connected pad groups across 131 nets**.
+- `drc.json` contains **zero physical error records and zero hole-spacing warnings**. Unconnected items and other warnings still require completion and review.
 - Six USB pairs were routed and checked in an isolated candidate. Integration still needs conflict repair and another connectivity/reference-plane check.
-- The isolated CAN bus trial is documented in `../reports/can-routing-trial.md`; it has not been merged into this board. Additional CAN circuit branches remain unconnected.
+- CAN bus routing is partly integrated; connector and transceiver branches still require connections. The older isolated trial is documented separately in `../reports/can-routing-trial.md`.
 - Power distribution, current capacity, final manufacturing checks and firmware/hardware validation remain unfinished. Some vias require filled and capped via-in-pad processing.
 
 ## Preserved work
