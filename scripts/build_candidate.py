@@ -100,6 +100,7 @@ def main():
     ap.add_argument('--ground-plane',action='store_true')
     ap.add_argument('--power-plane',help='Net assigned to the second internal plane')
     ap.add_argument('--manufacturing-rules',type=Path)
+    ap.add_argument('--preconnect',action='store_true')
     args=ap.parse_args()
     placement=json.loads(args.placement.read_text())
     copy_project(args.out); configure_project(args.out,args.layers)
@@ -152,6 +153,10 @@ def main():
             polygon.Append(MM(x),MM(y))
         board.Add(zone)
     if planes: pcb.ZONE_FILLER(board).Fill(board.Zones())
+    local_connections=[]
+    if args.preconnect:
+        from preconnect import connect_nearby
+        local_connections=connect_nearby(board)
     pcb.SaveBoard(str(args.out/'pcbgolf.kicad_pcb'),board)
     # KiCad names unused symbol pins as singleton unconnected-* nets. They must
     # remain in the delivered PCB for parity, but must not acquire fanout vias.
@@ -167,6 +172,7 @@ def main():
                 component_count=len(list(board.GetFootprints())),
                 no_connect_pads_excluded_from_router=ignored_nc_pads,
                 internal_planes=[net_name for _,net_name in planes],
+                local_zero_via_track_segments=len(local_connections),
                 notes=['No power-current or USB-impedance validation yet.',
                        'No completed routing or mechanical approval yet.'])
     (args.out/'candidate-status.json').write_text(json.dumps(status,indent=2))

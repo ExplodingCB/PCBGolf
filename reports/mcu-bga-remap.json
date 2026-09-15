@@ -1,0 +1,4982 @@
+{
+  "schema": 1,
+  "date": "2026-09-14",
+  "status": "separate package branch; main U3 unchanged",
+  "source": {
+    "ref": "U3",
+    "Reference": "U3",
+    "Value": "STM32H725ZGTx",
+    "Footprint": "pcbgolf:LQFP-144_20x20mm_P0.5mm",
+    "Datasheet": "https://www.st.com/resource/en/datasheet/stm32h725zg.pdf",
+    "Description": "STMicroelectronics Arm Cortex-M7 MCU, 1024KB flash, 564KB RAM, 550 MHz, 1.62-3.6V, 99 GPIO, LQFP144",
+    "MPN": "STM32H725ZGT"
+  },
+  "target": {
+    "mpn": "STM32H725AGI6",
+    "symbol": "MCU_ST_STM32H7:STM32H725AGIx",
+    "body_nominal_mm": [
+      7,
+      7,
+      0.53
+    ],
+    "body_maximum_mm": [
+      7.05,
+      7.05,
+      0.6
+    ],
+    "pitch_mm": 0.5,
+    "array": "13 x 13, rows A B C D E F G H J K L M N",
+    "pad_diameter_mm": 0.27,
+    "recommended_mask_opening_mm": 0.35,
+    "footprint_file": "reports/UFBGA-169_7x7mm_Layout13x13_P0.5mm.kicad_mod",
+    "step_file": "reports/UFBGA-169_7x7mm_Layout13x13_P0.5mm.step",
+    "step_status": "Official legacy KiCad model measures 7 x 7 x 0.75625 mm, z -0.00625 to +0.75. Its height exceeds the current ST package drawing; do not claim it is exact. Safe conservative placement envelope only until accurate model replaces it."
+  },
+  "counts": {
+    "original_pins": 144,
+    "connected_original_pins": 104,
+    "target_balls": 169,
+    "connected_target_balls": 103
+  },
+  "mapping_policy": "Preserve GPIO identity and every net. Repeated supply functions map as a group: connect every target ball to its function net; do not interpret a repeated source row as an independent ball allocation. NC pins and newly available GPIO balls remain NC.",
+  "pin_remap": [
+    {
+      "original_pin": "1",
+      "function": "PE2",
+      "net": "LED_B",
+      "connected": true,
+      "target_balls": [
+        "A2"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "2",
+      "function": "PE3",
+      "net": "LED_G",
+      "connected": true,
+      "target_balls": [
+        "B2"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "3",
+      "function": "PE4",
+      "net": "LED_R",
+      "connected": true,
+      "target_balls": [
+        "A1"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "4",
+      "function": "PE5",
+      "net": "unconnected-(U3-PE5-Pad4)",
+      "connected": false,
+      "target_balls": [
+        "C3"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "5",
+      "function": "PE6",
+      "net": "unconnected-(U3-PE6-Pad5)",
+      "connected": false,
+      "target_balls": [
+        "C2"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "6",
+      "function": "VSS",
+      "net": "GND",
+      "connected": true,
+      "target_balls": [
+        "B10",
+        "B3",
+        "B7",
+        "C12",
+        "D2",
+        "G2",
+        "H12",
+        "L12",
+        "M11",
+        "M2",
+        "M4",
+        "M7"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "7",
+      "function": "VDD",
+      "net": "+3V3",
+      "connected": true,
+      "target_balls": [
+        "A3",
+        "A6",
+        "A7",
+        "A10",
+        "C13",
+        "D1",
+        "G1",
+        "H13",
+        "L13",
+        "M1",
+        "N4",
+        "N7",
+        "N11"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "8",
+      "function": "VBAT",
+      "net": "+3V3",
+      "connected": true,
+      "target_balls": [
+        "E3"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "9",
+      "function": "PC13",
+      "net": "unconnected-(U3-PC13-Pad9)",
+      "connected": false,
+      "target_balls": [
+        "D3"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "10",
+      "function": "PC14",
+      "net": "unconnected-(U3-PC14-Pad10)",
+      "connected": false,
+      "target_balls": [
+        "C1"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "11",
+      "function": "PC15",
+      "net": "unconnected-(U3-PC15-Pad11)",
+      "connected": false,
+      "target_balls": [
+        "B1"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "12",
+      "function": "VSS",
+      "net": "GND",
+      "connected": true,
+      "target_balls": [
+        "B10",
+        "B3",
+        "B7",
+        "C12",
+        "D2",
+        "G2",
+        "H12",
+        "L12",
+        "M11",
+        "M2",
+        "M4",
+        "M7"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "13",
+      "function": "VDD",
+      "net": "+3V3",
+      "connected": true,
+      "target_balls": [
+        "A3",
+        "A6",
+        "A7",
+        "A10",
+        "C13",
+        "D1",
+        "G1",
+        "H13",
+        "L13",
+        "M1",
+        "N4",
+        "N7",
+        "N11"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "14",
+      "function": "VSSSMPS",
+      "net": "GND",
+      "connected": true,
+      "target_balls": [
+        "E2"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "15",
+      "function": "VLXSMPS",
+      "net": "VLXSMPS",
+      "connected": true,
+      "target_balls": [
+        "E1"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "16",
+      "function": "VDDSMPS",
+      "net": "+3V3",
+      "connected": true,
+      "target_balls": [
+        "F1"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "17",
+      "function": "VFBSMPS",
+      "net": "VDDLDO",
+      "connected": true,
+      "target_balls": [
+        "F2"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "18",
+      "function": "VSS",
+      "net": "GND",
+      "connected": true,
+      "target_balls": [
+        "B10",
+        "B3",
+        "B7",
+        "C12",
+        "D2",
+        "G2",
+        "H12",
+        "L12",
+        "M11",
+        "M2",
+        "M4",
+        "M7"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "19",
+      "function": "VDD",
+      "net": "+3V3",
+      "connected": true,
+      "target_balls": [
+        "A3",
+        "A6",
+        "A7",
+        "A10",
+        "C13",
+        "D1",
+        "G1",
+        "H13",
+        "L13",
+        "M1",
+        "N4",
+        "N7",
+        "N11"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "20",
+      "function": "PF6",
+      "net": "unconnected-(U3-PF6-Pad20)",
+      "connected": false,
+      "target_balls": [
+        "G4"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "21",
+      "function": "PF7",
+      "net": "Net-(U3-PF7)",
+      "connected": true,
+      "target_balls": [
+        "F6"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "22",
+      "function": "PF8",
+      "net": "Net-(U3-PF8)",
+      "connected": true,
+      "target_balls": [
+        "H4"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "23",
+      "function": "PF9",
+      "net": "Net-(U3-PF9)",
+      "connected": true,
+      "target_balls": [
+        "G5"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "24",
+      "function": "PF10",
+      "net": "Net-(U3-PF10)",
+      "connected": true,
+      "target_balls": [
+        "H3"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "25",
+      "function": "PH0",
+      "net": "Net-(U3-PH0)",
+      "connected": true,
+      "target_balls": [
+        "H1"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "26",
+      "function": "PH1",
+      "net": "Net-(U3-PH1)",
+      "connected": true,
+      "target_balls": [
+        "H2"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "27",
+      "function": "NRST",
+      "net": "unconnected-(U3-NRST-Pad27)",
+      "connected": false,
+      "target_balls": [
+        "G6"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "28",
+      "function": "PC0",
+      "net": "Net-(U3-PC0)",
+      "connected": true,
+      "target_balls": [
+        "J1"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "29",
+      "function": "PC1",
+      "net": "Net-(U3-PC1)",
+      "connected": true,
+      "target_balls": [
+        "J2"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "30",
+      "function": "PC2_C",
+      "net": "Net-(U3-PC2_C)",
+      "connected": true,
+      "target_balls": [
+        "K2"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "31",
+      "function": "PC3_C",
+      "net": "Net-(U3-PC3_C)",
+      "connected": true,
+      "target_balls": [
+        "K1"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "32",
+      "function": "VDD",
+      "net": "+3V3",
+      "connected": true,
+      "target_balls": [
+        "A3",
+        "A6",
+        "A7",
+        "A10",
+        "C13",
+        "D1",
+        "G1",
+        "H13",
+        "L13",
+        "M1",
+        "N4",
+        "N7",
+        "N11"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "33",
+      "function": "VSS",
+      "net": "GND",
+      "connected": true,
+      "target_balls": [
+        "B10",
+        "B3",
+        "B7",
+        "C12",
+        "D2",
+        "G2",
+        "H12",
+        "L12",
+        "M11",
+        "M2",
+        "M4",
+        "M7"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "34",
+      "function": "VSSA",
+      "net": "GND",
+      "connected": true,
+      "target_balls": [
+        "J3"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "35",
+      "function": "VREF+",
+      "net": "VDDA",
+      "connected": true,
+      "target_balls": [
+        "L2"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "36",
+      "function": "VDDA",
+      "net": "VDDA",
+      "connected": true,
+      "target_balls": [
+        "L1"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "37",
+      "function": "PA0",
+      "net": "CH1_PWR_EN",
+      "connected": true,
+      "target_balls": [
+        "J5"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "38",
+      "function": "PA1",
+      "net": "CH2_PWR_EN",
+      "connected": true,
+      "target_balls": [
+        "K4"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "39",
+      "function": "PA2",
+      "net": "unconnected-(U3-PA2-Pad39)",
+      "connected": false,
+      "target_balls": [
+        "N1"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "40",
+      "function": "PA3",
+      "net": "unconnected-(U3-PA3-Pad40)",
+      "connected": false,
+      "target_balls": [
+        "N3"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "41",
+      "function": "VSS",
+      "net": "GND",
+      "connected": true,
+      "target_balls": [
+        "B10",
+        "B3",
+        "B7",
+        "C12",
+        "D2",
+        "G2",
+        "H12",
+        "L12",
+        "M11",
+        "M2",
+        "M4",
+        "M7"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "42",
+      "function": "VDD",
+      "net": "+3V3",
+      "connected": true,
+      "target_balls": [
+        "A3",
+        "A6",
+        "A7",
+        "A10",
+        "C13",
+        "D1",
+        "G1",
+        "H13",
+        "L13",
+        "M1",
+        "N4",
+        "N7",
+        "N11"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "43",
+      "function": "PA4",
+      "net": "CH3_PWR_EN",
+      "connected": true,
+      "target_balls": [
+        "H6"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "44",
+      "function": "PA5",
+      "net": "CH4_PWR_EN",
+      "connected": true,
+      "target_balls": [
+        "L4"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "45",
+      "function": "PA6",
+      "net": "CH4_IMON",
+      "connected": true,
+      "target_balls": [
+        "K5"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "46",
+      "function": "PA7",
+      "net": "unconnected-(U3-PA7-Pad46)",
+      "connected": false,
+      "target_balls": [
+        "J6"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "47",
+      "function": "PC4",
+      "net": "CH1_IMON",
+      "connected": true,
+      "target_balls": [
+        "K6"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "48",
+      "function": "PC5",
+      "net": "unconnected-(U3-PC5-Pad48)",
+      "connected": false,
+      "target_balls": [
+        "N5"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "49",
+      "function": "PB0",
+      "net": "unconnected-(U3-PB0-Pad49)",
+      "connected": false,
+      "target_balls": [
+        "M5"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "50",
+      "function": "PB1",
+      "net": "CH2_IMON",
+      "connected": true,
+      "target_balls": [
+        "L5"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "51",
+      "function": "PB2",
+      "net": "unconnected-(U3-PB2-Pad51)",
+      "connected": false,
+      "target_balls": [
+        "L6"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "52",
+      "function": "PF11",
+      "net": "CH3_IMON",
+      "connected": true,
+      "target_balls": [
+        "M6"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "53",
+      "function": "PF14",
+      "net": "unconnected-(U3-PF14-Pad53)",
+      "connected": false,
+      "target_balls": [
+        "H7"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "54",
+      "function": "PF15",
+      "net": "unconnected-(U3-PF15-Pad54)",
+      "connected": false,
+      "target_balls": [
+        "J7"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "55",
+      "function": "VSS",
+      "net": "GND",
+      "connected": true,
+      "target_balls": [
+        "B10",
+        "B3",
+        "B7",
+        "C12",
+        "D2",
+        "G2",
+        "H12",
+        "L12",
+        "M11",
+        "M2",
+        "M4",
+        "M7"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "56",
+      "function": "VDD",
+      "net": "+3V3",
+      "connected": true,
+      "target_balls": [
+        "A3",
+        "A6",
+        "A7",
+        "A10",
+        "C13",
+        "D1",
+        "G1",
+        "H13",
+        "L13",
+        "M1",
+        "N4",
+        "N7",
+        "N11"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "57",
+      "function": "PE7",
+      "net": "unconnected-(U3-PE7-Pad57)",
+      "connected": false,
+      "target_balls": [
+        "G8"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "58",
+      "function": "PE8",
+      "net": "unconnected-(U3-PE8-Pad58)",
+      "connected": false,
+      "target_balls": [
+        "H8"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "59",
+      "function": "PE9",
+      "net": "unconnected-(U3-PE9-Pad59)",
+      "connected": false,
+      "target_balls": [
+        "J8"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "60",
+      "function": "PE10",
+      "net": "unconnected-(U3-PE10-Pad60)",
+      "connected": false,
+      "target_balls": [
+        "M8"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "61",
+      "function": "PE11",
+      "net": "unconnected-(U3-PE11-Pad61)",
+      "connected": false,
+      "target_balls": [
+        "N8"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "62",
+      "function": "PE12",
+      "net": "unconnected-(U3-PE12-Pad62)",
+      "connected": false,
+      "target_balls": [
+        "L8"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "63",
+      "function": "PE13",
+      "net": "unconnected-(U3-PE13-Pad63)",
+      "connected": false,
+      "target_balls": [
+        "K8"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "64",
+      "function": "PE14",
+      "net": "unconnected-(U3-PE14-Pad64)",
+      "connected": false,
+      "target_balls": [
+        "J9"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "65",
+      "function": "PE15",
+      "net": "BTN",
+      "connected": true,
+      "target_balls": [
+        "N9"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "66",
+      "function": "PB10",
+      "net": "HUB_SCL",
+      "connected": true,
+      "target_balls": [
+        "L9"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "67",
+      "function": "PB11",
+      "net": "HUB_SDA",
+      "connected": true,
+      "target_balls": [
+        "M9"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "68",
+      "function": "VCAP",
+      "net": "VDDLDO",
+      "connected": true,
+      "target_balls": [
+        "A4",
+        "D13",
+        "N10"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "69",
+      "function": "VSS",
+      "net": "GND",
+      "connected": true,
+      "target_balls": [
+        "B10",
+        "B3",
+        "B7",
+        "C12",
+        "D2",
+        "G2",
+        "H12",
+        "L12",
+        "M11",
+        "M2",
+        "M4",
+        "M7"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "70",
+      "function": "VDDLDO",
+      "net": "VDDLDO",
+      "connected": true,
+      "target_balls": [
+        "B4",
+        "D12",
+        "M10"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "71",
+      "function": "VDD",
+      "net": "+3V3",
+      "connected": true,
+      "target_balls": [
+        "A3",
+        "A6",
+        "A7",
+        "A10",
+        "C13",
+        "D1",
+        "G1",
+        "H13",
+        "L13",
+        "M1",
+        "N4",
+        "N7",
+        "N11"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "72",
+      "function": "PB12",
+      "net": "CAN3_RX",
+      "connected": true,
+      "target_balls": [
+        "N12"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "73",
+      "function": "PB13",
+      "net": "CAN3_TX",
+      "connected": true,
+      "target_balls": [
+        "L11"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "74",
+      "function": "PB14",
+      "net": "unconnected-(U3-PB14-Pad74)",
+      "connected": false,
+      "target_balls": [
+        "N13"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "75",
+      "function": "PB15",
+      "net": "unconnected-(U3-PB15-Pad75)",
+      "connected": false,
+      "target_balls": [
+        "M13"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "76",
+      "function": "PD8",
+      "net": "CH2_SBU2_IGN",
+      "connected": true,
+      "target_balls": [
+        "M12"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "77",
+      "function": "PD9",
+      "net": "CH3_SBU2_IGN",
+      "connected": true,
+      "target_balls": [
+        "K11"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "78",
+      "function": "PD10",
+      "net": "CH2_SBU2_RELAY",
+      "connected": true,
+      "target_balls": [
+        "K12"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "79",
+      "function": "VDD",
+      "net": "+3V3",
+      "connected": true,
+      "target_balls": [
+        "A3",
+        "A6",
+        "A7",
+        "A10",
+        "C13",
+        "D1",
+        "G1",
+        "H13",
+        "L13",
+        "M1",
+        "N4",
+        "N7",
+        "N11"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "80",
+      "function": "VSS",
+      "net": "GND",
+      "connected": true,
+      "target_balls": [
+        "B10",
+        "B3",
+        "B7",
+        "C12",
+        "D2",
+        "G2",
+        "H12",
+        "L12",
+        "M11",
+        "M2",
+        "M4",
+        "M7"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "81",
+      "function": "PD11",
+      "net": "CH3_SBU1_RELAY",
+      "connected": true,
+      "target_balls": [
+        "J10"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "82",
+      "function": "PD12",
+      "net": "CH3_SBU1_IGN",
+      "connected": true,
+      "target_balls": [
+        "K13"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "83",
+      "function": "PD13",
+      "net": "CH3_SBU2_RELAY",
+      "connected": true,
+      "target_balls": [
+        "J11"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "84",
+      "function": "PD14",
+      "net": "CH4_SBU1_IGN",
+      "connected": true,
+      "target_balls": [
+        "J13"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "85",
+      "function": "PD15",
+      "net": "CH4_SBU1_RELAY",
+      "connected": true,
+      "target_balls": [
+        "J12"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "86",
+      "function": "PG6",
+      "net": "unconnected-(U3-PG6-Pad86)",
+      "connected": false,
+      "target_balls": [
+        "G9"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "87",
+      "function": "PG7",
+      "net": "unconnected-(U3-PG7-Pad87)",
+      "connected": false,
+      "target_balls": [
+        "G10"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "88",
+      "function": "PG8",
+      "net": "unconnected-(U3-PG8-Pad88)",
+      "connected": false,
+      "target_balls": [
+        "G11"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "89",
+      "function": "VSS",
+      "net": "GND",
+      "connected": true,
+      "target_balls": [
+        "B10",
+        "B3",
+        "B7",
+        "C12",
+        "D2",
+        "G2",
+        "H12",
+        "L12",
+        "M11",
+        "M2",
+        "M4",
+        "M7"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "90",
+      "function": "VDD50USB",
+      "net": "+3V3",
+      "connected": true,
+      "target_balls": [
+        "G12"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "91",
+      "function": "VDD33USB",
+      "net": "+3V3",
+      "connected": true,
+      "target_balls": [
+        "G13"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "92",
+      "function": "VDD",
+      "net": "+3V3",
+      "connected": true,
+      "target_balls": [
+        "A3",
+        "A6",
+        "A7",
+        "A10",
+        "C13",
+        "D1",
+        "G1",
+        "H13",
+        "L13",
+        "M1",
+        "N4",
+        "N7",
+        "N11"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "93",
+      "function": "PC6",
+      "net": "unconnected-(U3-PC6-Pad93)",
+      "connected": false,
+      "target_balls": [
+        "F9"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "94",
+      "function": "PC7",
+      "net": "unconnected-(U3-PC7-Pad94)",
+      "connected": false,
+      "target_balls": [
+        "F10"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "95",
+      "function": "PC8",
+      "net": "SD_D0",
+      "connected": true,
+      "target_balls": [
+        "F12"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "96",
+      "function": "PC9",
+      "net": "SD_D1",
+      "connected": true,
+      "target_balls": [
+        "F11"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "97",
+      "function": "PA8",
+      "net": "unconnected-(U3-PA8-Pad97)",
+      "connected": false,
+      "target_balls": [
+        "E12"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "98",
+      "function": "PA9",
+      "net": "unconnected-(U3-PA9-Pad98)",
+      "connected": false,
+      "target_balls": [
+        "E11"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "99",
+      "function": "PA10",
+      "net": "unconnected-(U3-PA10-Pad99)",
+      "connected": false,
+      "target_balls": [
+        "E10"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "100",
+      "function": "PA11",
+      "net": "STM_D_N",
+      "connected": true,
+      "target_balls": [
+        "F13"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "101",
+      "function": "PA12",
+      "net": "STM_D_P",
+      "connected": true,
+      "target_balls": [
+        "E13"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "102",
+      "function": "PA13(JTMS",
+      "net": "unconnected-(U3-PA13(JTMS-Pad102)",
+      "connected": false,
+      "target_balls": [
+        "D11"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "103",
+      "function": "VCAP",
+      "net": "VDDLDO",
+      "connected": true,
+      "target_balls": [
+        "A4",
+        "D13",
+        "N10"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "104",
+      "function": "VSS",
+      "net": "GND",
+      "connected": true,
+      "target_balls": [
+        "B10",
+        "B3",
+        "B7",
+        "C12",
+        "D2",
+        "G2",
+        "H12",
+        "L12",
+        "M11",
+        "M2",
+        "M4",
+        "M7"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "105",
+      "function": "VDDLDO",
+      "net": "VDDLDO",
+      "connected": true,
+      "target_balls": [
+        "B4",
+        "D12",
+        "M10"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "106",
+      "function": "VDD",
+      "net": "+3V3",
+      "connected": true,
+      "target_balls": [
+        "A3",
+        "A6",
+        "A7",
+        "A10",
+        "C13",
+        "D1",
+        "G1",
+        "H13",
+        "L13",
+        "M1",
+        "N4",
+        "N7",
+        "N11"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "107",
+      "function": "PA14(JTCK",
+      "net": "unconnected-(U3-PA14(JTCK-Pad107)",
+      "connected": false,
+      "target_balls": [
+        "B12"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "108",
+      "function": "PA15(JTDI)",
+      "net": "unconnected-(U3-PA15(JTDI)-Pad108)",
+      "connected": false,
+      "target_balls": [
+        "C11"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "109",
+      "function": "PC10",
+      "net": "SD_D2",
+      "connected": true,
+      "target_balls": [
+        "A12"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "110",
+      "function": "PC11",
+      "net": "SD_D3",
+      "connected": true,
+      "target_balls": [
+        "B11"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "111",
+      "function": "PC12",
+      "net": "SD_CLK",
+      "connected": true,
+      "target_balls": [
+        "A11"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "112",
+      "function": "PD0",
+      "net": "CH1_SBU1_IGN",
+      "connected": true,
+      "target_balls": [
+        "D10"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "113",
+      "function": "PD1",
+      "net": "CH1_SBU1_RELAY",
+      "connected": true,
+      "target_balls": [
+        "C10"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "114",
+      "function": "PD2",
+      "net": "SD_CMD",
+      "connected": true,
+      "target_balls": [
+        "E9"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "115",
+      "function": "PD3",
+      "net": "CH1_SBU2_IGN",
+      "connected": true,
+      "target_balls": [
+        "D9"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "116",
+      "function": "PD4",
+      "net": "CH1_SBU2_RELAY",
+      "connected": true,
+      "target_balls": [
+        "C9"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "117",
+      "function": "PD5",
+      "net": "CH2_SBU1_IGN",
+      "connected": true,
+      "target_balls": [
+        "A9"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "118",
+      "function": "VSS",
+      "net": "GND",
+      "connected": true,
+      "target_balls": [
+        "B10",
+        "B3",
+        "B7",
+        "C12",
+        "D2",
+        "G2",
+        "H12",
+        "L12",
+        "M11",
+        "M2",
+        "M4",
+        "M7"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "119",
+      "function": "VDD",
+      "net": "+3V3",
+      "connected": true,
+      "target_balls": [
+        "A3",
+        "A6",
+        "A7",
+        "A10",
+        "C13",
+        "D1",
+        "G1",
+        "H13",
+        "L13",
+        "M1",
+        "N4",
+        "N7",
+        "N11"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "120",
+      "function": "PD6",
+      "net": "CH2_SBU1_RELAY",
+      "connected": true,
+      "target_balls": [
+        "B9"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "121",
+      "function": "PD7",
+      "net": "CAN2_EN",
+      "connected": true,
+      "target_balls": [
+        "D8"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "122",
+      "function": "PG9",
+      "net": "CAN2_TX",
+      "connected": true,
+      "target_balls": [
+        "C8"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "123",
+      "function": "PG10",
+      "net": "CAN2_RX",
+      "connected": true,
+      "target_balls": [
+        "A8"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "124",
+      "function": "PG11",
+      "net": "unconnected-(U3-PG11-Pad124)",
+      "connected": false,
+      "target_balls": [
+        "B8"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "125",
+      "function": "PG12",
+      "net": "unconnected-(U3-PG12-Pad125)",
+      "connected": false,
+      "target_balls": [
+        "E8"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "126",
+      "function": "PG13",
+      "net": "unconnected-(U3-PG13-Pad126)",
+      "connected": false,
+      "target_balls": [
+        "D7"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "127",
+      "function": "PG14",
+      "net": "unconnected-(U3-PG14-Pad127)",
+      "connected": false,
+      "target_balls": [
+        "C7"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "128",
+      "function": "VSS",
+      "net": "GND",
+      "connected": true,
+      "target_balls": [
+        "B10",
+        "B3",
+        "B7",
+        "C12",
+        "D2",
+        "G2",
+        "H12",
+        "L12",
+        "M11",
+        "M2",
+        "M4",
+        "M7"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "129",
+      "function": "VDD",
+      "net": "+3V3",
+      "connected": true,
+      "target_balls": [
+        "A3",
+        "A6",
+        "A7",
+        "A10",
+        "C13",
+        "D1",
+        "G1",
+        "H13",
+        "L13",
+        "M1",
+        "N4",
+        "N7",
+        "N11"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "130",
+      "function": "PB3(JTDO",
+      "net": "CAN1_EN",
+      "connected": true,
+      "target_balls": [
+        "F7"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "131",
+      "function": "PB4(NJTRST)",
+      "net": "CAN3_EN",
+      "connected": true,
+      "target_balls": [
+        "B6"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "132",
+      "function": "PB5",
+      "net": "CAN1_RX",
+      "connected": true,
+      "target_balls": [
+        "C6"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "133",
+      "function": "PB6",
+      "net": "CAN1_TX",
+      "connected": true,
+      "target_balls": [
+        "A5"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "134",
+      "function": "PB7",
+      "net": "CAN0_EN",
+      "connected": true,
+      "target_balls": [
+        "D6"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "135",
+      "function": "BOOT0",
+      "net": "BTN",
+      "connected": true,
+      "target_balls": [
+        "E6"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "136",
+      "function": "PB8",
+      "net": "CAN0_RX",
+      "connected": true,
+      "target_balls": [
+        "B5"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "137",
+      "function": "PB9",
+      "net": "CAN0_TX",
+      "connected": true,
+      "target_balls": [
+        "C5"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "138",
+      "function": "PE0",
+      "net": "CH4_SBU2_IGN",
+      "connected": true,
+      "target_balls": [
+        "D5"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "139",
+      "function": "PE1",
+      "net": "CH4_SBU2_RELAY",
+      "connected": true,
+      "target_balls": [
+        "D4"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "140",
+      "function": "VCAP",
+      "net": "VDDLDO",
+      "connected": true,
+      "target_balls": [
+        "A4",
+        "D13",
+        "N10"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "141",
+      "function": "VSS",
+      "net": "GND",
+      "connected": true,
+      "target_balls": [
+        "B10",
+        "B3",
+        "B7",
+        "C12",
+        "D2",
+        "G2",
+        "H12",
+        "L12",
+        "M11",
+        "M2",
+        "M4",
+        "M7"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "142",
+      "function": "PDR_ON",
+      "net": "Net-(U3-PDR_ON)",
+      "connected": true,
+      "target_balls": [
+        "C4"
+      ],
+      "mapping_type": "one_to_one"
+    },
+    {
+      "original_pin": "143",
+      "function": "VDDLDO",
+      "net": "VDDLDO",
+      "connected": true,
+      "target_balls": [
+        "B4",
+        "D12",
+        "M10"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    },
+    {
+      "original_pin": "144",
+      "function": "VDD",
+      "net": "+3V3",
+      "connected": true,
+      "target_balls": [
+        "A3",
+        "A6",
+        "A7",
+        "A10",
+        "C13",
+        "D1",
+        "G1",
+        "H13",
+        "L13",
+        "M1",
+        "N4",
+        "N7",
+        "N11"
+      ],
+      "mapping_type": "all_same_function_supply_balls"
+    }
+  ],
+  "ball_assignments": [
+    {
+      "ball": "G6",
+      "function": "NRST",
+      "net": null,
+      "original_pins": [
+        "27"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        -0.5,
+        0
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "E6",
+      "function": "BOOT0",
+      "net": "BTN",
+      "original_pins": [
+        "135"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -0.5,
+        -1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "E1",
+      "function": "VLXSMPS",
+      "net": "VLXSMPS",
+      "original_pins": [
+        "15"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -3,
+        -1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "L2",
+      "function": "VREF+",
+      "net": "VDDA",
+      "original_pins": [
+        "35"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -2.5,
+        2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "C4",
+      "function": "PDR_ON",
+      "net": "Net-(U3-PDR_ON)",
+      "original_pins": [
+        "142"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -1.5,
+        -2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "F2",
+      "function": "VFBSMPS",
+      "net": "VDDLDO",
+      "original_pins": [
+        "17"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -2.5,
+        -0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "H1",
+      "function": "PH0",
+      "net": "Net-(U3-PH0)",
+      "original_pins": [
+        "25"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -3,
+        0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "H2",
+      "function": "PH1",
+      "net": "Net-(U3-PH1)",
+      "original_pins": [
+        "26"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -2.5,
+        0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "N2",
+      "function": "PH2",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        -2.5,
+        3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "M3",
+      "function": "PH3",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        -2,
+        2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "K9",
+      "function": "PH10",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        1,
+        1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "L10",
+      "function": "PH11",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        1.5,
+        2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "K10",
+      "function": "PH12",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        1.5,
+        1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "B13",
+      "function": "PH13",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        3,
+        -2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "A13",
+      "function": "PH14",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        3,
+        -3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "K7",
+      "function": "PG0",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        0,
+        1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "L7",
+      "function": "PG1",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        0,
+        2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "H9",
+      "function": "PG2",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        1,
+        0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "H10",
+      "function": "PG3",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        1.5,
+        0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "F8",
+      "function": "PG4",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        0.5,
+        -0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "H11",
+      "function": "PG5",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        2,
+        0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "G9",
+      "function": "PG6",
+      "net": null,
+      "original_pins": [
+        "86"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        1,
+        0
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "G10",
+      "function": "PG7",
+      "net": null,
+      "original_pins": [
+        "87"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        1.5,
+        0
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "G11",
+      "function": "PG8",
+      "net": null,
+      "original_pins": [
+        "88"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        2,
+        0
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "C8",
+      "function": "PG9",
+      "net": "CAN2_TX",
+      "original_pins": [
+        "122"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        0.5,
+        -2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "A8",
+      "function": "PG10",
+      "net": "CAN2_RX",
+      "original_pins": [
+        "123"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        0.5,
+        -3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "B8",
+      "function": "PG11",
+      "net": null,
+      "original_pins": [
+        "124"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        0.5,
+        -2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "E8",
+      "function": "PG12",
+      "net": null,
+      "original_pins": [
+        "125"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        0.5,
+        -1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "D7",
+      "function": "PG13",
+      "net": null,
+      "original_pins": [
+        "126"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        0,
+        -1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "C7",
+      "function": "PG14",
+      "net": null,
+      "original_pins": [
+        "127"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        0,
+        -2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "E7",
+      "function": "PG15",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        0,
+        -1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "F3",
+      "function": "PF0",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        -2,
+        -0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "E4",
+      "function": "PF1",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        -1.5,
+        -1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "F4",
+      "function": "PF2",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        -1.5,
+        -0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "E5",
+      "function": "PF3",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        -1,
+        -1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "G3",
+      "function": "PF4",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        -2,
+        0
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "F5",
+      "function": "PF5",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        -1,
+        -0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "G4",
+      "function": "PF6",
+      "net": null,
+      "original_pins": [
+        "20"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        -1.5,
+        0
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "F6",
+      "function": "PF7",
+      "net": "Net-(U3-PF7)",
+      "original_pins": [
+        "21"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -0.5,
+        -0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "H4",
+      "function": "PF8",
+      "net": "Net-(U3-PF8)",
+      "original_pins": [
+        "22"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -1.5,
+        0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "G5",
+      "function": "PF9",
+      "net": "Net-(U3-PF9)",
+      "original_pins": [
+        "23"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -1,
+        0
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "H3",
+      "function": "PF10",
+      "net": "Net-(U3-PF10)",
+      "original_pins": [
+        "24"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -2,
+        0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "M6",
+      "function": "PF11",
+      "net": "CH3_IMON",
+      "original_pins": [
+        "52"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -0.5,
+        2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "N6",
+      "function": "PF12",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        -0.5,
+        3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "G7",
+      "function": "PF13",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        0,
+        0
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "H7",
+      "function": "PF14",
+      "net": null,
+      "original_pins": [
+        "53"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        0,
+        0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "J7",
+      "function": "PF15",
+      "net": null,
+      "original_pins": [
+        "54"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        0,
+        1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "D5",
+      "function": "PE0",
+      "net": "CH4_SBU2_IGN",
+      "original_pins": [
+        "138"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -1,
+        -1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "D4",
+      "function": "PE1",
+      "net": "CH4_SBU2_RELAY",
+      "original_pins": [
+        "139"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -1.5,
+        -1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "A2",
+      "function": "PE2",
+      "net": "LED_B",
+      "original_pins": [
+        "1"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -2.5,
+        -3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "B2",
+      "function": "PE3",
+      "net": "LED_G",
+      "original_pins": [
+        "2"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -2.5,
+        -2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "A1",
+      "function": "PE4",
+      "net": "LED_R",
+      "original_pins": [
+        "3"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -3,
+        -3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "C3",
+      "function": "PE5",
+      "net": null,
+      "original_pins": [
+        "4"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        -2,
+        -2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "C2",
+      "function": "PE6",
+      "net": null,
+      "original_pins": [
+        "5"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        -2.5,
+        -2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "G8",
+      "function": "PE7",
+      "net": null,
+      "original_pins": [
+        "57"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        0.5,
+        0
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "H8",
+      "function": "PE8",
+      "net": null,
+      "original_pins": [
+        "58"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        0.5,
+        0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "J8",
+      "function": "PE9",
+      "net": null,
+      "original_pins": [
+        "59"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        0.5,
+        1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "M8",
+      "function": "PE10",
+      "net": null,
+      "original_pins": [
+        "60"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        0.5,
+        2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "N8",
+      "function": "PE11",
+      "net": null,
+      "original_pins": [
+        "61"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        0.5,
+        3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "L8",
+      "function": "PE12",
+      "net": null,
+      "original_pins": [
+        "62"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        0.5,
+        2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "K8",
+      "function": "PE13",
+      "net": null,
+      "original_pins": [
+        "63"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        0.5,
+        1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "J9",
+      "function": "PE14",
+      "net": null,
+      "original_pins": [
+        "64"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        1,
+        1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "N9",
+      "function": "PE15",
+      "net": "BTN",
+      "original_pins": [
+        "65"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        1,
+        3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "A4",
+      "function": "VCAP",
+      "net": "VDDLDO",
+      "original_pins": [
+        "68",
+        "103",
+        "140"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -1.5,
+        -3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "D13",
+      "function": "VCAP",
+      "net": "VDDLDO",
+      "original_pins": [
+        "68",
+        "103",
+        "140"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        3,
+        -1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "N10",
+      "function": "VCAP",
+      "net": "VDDLDO",
+      "original_pins": [
+        "68",
+        "103",
+        "140"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        1.5,
+        3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "E3",
+      "function": "VBAT",
+      "net": "+3V3",
+      "original_pins": [
+        "8"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -2,
+        -1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "A3",
+      "function": "VDD",
+      "net": "+3V3",
+      "original_pins": [
+        "7",
+        "13",
+        "19",
+        "32",
+        "42",
+        "56",
+        "71",
+        "79",
+        "92",
+        "106",
+        "119",
+        "129",
+        "144"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -2,
+        -3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "A6",
+      "function": "VDD",
+      "net": "+3V3",
+      "original_pins": [
+        "7",
+        "13",
+        "19",
+        "32",
+        "42",
+        "56",
+        "71",
+        "79",
+        "92",
+        "106",
+        "119",
+        "129",
+        "144"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -0.5,
+        -3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "A7",
+      "function": "VDD",
+      "net": "+3V3",
+      "original_pins": [
+        "7",
+        "13",
+        "19",
+        "32",
+        "42",
+        "56",
+        "71",
+        "79",
+        "92",
+        "106",
+        "119",
+        "129",
+        "144"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        0,
+        -3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "A10",
+      "function": "VDD",
+      "net": "+3V3",
+      "original_pins": [
+        "7",
+        "13",
+        "19",
+        "32",
+        "42",
+        "56",
+        "71",
+        "79",
+        "92",
+        "106",
+        "119",
+        "129",
+        "144"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        1.5,
+        -3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "C13",
+      "function": "VDD",
+      "net": "+3V3",
+      "original_pins": [
+        "7",
+        "13",
+        "19",
+        "32",
+        "42",
+        "56",
+        "71",
+        "79",
+        "92",
+        "106",
+        "119",
+        "129",
+        "144"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        3,
+        -2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "D1",
+      "function": "VDD",
+      "net": "+3V3",
+      "original_pins": [
+        "7",
+        "13",
+        "19",
+        "32",
+        "42",
+        "56",
+        "71",
+        "79",
+        "92",
+        "106",
+        "119",
+        "129",
+        "144"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -3,
+        -1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "G1",
+      "function": "VDD",
+      "net": "+3V3",
+      "original_pins": [
+        "7",
+        "13",
+        "19",
+        "32",
+        "42",
+        "56",
+        "71",
+        "79",
+        "92",
+        "106",
+        "119",
+        "129",
+        "144"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -3,
+        0
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "H13",
+      "function": "VDD",
+      "net": "+3V3",
+      "original_pins": [
+        "7",
+        "13",
+        "19",
+        "32",
+        "42",
+        "56",
+        "71",
+        "79",
+        "92",
+        "106",
+        "119",
+        "129",
+        "144"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        3,
+        0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "L13",
+      "function": "VDD",
+      "net": "+3V3",
+      "original_pins": [
+        "7",
+        "13",
+        "19",
+        "32",
+        "42",
+        "56",
+        "71",
+        "79",
+        "92",
+        "106",
+        "119",
+        "129",
+        "144"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        3,
+        2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "B10",
+      "function": "VSS",
+      "net": "GND",
+      "original_pins": [
+        "6",
+        "12",
+        "18",
+        "33",
+        "41",
+        "55",
+        "69",
+        "80",
+        "89",
+        "104",
+        "118",
+        "128",
+        "141"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        1.5,
+        -2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "B3",
+      "function": "VSS",
+      "net": "GND",
+      "original_pins": [
+        "6",
+        "12",
+        "18",
+        "33",
+        "41",
+        "55",
+        "69",
+        "80",
+        "89",
+        "104",
+        "118",
+        "128",
+        "141"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -2,
+        -2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "B7",
+      "function": "VSS",
+      "net": "GND",
+      "original_pins": [
+        "6",
+        "12",
+        "18",
+        "33",
+        "41",
+        "55",
+        "69",
+        "80",
+        "89",
+        "104",
+        "118",
+        "128",
+        "141"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        0,
+        -2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "C12",
+      "function": "VSS",
+      "net": "GND",
+      "original_pins": [
+        "6",
+        "12",
+        "18",
+        "33",
+        "41",
+        "55",
+        "69",
+        "80",
+        "89",
+        "104",
+        "118",
+        "128",
+        "141"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        2.5,
+        -2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "D2",
+      "function": "VSS",
+      "net": "GND",
+      "original_pins": [
+        "6",
+        "12",
+        "18",
+        "33",
+        "41",
+        "55",
+        "69",
+        "80",
+        "89",
+        "104",
+        "118",
+        "128",
+        "141"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -2.5,
+        -1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "G2",
+      "function": "VSS",
+      "net": "GND",
+      "original_pins": [
+        "6",
+        "12",
+        "18",
+        "33",
+        "41",
+        "55",
+        "69",
+        "80",
+        "89",
+        "104",
+        "118",
+        "128",
+        "141"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -2.5,
+        0
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "H12",
+      "function": "VSS",
+      "net": "GND",
+      "original_pins": [
+        "6",
+        "12",
+        "18",
+        "33",
+        "41",
+        "55",
+        "69",
+        "80",
+        "89",
+        "104",
+        "118",
+        "128",
+        "141"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        2.5,
+        0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "L12",
+      "function": "VSS",
+      "net": "GND",
+      "original_pins": [
+        "6",
+        "12",
+        "18",
+        "33",
+        "41",
+        "55",
+        "69",
+        "80",
+        "89",
+        "104",
+        "118",
+        "128",
+        "141"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        2.5,
+        2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "M11",
+      "function": "VSS",
+      "net": "GND",
+      "original_pins": [
+        "6",
+        "12",
+        "18",
+        "33",
+        "41",
+        "55",
+        "69",
+        "80",
+        "89",
+        "104",
+        "118",
+        "128",
+        "141"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        2,
+        2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "M2",
+      "function": "VSS",
+      "net": "GND",
+      "original_pins": [
+        "6",
+        "12",
+        "18",
+        "33",
+        "41",
+        "55",
+        "69",
+        "80",
+        "89",
+        "104",
+        "118",
+        "128",
+        "141"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -2.5,
+        2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "M4",
+      "function": "VSS",
+      "net": "GND",
+      "original_pins": [
+        "6",
+        "12",
+        "18",
+        "33",
+        "41",
+        "55",
+        "69",
+        "80",
+        "89",
+        "104",
+        "118",
+        "128",
+        "141"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -1.5,
+        2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "M7",
+      "function": "VSS",
+      "net": "GND",
+      "original_pins": [
+        "6",
+        "12",
+        "18",
+        "33",
+        "41",
+        "55",
+        "69",
+        "80",
+        "89",
+        "104",
+        "118",
+        "128",
+        "141"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        0,
+        2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "M1",
+      "function": "VDD",
+      "net": "+3V3",
+      "original_pins": [
+        "7",
+        "13",
+        "19",
+        "32",
+        "42",
+        "56",
+        "71",
+        "79",
+        "92",
+        "106",
+        "119",
+        "129",
+        "144"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -3,
+        2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "J3",
+      "function": "VSSA",
+      "net": "GND",
+      "original_pins": [
+        "34"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -2,
+        1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "N4",
+      "function": "VDD",
+      "net": "+3V3",
+      "original_pins": [
+        "7",
+        "13",
+        "19",
+        "32",
+        "42",
+        "56",
+        "71",
+        "79",
+        "92",
+        "106",
+        "119",
+        "129",
+        "144"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -1.5,
+        3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "E2",
+      "function": "VSSSMPS",
+      "net": "GND",
+      "original_pins": [
+        "14"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -2.5,
+        -1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "N7",
+      "function": "VDD",
+      "net": "+3V3",
+      "original_pins": [
+        "7",
+        "13",
+        "19",
+        "32",
+        "42",
+        "56",
+        "71",
+        "79",
+        "92",
+        "106",
+        "119",
+        "129",
+        "144"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        0,
+        3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "N11",
+      "function": "VDD",
+      "net": "+3V3",
+      "original_pins": [
+        "7",
+        "13",
+        "19",
+        "32",
+        "42",
+        "56",
+        "71",
+        "79",
+        "92",
+        "106",
+        "119",
+        "129",
+        "144"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        2,
+        3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "G13",
+      "function": "VDD33USB",
+      "net": "+3V3",
+      "original_pins": [
+        "91"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        3,
+        0
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "G12",
+      "function": "VDD50USB",
+      "net": "+3V3",
+      "original_pins": [
+        "90"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        2.5,
+        0
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "L1",
+      "function": "VDDA",
+      "net": "VDDA",
+      "original_pins": [
+        "36"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -3,
+        2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "B4",
+      "function": "VDDLDO",
+      "net": "VDDLDO",
+      "original_pins": [
+        "70",
+        "105",
+        "143"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -1.5,
+        -2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "D12",
+      "function": "VDDLDO",
+      "net": "VDDLDO",
+      "original_pins": [
+        "70",
+        "105",
+        "143"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        2.5,
+        -1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "M10",
+      "function": "VDDLDO",
+      "net": "VDDLDO",
+      "original_pins": [
+        "70",
+        "105",
+        "143"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        1.5,
+        2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "F1",
+      "function": "VDDSMPS",
+      "net": "+3V3",
+      "original_pins": [
+        "16"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -3,
+        -0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "J5",
+      "function": "PA0",
+      "net": "CH1_PWR_EN",
+      "original_pins": [
+        "37"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -1,
+        1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "K3",
+      "function": "PA0_C",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        -2,
+        1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "K4",
+      "function": "PA1",
+      "net": "CH2_PWR_EN",
+      "original_pins": [
+        "38"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -1.5,
+        1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "L3",
+      "function": "PA1_C",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        -2,
+        2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "N1",
+      "function": "PA2",
+      "net": null,
+      "original_pins": [
+        "39"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        -3,
+        3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "N3",
+      "function": "PA3",
+      "net": null,
+      "original_pins": [
+        "40"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        -2,
+        3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "H6",
+      "function": "PA4",
+      "net": "CH3_PWR_EN",
+      "original_pins": [
+        "43"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -0.5,
+        0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "L4",
+      "function": "PA5",
+      "net": "CH4_PWR_EN",
+      "original_pins": [
+        "44"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -1.5,
+        2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "K5",
+      "function": "PA6",
+      "net": "CH4_IMON",
+      "original_pins": [
+        "45"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -1,
+        1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "J6",
+      "function": "PA7",
+      "net": null,
+      "original_pins": [
+        "46"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        -0.5,
+        1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "E12",
+      "function": "PA8",
+      "net": null,
+      "original_pins": [
+        "97"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        2.5,
+        -1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "E11",
+      "function": "PA9",
+      "net": null,
+      "original_pins": [
+        "98"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        2,
+        -1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "E10",
+      "function": "PA10",
+      "net": null,
+      "original_pins": [
+        "99"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        1.5,
+        -1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "F13",
+      "function": "PA11",
+      "net": "STM_D_N",
+      "original_pins": [
+        "100"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        3,
+        -0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "E13",
+      "function": "PA12",
+      "net": "STM_D_P",
+      "original_pins": [
+        "101"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        3,
+        -1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "D11",
+      "function": "PA13(JTMS",
+      "net": null,
+      "original_pins": [
+        "102"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        2,
+        -1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "B12",
+      "function": "PA14(JTCK",
+      "net": null,
+      "original_pins": [
+        "107"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        2.5,
+        -2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "C11",
+      "function": "PA15(JTDI)",
+      "net": null,
+      "original_pins": [
+        "108"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        2,
+        -2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "M5",
+      "function": "PB0",
+      "net": null,
+      "original_pins": [
+        "49"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        -1,
+        2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "L5",
+      "function": "PB1",
+      "net": "CH2_IMON",
+      "original_pins": [
+        "50"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -1,
+        2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "L6",
+      "function": "PB2",
+      "net": null,
+      "original_pins": [
+        "51"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        -0.5,
+        2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "F7",
+      "function": "PB3(JTDO",
+      "net": "CAN1_EN",
+      "original_pins": [
+        "130"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        0,
+        -0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "B6",
+      "function": "PB4(NJTRST)",
+      "net": "CAN3_EN",
+      "original_pins": [
+        "131"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -0.5,
+        -2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "C6",
+      "function": "PB5",
+      "net": "CAN1_RX",
+      "original_pins": [
+        "132"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -0.5,
+        -2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "A5",
+      "function": "PB6",
+      "net": "CAN1_TX",
+      "original_pins": [
+        "133"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -1,
+        -3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "D6",
+      "function": "PB7",
+      "net": "CAN0_EN",
+      "original_pins": [
+        "134"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -0.5,
+        -1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "B5",
+      "function": "PB8",
+      "net": "CAN0_RX",
+      "original_pins": [
+        "136"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -1,
+        -2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "C5",
+      "function": "PB9",
+      "net": "CAN0_TX",
+      "original_pins": [
+        "137"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -1,
+        -2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "L9",
+      "function": "PB10",
+      "net": "HUB_SCL",
+      "original_pins": [
+        "66"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        1,
+        2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "M9",
+      "function": "PB11",
+      "net": "HUB_SDA",
+      "original_pins": [
+        "67"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        1,
+        2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "N12",
+      "function": "PB12",
+      "net": "CAN3_RX",
+      "original_pins": [
+        "72"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        2.5,
+        3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "L11",
+      "function": "PB13",
+      "net": "CAN3_TX",
+      "original_pins": [
+        "73"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        2,
+        2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "N13",
+      "function": "PB14",
+      "net": null,
+      "original_pins": [
+        "74"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        3,
+        3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "M13",
+      "function": "PB15",
+      "net": null,
+      "original_pins": [
+        "75"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        3,
+        2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "J1",
+      "function": "PC0",
+      "net": "Net-(U3-PC0)",
+      "original_pins": [
+        "28"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -3,
+        1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "J2",
+      "function": "PC1",
+      "net": "Net-(U3-PC1)",
+      "original_pins": [
+        "29"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -2.5,
+        1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "H5",
+      "function": "PC2",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        -1,
+        0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "K2",
+      "function": "PC2_C",
+      "net": "Net-(U3-PC2_C)",
+      "original_pins": [
+        "30"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -2.5,
+        1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "J4",
+      "function": "PC3",
+      "net": null,
+      "original_pins": [],
+      "disposition": "no_connect",
+      "at_mm": [
+        -1.5,
+        1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "K1",
+      "function": "PC3_C",
+      "net": "Net-(U3-PC3_C)",
+      "original_pins": [
+        "31"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -3,
+        1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "K6",
+      "function": "PC4",
+      "net": "CH1_IMON",
+      "original_pins": [
+        "47"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        -0.5,
+        1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "N5",
+      "function": "PC5",
+      "net": null,
+      "original_pins": [
+        "48"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        -1,
+        3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "F9",
+      "function": "PC6",
+      "net": null,
+      "original_pins": [
+        "93"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        1,
+        -0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "F10",
+      "function": "PC7",
+      "net": null,
+      "original_pins": [
+        "94"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        1.5,
+        -0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "F12",
+      "function": "PC8",
+      "net": "SD_D0",
+      "original_pins": [
+        "95"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        2.5,
+        -0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "F11",
+      "function": "PC9",
+      "net": "SD_D1",
+      "original_pins": [
+        "96"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        2,
+        -0.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "A12",
+      "function": "PC10",
+      "net": "SD_D2",
+      "original_pins": [
+        "109"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        2.5,
+        -3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "B11",
+      "function": "PC11",
+      "net": "SD_D3",
+      "original_pins": [
+        "110"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        2,
+        -2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "A11",
+      "function": "PC12",
+      "net": "SD_CLK",
+      "original_pins": [
+        "111"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        2,
+        -3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "D3",
+      "function": "PC13",
+      "net": null,
+      "original_pins": [
+        "9"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        -2,
+        -1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "C1",
+      "function": "PC14",
+      "net": null,
+      "original_pins": [
+        "10"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        -3,
+        -2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "B1",
+      "function": "PC15",
+      "net": null,
+      "original_pins": [
+        "11"
+      ],
+      "disposition": "no_connect",
+      "at_mm": [
+        -3,
+        -2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "D10",
+      "function": "PD0",
+      "net": "CH1_SBU1_IGN",
+      "original_pins": [
+        "112"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        1.5,
+        -1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "C10",
+      "function": "PD1",
+      "net": "CH1_SBU1_RELAY",
+      "original_pins": [
+        "113"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        1.5,
+        -2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "E9",
+      "function": "PD2",
+      "net": "SD_CMD",
+      "original_pins": [
+        "114"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        1,
+        -1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "D9",
+      "function": "PD3",
+      "net": "CH1_SBU2_IGN",
+      "original_pins": [
+        "115"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        1,
+        -1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "C9",
+      "function": "PD4",
+      "net": "CH1_SBU2_RELAY",
+      "original_pins": [
+        "116"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        1,
+        -2
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "A9",
+      "function": "PD5",
+      "net": "CH2_SBU1_IGN",
+      "original_pins": [
+        "117"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        1,
+        -3
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "B9",
+      "function": "PD6",
+      "net": "CH2_SBU1_RELAY",
+      "original_pins": [
+        "120"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        1,
+        -2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "D8",
+      "function": "PD7",
+      "net": "CAN2_EN",
+      "original_pins": [
+        "121"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        0.5,
+        -1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "M12",
+      "function": "PD8",
+      "net": "CH2_SBU2_IGN",
+      "original_pins": [
+        "76"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        2.5,
+        2.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "K11",
+      "function": "PD9",
+      "net": "CH3_SBU2_IGN",
+      "original_pins": [
+        "77"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        2,
+        1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "K12",
+      "function": "PD10",
+      "net": "CH2_SBU2_RELAY",
+      "original_pins": [
+        "78"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        2.5,
+        1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "J10",
+      "function": "PD11",
+      "net": "CH3_SBU1_RELAY",
+      "original_pins": [
+        "81"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        1.5,
+        1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "K13",
+      "function": "PD12",
+      "net": "CH3_SBU1_IGN",
+      "original_pins": [
+        "82"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        3,
+        1.5
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "J11",
+      "function": "PD13",
+      "net": "CH3_SBU2_RELAY",
+      "original_pins": [
+        "83"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        2,
+        1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "J13",
+      "function": "PD14",
+      "net": "CH4_SBU1_IGN",
+      "original_pins": [
+        "84"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        3,
+        1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "ball": "J12",
+      "function": "PD15",
+      "net": "CH4_SBU1_RELAY",
+      "original_pins": [
+        "85"
+      ],
+      "disposition": "connect",
+      "at_mm": [
+        2.5,
+        1
+      ],
+      "size_mm": [
+        0.27,
+        0.27
+      ]
+    }
+  ],
+  "datasheet_spot_checks": {
+    "122": "C8",
+    "123": "A8",
+    "100": "F13",
+    "101": "E13",
+    "15": "E1",
+    "14": "E2",
+    "16": "F1",
+    "17": "F2",
+    "25": "H1",
+    "26": "H2",
+    "27": "G6",
+    "30": "K2",
+    "31": "K1",
+    "34": "J3",
+    "35": "L2",
+    "36": "L1",
+    "110": "B11",
+    "111": "A11",
+    "142": "C4"
+  },
+  "critical_notes": [
+    "The exact mapping comes from the official KiCad 9.0.4 STM32H725AGIx symbol, with selected critical pins corroborated against ST Table 8 / Figure 10. All 169 symbol balls match the official footprint pads.",
+    "All original functions exist. Added PA0_C/PA1_C and PC2/PC3 pins are separate analog/digital terminals; leave them NC and preserve original PC2_C/PC3_C on K2/K1.",
+    "VCAP A4/D13/N10, VDDLDO B4/D12/M10, and VFBSMPS F2 all retain source VDDLDO net. Do not join that net to +3V3.",
+    "VDD33USB G13 and VDD50USB G12 both retain source +3V3. VSSSMPS E2 and VSSA J3 retain GND; VDDA L1 and VREF+ L2 retain source VDDA.",
+    "Existing decoupling must be redistributed to new power balls. Preserve required direct-SMPS firmware supply configuration and L3 switch loop.",
+    "PG9 C8 / PG10 A8 preserve CAN2 TX/RX. The MCU still has three FDCAN controllers, not four independent controllers.",
+    "At 0.50 mm pitch with 0.27 mm pads, a straight track between adjacent pads at 0.10 mm copper clearance can be only 0.03 mm wide. Escape strategy needs diagonal fanout, access through NC cells, and/or finer selected fabricator rules. Do not assume the footprint area saving automatically yields a routable smaller board.",
+    "No main-board or main-schematic MCU replacement has been performed."
+  ],
+  "sources": [
+    {
+      "url": "https://www.st.com/resource/en/datasheet/stm32h725ag.pdf",
+      "details": "DS13311 Rev 5: Figure 10 top-view ballout; Table 8 functions; Tables 134 and 135 dimensions and 0.27 mm NSMD pads."
+    },
+    {
+      "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32h725ag.html",
+      "details": "Manufacturer lists STM32H725AGI6 active."
+    },
+    {
+      "url": "https://gitlab.com/kicad/libraries/kicad-symbols/-/raw/9.0.4/MCU_ST_STM32H7.kicad_sym",
+      "sha256": "3423c0d225be6761e159f6cfddfdfa8053a1a6721152d99b52be3f155ccaab70"
+    },
+    {
+      "url": "https://gitlab.com/kicad/libraries/kicad-footprints/-/raw/9.0.4/Package_BGA.pretty/UFBGA-169_7x7mm_Layout13x13_P0.5mm.kicad_mod"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Package_BGA.3dshapes/UFBGA-169_7x7mm_Layout13x13_P0.5mm.step",
+      "warning": "Legacy generic STEP height differs from current manufacturer drawing."
+    }
+  ]
+}

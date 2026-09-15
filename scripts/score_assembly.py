@@ -133,8 +133,18 @@ def inspect_drc(data):
     if not isinstance(parity, list):
         raise ValueError('Unrecognized schematic_parity structure')
     counts = collections.Counter(str(v.get('type', 'unknown')) for v in violations)
+    # KiCad10.0.6 DRC_ENGINE::RunTests caps clearance/unconnected at499 and
+    # every other error code at199, independently of --all-track-errors.
+    # A count at the cap is a lower bound, not a useful exact progress metric.
+    all_counts = counts + collections.Counter(str(v.get('type', 'unknown')) for v in unconnected + parity)
+    saturated = {kind:dict(reported_count=count,per_type_limit=499 if kind in ('clearance','unconnected_items') else 199)
+                 for kind,count in all_counts.items()
+                 if count >= (499 if kind in ('clearance','unconnected_items') else 199)}
     return dict(violation_count=len(violations), violation_types=dict(counts),
                 unconnected_count=len(unconnected), schematic_parity_count=len(parity),
+                saturated_types=saturated,counts_are_complete=not bool(saturated),
+                count_limitation='KiCad per-type caps:499 clearance/unconnected,199 other types; saturated values are lower bounds',
+                count_limit_source='https://gitlab.com/kicad/code/kicad/-/blob/10.0.6/pcbnew/drc/drc_engine.cpp',
                 warnings=sum(v.get('severity') == 'warning' for v in violations),
                 source=data.get('source'), kicad_version=data.get('kicad_version'))
 
@@ -287,7 +297,8 @@ def audit(args):
                     pending.append('DRC JSON is older than the board/project/schematic')
                 for field in ('unconnected_count', 'violation_count'):
                     if report['drc'][field]:
-                        issues.append(f'DRC {field}: {report["drc"][field]}')
+                        qualification=' (reported; one or more types may be capped)' if report['drc']['saturated_types'] else ''
+                        issues.append(f'DRC {field}: {report["drc"][field]}{qualification}')
                 if report['drc']['schematic_parity_count'] and not multi_root_project and not connectivity_valid:
                     issues.append(f'DRC schematic_parity_count: {report["drc"]["schematic_parity_count"]}')
                 if multi_root_project:

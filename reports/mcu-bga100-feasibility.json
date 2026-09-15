@@ -1,0 +1,715 @@
+{
+  "status": "pin-allocation feasibility demonstrated; not a finished electrical design",
+  "target_mpn": "STM32H725VGH6",
+  "package": "TFBGA100 8x8mm 0.8mm pitch",
+  "firmware_pin_changes": [
+    {
+      "original_function": "PF7",
+      "target_function": "PA2",
+      "target_ball": "H3",
+      "net": "Net-(U3-PF7)",
+      "required_target_signal": "ADC1_INP14",
+      "verified_in_official_ST_pin_data": true
+    },
+    {
+      "original_function": "PF8",
+      "target_function": "PA3",
+      "target_ball": "G5",
+      "net": "Net-(U3-PF8)",
+      "required_target_signal": "ADC1_INP15",
+      "verified_in_official_ST_pin_data": true
+    },
+    {
+      "original_function": "PF9",
+      "target_function": "PA7",
+      "target_ball": "K3",
+      "net": "Net-(U3-PF9)",
+      "required_target_signal": "ADC1_INP7",
+      "verified_in_official_ST_pin_data": true
+    },
+    {
+      "original_function": "PF10",
+      "target_function": "PC5",
+      "target_ball": "J4",
+      "net": "Net-(U3-PF10)",
+      "required_target_signal": "ADC1_INP8",
+      "verified_in_official_ST_pin_data": true
+    },
+    {
+      "original_function": "PF11",
+      "target_function": "PB0",
+      "target_ball": "K4",
+      "net": "CH3_IMON",
+      "required_target_signal": "ADC1_INP9",
+      "verified_in_official_ST_pin_data": true
+    },
+    {
+      "original_function": "PE15",
+      "target_function": "PE5",
+      "target_ball": "A2",
+      "net": "BTN",
+      "required_target_signal": "GPIO",
+      "verified_in_official_ST_pin_data": true
+    },
+    {
+      "original_function": "PD12",
+      "target_function": "PE6",
+      "target_ball": "A1",
+      "net": "CH3_SBU1_IGN",
+      "required_target_signal": "GPIO",
+      "verified_in_official_ST_pin_data": true
+    },
+    {
+      "original_function": "PD13",
+      "target_function": "PE7",
+      "target_ball": "H5",
+      "net": "CH3_SBU2_RELAY",
+      "required_target_signal": "GPIO",
+      "verified_in_official_ST_pin_data": true
+    },
+    {
+      "original_function": "PG9",
+      "target_function": "PD13",
+      "target_ball": "H10",
+      "net": "CAN2_TX",
+      "required_target_signal": "FDCAN3_TX",
+      "verified_in_official_ST_pin_data": true
+    },
+    {
+      "original_function": "PG10",
+      "target_function": "PD12",
+      "target_ball": "H9",
+      "net": "CAN2_RX",
+      "required_target_signal": "FDCAN3_RX",
+      "verified_in_official_ST_pin_data": true
+    }
+  ],
+  "ball_assignments": [
+    {
+      "ball": "F2",
+      "function": "NRST",
+      "net": null,
+      "connected": false
+    },
+    {
+      "ball": "A5",
+      "function": "BOOT0",
+      "net": "BTN",
+      "connected": true
+    },
+    {
+      "ball": "D2",
+      "function": "VLXSMPS",
+      "net": "VLXSMPS",
+      "connected": true
+    },
+    {
+      "ball": "J1",
+      "function": "VREF+",
+      "net": "VDDA",
+      "connected": true
+    },
+    {
+      "ball": "D3",
+      "function": "PDR_ON",
+      "net": "Net-(U3-PDR_ON)",
+      "connected": true
+    },
+    {
+      "ball": "E2",
+      "function": "VFBSMPS",
+      "net": "VDDLDO",
+      "connected": true
+    },
+    {
+      "ball": "G1",
+      "function": "PH0",
+      "net": "Net-(U3-PH0)",
+      "connected": true
+    },
+    {
+      "ball": "G2",
+      "function": "PH1",
+      "net": "Net-(U3-PH1)",
+      "connected": true
+    },
+    {
+      "ball": "B4",
+      "function": "PE0",
+      "net": "CH4_SBU2_IGN",
+      "connected": true
+    },
+    {
+      "ball": "C4",
+      "function": "PE1",
+      "net": "CH4_SBU2_RELAY",
+      "connected": true
+    },
+    {
+      "ball": "A3",
+      "function": "PE2",
+      "net": "LED_B",
+      "connected": true
+    },
+    {
+      "ball": "B3",
+      "function": "PE3",
+      "net": "LED_G",
+      "connected": true
+    },
+    {
+      "ball": "C3",
+      "function": "PE4",
+      "net": "LED_R",
+      "connected": true
+    },
+    {
+      "ball": "A2",
+      "function": "PE5",
+      "net": "BTN",
+      "connected": true
+    },
+    {
+      "ball": "A1",
+      "function": "PE6",
+      "net": "CH3_SBU1_IGN",
+      "connected": true
+    },
+    {
+      "ball": "H5",
+      "function": "PE7",
+      "net": "CH3_SBU2_RELAY",
+      "connected": true
+    },
+    {
+      "ball": "J6",
+      "function": "PE8",
+      "net": null,
+      "connected": false
+    },
+    {
+      "ball": "K6",
+      "function": "PE9",
+      "net": null,
+      "connected": false
+    },
+    {
+      "ball": "H6",
+      "function": "PE10",
+      "net": null,
+      "connected": false
+    },
+    {
+      "ball": "C7",
+      "function": "PD0",
+      "net": "CH1_SBU1_IGN",
+      "connected": true
+    },
+    {
+      "ball": "B8",
+      "function": "PD1",
+      "net": "CH1_SBU1_RELAY",
+      "connected": true
+    },
+    {
+      "ball": "A9",
+      "function": "PD2",
+      "net": "SD_CMD",
+      "connected": true
+    },
+    {
+      "ball": "A8",
+      "function": "PD3",
+      "net": "CH1_SBU2_IGN",
+      "connected": true
+    },
+    {
+      "ball": "B7",
+      "function": "PD4",
+      "net": "CH1_SBU2_RELAY",
+      "connected": true
+    },
+    {
+      "ball": "D7",
+      "function": "PD5",
+      "net": "CH2_SBU1_IGN",
+      "connected": true
+    },
+    {
+      "ball": "A7",
+      "function": "PD6",
+      "net": "CH2_SBU1_RELAY",
+      "connected": true
+    },
+    {
+      "ball": "C6",
+      "function": "PD7",
+      "net": "CAN2_EN",
+      "connected": true
+    },
+    {
+      "ball": "J9",
+      "function": "PD8",
+      "net": "CH2_SBU2_IGN",
+      "connected": true
+    },
+    {
+      "ball": "H8",
+      "function": "PD9",
+      "net": "CH3_SBU2_IGN",
+      "connected": true
+    },
+    {
+      "ball": "J10",
+      "function": "PD10",
+      "net": "CH2_SBU2_RELAY",
+      "connected": true
+    },
+    {
+      "ball": "H7",
+      "function": "PD11",
+      "net": "CH3_SBU1_RELAY",
+      "connected": true
+    },
+    {
+      "ball": "H9",
+      "function": "PD12",
+      "net": "CAN2_RX",
+      "connected": true
+    },
+    {
+      "ball": "H10",
+      "function": "PD13",
+      "net": "CAN2_TX",
+      "connected": true
+    },
+    {
+      "ball": "G7",
+      "function": "PD14",
+      "net": "CH4_SBU1_IGN",
+      "connected": true
+    },
+    {
+      "ball": "G8",
+      "function": "PD15",
+      "net": "CH4_SBU1_RELAY",
+      "connected": true
+    },
+    {
+      "ball": "D8",
+      "function": "VCAP",
+      "net": "VDDLDO",
+      "connected": true
+    },
+    {
+      "ball": "G6",
+      "function": "VCAP",
+      "net": "VDDLDO",
+      "connected": true
+    },
+    {
+      "ball": "C2",
+      "function": "VBAT",
+      "net": "+3V3",
+      "connected": true
+    },
+    {
+      "ball": "D6",
+      "function": "VDD",
+      "net": "+3V3",
+      "connected": true
+    },
+    {
+      "ball": "E5",
+      "function": "VDD",
+      "net": "+3V3",
+      "connected": true
+    },
+    {
+      "ball": "F6",
+      "function": "VDD",
+      "net": "+3V3",
+      "connected": true
+    },
+    {
+      "ball": "C1",
+      "function": "VSS",
+      "net": "GND",
+      "connected": true
+    },
+    {
+      "ball": "D5",
+      "function": "VSS",
+      "net": "GND",
+      "connected": true
+    },
+    {
+      "ball": "E7",
+      "function": "VSS",
+      "net": "GND",
+      "connected": true
+    },
+    {
+      "ball": "F5",
+      "function": "VSS",
+      "net": "GND",
+      "connected": true
+    },
+    {
+      "ball": "E8",
+      "function": "VDD33USB",
+      "net": "+3V3",
+      "connected": true
+    },
+    {
+      "ball": "H2",
+      "function": "VSSA",
+      "net": "GND",
+      "connected": true
+    },
+    {
+      "ball": "H1",
+      "function": "VDDA",
+      "net": "VDDA",
+      "connected": true
+    },
+    {
+      "ball": "D1",
+      "function": "VSSSMPS",
+      "net": "GND",
+      "connected": true
+    },
+    {
+      "ball": "E6",
+      "function": "VDDLDO",
+      "net": "VDDLDO",
+      "connected": true
+    },
+    {
+      "ball": "F7",
+      "function": "VDDLDO",
+      "net": "VDDLDO",
+      "connected": true
+    },
+    {
+      "ball": "E1",
+      "function": "VDDSMPS",
+      "net": "+3V3",
+      "connected": true
+    },
+    {
+      "ball": "G3",
+      "function": "PA0",
+      "net": "CH1_PWR_EN",
+      "connected": true
+    },
+    {
+      "ball": "J2",
+      "function": "PA1",
+      "net": "CH2_PWR_EN",
+      "connected": true
+    },
+    {
+      "ball": "H3",
+      "function": "PA2",
+      "net": "Net-(U3-PF7)",
+      "connected": true
+    },
+    {
+      "ball": "G5",
+      "function": "PA3",
+      "net": "Net-(U3-PF8)",
+      "connected": true
+    },
+    {
+      "ball": "K1",
+      "function": "PA4",
+      "net": "CH3_PWR_EN",
+      "connected": true
+    },
+    {
+      "ball": "K2",
+      "function": "PA5",
+      "net": "CH4_PWR_EN",
+      "connected": true
+    },
+    {
+      "ball": "J3",
+      "function": "PA6",
+      "net": "CH4_IMON",
+      "connected": true
+    },
+    {
+      "ball": "K3",
+      "function": "PA7",
+      "net": "Net-(U3-PF9)",
+      "connected": true
+    },
+    {
+      "ball": "F10",
+      "function": "PA8",
+      "net": null,
+      "connected": false
+    },
+    {
+      "ball": "E9",
+      "function": "PA9",
+      "net": null,
+      "connected": false
+    },
+    {
+      "ball": "E10",
+      "function": "PA10",
+      "net": null,
+      "connected": false
+    },
+    {
+      "ball": "D10",
+      "function": "PA11",
+      "net": "STM_D_N",
+      "connected": true
+    },
+    {
+      "ball": "D9",
+      "function": "PA12",
+      "net": "STM_D_P",
+      "connected": true
+    },
+    {
+      "ball": "C10",
+      "function": "PA13",
+      "net": null,
+      "connected": false
+    },
+    {
+      "ball": "C9",
+      "function": "PA14",
+      "net": null,
+      "connected": false
+    },
+    {
+      "ball": "C8",
+      "function": "PA15",
+      "net": null,
+      "connected": false
+    },
+    {
+      "ball": "K4",
+      "function": "PB0",
+      "net": "CH3_IMON",
+      "connected": true
+    },
+    {
+      "ball": "K5",
+      "function": "PB1",
+      "net": "CH2_IMON",
+      "connected": true
+    },
+    {
+      "ball": "J5",
+      "function": "PB2",
+      "net": null,
+      "connected": false
+    },
+    {
+      "ball": "B6",
+      "function": "PB3",
+      "net": "CAN1_EN",
+      "connected": true
+    },
+    {
+      "ball": "C5",
+      "function": "PB4",
+      "net": "CAN3_EN",
+      "connected": true
+    },
+    {
+      "ball": "A6",
+      "function": "PB5",
+      "net": "CAN1_RX",
+      "connected": true
+    },
+    {
+      "ball": "D4",
+      "function": "PB6",
+      "net": "CAN1_TX",
+      "connected": true
+    },
+    {
+      "ball": "B5",
+      "function": "PB7",
+      "net": "CAN0_EN",
+      "connected": true
+    },
+    {
+      "ball": "A4",
+      "function": "PB8",
+      "net": "CAN0_RX",
+      "connected": true
+    },
+    {
+      "ball": "E3",
+      "function": "PB9",
+      "net": "CAN0_TX",
+      "connected": true
+    },
+    {
+      "ball": "K7",
+      "function": "PB10",
+      "net": "HUB_SCL",
+      "connected": true
+    },
+    {
+      "ball": "J7",
+      "function": "PB11",
+      "net": "HUB_SDA",
+      "connected": true
+    },
+    {
+      "ball": "K8",
+      "function": "PB12",
+      "net": "CAN3_RX",
+      "connected": true
+    },
+    {
+      "ball": "J8",
+      "function": "PB13",
+      "net": "CAN3_TX",
+      "connected": true
+    },
+    {
+      "ball": "K9",
+      "function": "PB14",
+      "net": null,
+      "connected": false
+    },
+    {
+      "ball": "K10",
+      "function": "PB15",
+      "net": null,
+      "connected": false
+    },
+    {
+      "ball": "F3",
+      "function": "PC0",
+      "net": "Net-(U3-PC0)",
+      "connected": true
+    },
+    {
+      "ball": "F1",
+      "function": "PC1",
+      "net": "Net-(U3-PC1)",
+      "connected": true
+    },
+    {
+      "ball": "F4",
+      "function": "PC2_C",
+      "net": "Net-(U3-PC2_C)",
+      "connected": true
+    },
+    {
+      "ball": "G4",
+      "function": "PC3_C",
+      "net": "Net-(U3-PC3_C)",
+      "connected": true
+    },
+    {
+      "ball": "H4",
+      "function": "PC4",
+      "net": "CH1_IMON",
+      "connected": true
+    },
+    {
+      "ball": "J4",
+      "function": "PC5",
+      "net": "Net-(U3-PF10)",
+      "connected": true
+    },
+    {
+      "ball": "F8",
+      "function": "PC6",
+      "net": null,
+      "connected": false
+    },
+    {
+      "ball": "G9",
+      "function": "PC7",
+      "net": null,
+      "connected": false
+    },
+    {
+      "ball": "G10",
+      "function": "PC8",
+      "net": "SD_D0",
+      "connected": true
+    },
+    {
+      "ball": "F9",
+      "function": "PC9",
+      "net": "SD_D1",
+      "connected": true
+    },
+    {
+      "ball": "B10",
+      "function": "PC10",
+      "net": "SD_D2",
+      "connected": true
+    },
+    {
+      "ball": "B9",
+      "function": "PC11",
+      "net": "SD_D3",
+      "connected": true
+    },
+    {
+      "ball": "A10",
+      "function": "PC12",
+      "net": "SD_CLK",
+      "connected": true
+    },
+    {
+      "ball": "E4",
+      "function": "PC13",
+      "net": null,
+      "connected": false
+    },
+    {
+      "ball": "B1",
+      "function": "PC14",
+      "net": null,
+      "connected": false
+    },
+    {
+      "ball": "B2",
+      "function": "PC15",
+      "net": null,
+      "connected": false
+    }
+  ],
+  "counts": {
+    "balls": 100,
+    "connected_balls": 82,
+    "unconnected_balls": 18,
+    "changed_GPIO_functions": 10
+  },
+  "preserved": [
+    "All original connected signal nets have an assigned target ball.",
+    "USB PA11/PA12, SDMMC, I2C hub and CAN0/CAN1/CAN3 pin identities retained.",
+    "PC2_C/PC3_C dedicated ADC3 analog pins retained.",
+    "Three FDCAN controllers with two alternate FDCAN2 transceiver paths retained."
+  ],
+  "remaining_validation": [
+    "Schematic/package pin-number remap and multi-sheet parity.",
+    "Package-specific direct-SMPS, VCAP/VDDLDO and USB supply scheme.",
+    "Eight sense ADC channels: four move from ADC3 to ADC1; timing/DMA configuration must change.",
+    "New firmware pin/channel definitions and build verification; this is not binary compatible.",
+    "Actual 0.8mm BGA escape, ground reference, DRC and assembly process.",
+    "Official model and maximum package envelope."
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/STMicroelectronics/STM32_open_pin_data/master/mcu/STM32H725VGHx.xml",
+    "https://raw.githubusercontent.com/STMicroelectronics/STM32_open_pin_data/master/mcu/STM32H725ZGTx.xml",
+    "https://www.st.com/resource/en/datasheet/stm32h725vg.pdf",
+    "https://www.st.com/en/microcontrollers-microprocessors/stm32h725vg.html"
+  ]
+}
