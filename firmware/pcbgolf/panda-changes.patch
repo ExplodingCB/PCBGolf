@@ -1,0 +1,58 @@
+diff --git a/board/jungle/stm32h7/board.h b/board/jungle/stm32h7/board.h
+index 8e42142..4ab4a73 100644
+--- a/board/jungle/stm32h7/board.h
++++ b/board/jungle/stm32h7/board.h
+@@ -4,9 +4,18 @@
+ #include "board/jungle/boards/board_declarations.h"
+ 
+ #include "board/stm32h7/lladc.h"
++#ifdef PCBGOLF_BGA100
++#include "board/jungle/boards/pcbgolf_bga100.h"
++#else
+ #include "board/jungle/boards/board_v2.h"
++#endif
+ 
+ void detect_board_type(void) {
++#ifdef PCBGOLF_BGA100
++  hw_type = HW_TYPE_PCBGOLF_BGA100;
++  current_board = &board_pcbgolf;
++#else
+   hw_type = HW_TYPE_V2;
+   current_board = &board_v2;
++#endif
+ }
+diff --git a/board/stm32h7/clock.h b/board/stm32h7/clock.h
+index 0e6d479..6bdb49b 100644
+--- a/board/stm32h7/clock.h
++++ b/board/stm32h7/clock.h
+@@ -28,6 +28,12 @@ typedef enum {
+ // TODO: find a better way to distinguish between H725 (using SMPS) and H723 (lacking SMPS)
+ // The package will do for now, since we have only used TFBGA100 for H723
+ static PackageSMPSType get_package_smps_type(void) {
++#ifdef PCBGOLF_BGA100
++  // STM32H725VGH6 TFBGA100: VDDSMPS -> VLXSMPS/L4 -> VDDLDO/VCAP.
++  // The historical package heuristic assumes TFBGA100 means H723 (no SMPS).
++  // This target macro MUST be present in both the bootstub and application.
++  return PACKAGE_WITH_SMPS;
++#else
+   PackageSMPSType ret;
+   RCC->APB4ENR |= RCC_APB4ENR_SYSCFGEN; // make sure SYSCFG clock is enabled. does seem to read fine without too though
+ 
+@@ -45,6 +51,7 @@ static PackageSMPSType get_package_smps_type(void) {
+       ret = PACKAGE_UNKNOWN;
+   }
+   return ret;
++#endif
+ }
+ 
+ void clock_init(void) {
+@@ -118,5 +125,9 @@ void clock_init(void) {
+   //Enable the Clock Security System
+   register_set_bits(&(RCC->CR), RCC_CR_CSSHSEON);
+   //Enable Vdd33usb supply level detector
++#ifdef PCBGOLF_BGA100
++  // E8 is externally supplied with 3.3 V; this package has no VDD50USB pin.
++  register_clear_bits(&(PWR->CR3), PWR_CR3_USBREGEN);
++#endif
+   register_set_bits(&(PWR->CR3), PWR_CR3_USB33DEN);
+ }

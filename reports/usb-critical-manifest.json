@@ -1,0 +1,276 @@
+{
+  "hashes": {
+    "candidates/bga100-power-escape-usb-reserved/pcbgolf.kicad_pcb": "5782dc9af71da970fa03c2ad8e56940334bf2bed77e5315e483b365e95a40fde",
+    "candidates/compact-v6-usb/pcbgolf.kicad_pcb": "26e415a34c48df2f99a4949cb7b7c267e3b41954c95b710ab42058513fc0015e",
+    "reports/usb-paired-routes.json": "4fec28ad79e354abaec657e767e70c194cb6890870b9317f05b454c5e5198717",
+    "reports/usb-native-path-analysis.json": "c1b4fad8986778f8ec117cc31de68ff6b194eace76300e19abd1c4ce2c77924c",
+    "reports/usb-reference-audit.json": "5a31728a23a641fd9ef02a78e662c0001ae4153a0b07d5489cb60088c0e9278b",
+    "candidates/compact-v6-usb/drc-usb.json": "0bf005a5865e21395babcbb6355cfede5a22f2e629b3440215d146b6df1e8f64"
+  },
+  "usb_track_segments": 223,
+  "signal_vias": 40,
+  "ground_return_vias": 17,
+  "in2_reference_patches": 10,
+  "filled_and_capped_required": [
+    {
+      "net": "CH4_D_P",
+      "pos": [
+        2.42,
+        4.99999
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "filled_and_capped": true,
+      "overlapping_component_pads": [
+        {
+          "reference": "J8",
+          "pad": "B6",
+          "net": "CH4_D_P"
+        }
+      ]
+    },
+    {
+      "net": "CH4_D_N",
+      "pos": [
+        21.7,
+        14.65
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "filled_and_capped": true,
+      "ref": "U4",
+      "overlapping_component_pads": [
+        {
+          "reference": "U4",
+          "pad": "8",
+          "net": "CH4_D_N"
+        }
+      ]
+    },
+    {
+      "net": "CH3_D_P",
+      "pos": [
+        9.92,
+        4.99999
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "filled_and_capped": true,
+      "overlapping_component_pads": [
+        {
+          "reference": "J7",
+          "pad": "B6",
+          "net": "CH3_D_P"
+        }
+      ]
+    },
+    {
+      "net": "CH3_D_N",
+      "pos": [
+        22.7,
+        14.65
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "filled_and_capped": true,
+      "ref": "U4",
+      "overlapping_component_pads": [
+        {
+          "reference": "U4",
+          "pad": "6",
+          "net": "CH3_D_N"
+        }
+      ]
+    },
+    {
+      "net": "CH2_D_P",
+      "pos": [
+        17.42,
+        4.99999
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "filled_and_capped": true,
+      "overlapping_component_pads": [
+        {
+          "reference": "J6",
+          "pad": "B6",
+          "net": "CH2_D_P"
+        }
+      ]
+    },
+    {
+      "net": "CH2_D_N",
+      "pos": [
+        24.2,
+        14.65
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "filled_and_capped": true,
+      "ref": "U4",
+      "overlapping_component_pads": [
+        {
+          "reference": "U4",
+          "pad": "3",
+          "net": "CH2_D_N"
+        }
+      ]
+    },
+    {
+      "net": "CH1_D_P",
+      "pos": [
+        24.92,
+        4.99999
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "filled_and_capped": true,
+      "overlapping_component_pads": [
+        {
+          "reference": "J5",
+          "pad": "B6",
+          "net": "CH1_D_P"
+        }
+      ]
+    },
+    {
+      "net": "CH1_D_N",
+      "pos": [
+        25.2,
+        14.65
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "filled_and_capped": true,
+      "ref": "U4",
+      "overlapping_component_pads": [
+        {
+          "reference": "U4",
+          "pad": "1",
+          "net": "CH1_D_N"
+        }
+      ]
+    },
+    {
+      "net": "STM_D_P",
+      "pos": [
+        13.3,
+        21.1
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "filled_and_capped": true,
+      "ref": "U3",
+      "overlapping_component_pads": [
+        {
+          "reference": "U3",
+          "pad": "D9",
+          "net": "STM_D_P"
+        }
+      ]
+    },
+    {
+      "net": "USB_D_P",
+      "pos": [
+        37.645,
+        31.25
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "filled_and_capped": true,
+      "ref": "J3",
+      "overlapping_component_pads": [
+        {
+          "reference": "J3",
+          "pad": "A6",
+          "net": "USB_D_P"
+        }
+      ]
+    },
+    {
+      "net": "USB_D_N",
+      "pos": [
+        37.645,
+        30.75
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "filled_and_capped": true,
+      "ref": "J3",
+      "overlapping_component_pads": [
+        {
+          "reference": "J3",
+          "pad": "A7",
+          "net": "USB_D_N"
+        }
+      ]
+    },
+    {
+      "net": "USB_D_P",
+      "pos": [
+        37.645,
+        30.25
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "filled_and_capped": true,
+      "ref": "J3",
+      "overlapping_component_pads": [
+        {
+          "reference": "J3",
+          "pad": "B6",
+          "net": "USB_D_P"
+        }
+      ]
+    },
+    {
+      "net": "USB_D_N",
+      "pos": [
+        37.645,
+        31.75
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "filled_and_capped": true,
+      "ref": "J3",
+      "overlapping_component_pads": [
+        {
+          "reference": "J3",
+          "pad": "B7",
+          "net": "USB_D_N"
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "pos": [
+        36.650000000000034,
+        30.50000000000003
+      ],
+      "diameter": 0.4,
+      "drill": 0.2,
+      "purpose": "USB reference return",
+      "filled_and_capped": true,
+      "overlapping_component_pads": [
+        {
+          "reference": "LED10",
+          "pad": "3",
+          "net": "GND"
+        }
+      ]
+    }
+  ],
+  "fabrication": {
+    "stackup": "JLC04161H-3313",
+    "board_thickness_mm": 1.6,
+    "track_width_mm": 0.11,
+    "edge_gap_mm": 0.1,
+    "calculated_differential_ohms": 90.158064,
+    "via_diameter_mm": 0.4,
+    "via_drill_mm": 0.2,
+    "filled_and_capped_required_count": 14,
+    "process": "POFV: resin-filled, planarized, copper-capped through vias at every flagged location",
+    "reference_zones_priority": 100
+  }
+}

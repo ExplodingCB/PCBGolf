@@ -1,0 +1,209 @@
+{
+  "status": "passed",
+  "scope": "Combined exported schematics vs PCB logical net assignments; not physical routing or functional proof",
+  "board": "D:\\Projects\\PCBGolf\\candidates\\bga100-base\\pcbgolf.kicad_pcb",
+  "board_sha256": "5d41be1351d1c1d7de7c2f8c3c109d8e63c87bae65cec77f379054d0b88581ce",
+  "project": "D:\\Projects\\PCBGolf\\candidates\\bga100-base\\pcbgolf.kicad_pro",
+  "project_sha256": "f7876b9a7556ab68e1a688739d2f471bf18e1639610401a5f3311ace47e6c2fe",
+  "sources": [
+    {
+      "path": "D:\\Projects\\PCBGolf\\candidates\\bga100-base\\pcbgolf.kicad_sch",
+      "sha256": "ec926c98dd2bcd72ba58ece82fa91daf63985e00a7ebb5c9718edb5e118c0ae1",
+      "xml": "D:\\Projects\\PCBGolf\\reports\\bga100-netlists\\pcbgolf.xml",
+      "returncode": 0,
+      "stderr": "Fontconfig error: Cannot load default config file: No such file: (null)\n"
+    },
+    {
+      "path": "D:\\Projects\\PCBGolf\\candidates\\bga100-base\\pcbgolf_2.kicad_sch",
+      "sha256": "bfb6d32fe0b4e74c11ba79fb92a0c100f2bbed23cf4f967b35143bf13abfb686",
+      "xml": "D:\\Projects\\PCBGolf\\reports\\bga100-netlists\\pcbgolf_2.xml",
+      "returncode": 0,
+      "stderr": "Fontconfig error: Cannot load default config file: No such file: (null)\n"
+    },
+    {
+      "path": "D:\\Projects\\PCBGolf\\candidates\\bga100-base\\pcbgolf_3.kicad_sch",
+      "sha256": "07a7c13e8c7f7c1bb19307dc8347971e3e8fc6d8faf30e21ca0c74be36bc9277",
+      "xml": "D:\\Projects\\PCBGolf\\reports\\bga100-netlists\\pcbgolf_3.xml",
+      "returncode": 0,
+      "stderr": "Fontconfig error: Cannot load default config file: No such file: (null)\n"
+    },
+    {
+      "path": "D:\\Projects\\PCBGolf\\candidates\\bga100-base\\pcbgolf_4.kicad_sch",
+      "sha256": "26c41e2f50ac17e4d27d04a0a76a4319bf81fdb261cca2358497fd6266de6d6d",
+      "xml": "D:\\Projects\\PCBGolf\\reports\\bga100-netlists\\pcbgolf_4.xml",
+      "returncode": 0,
+      "stderr": "Fontconfig error: Cannot load default config file: No such file: (null)\n"
+    },
+    {
+      "path": "D:\\Projects\\PCBGolf\\candidates\\bga100-base\\pcbgolf_5.kicad_sch",
+      "sha256": "9ad7ddafb3aa1ec95fd022bdd1ba87d60c02aad302ed56b744e7edd1fb1e8d16",
+      "xml": "D:\\Projects\\PCBGolf\\reports\\bga100-netlists\\pcbgolf_5.xml",
+      "returncode": 0,
+      "stderr": "Fontconfig error: Cannot load default config file: No such file: (null)\n"
+    }
+  ],
+  "sources_changed_during_export": [],
+  "schematic_components": 239,
+  "board_components": 239,
+  "schematic_electrical_pins": 970,
+  "board_numbered_pads": 970,
+  "export_errors": [],
+  "conflicting_schematic_components": [],
+  "missing_components": [],
+  "extra_components": [],
+  "component_differences": [],
+  "pin_net_differences": [],
+  "electrically_equivalent_net_names": [
+    {
+      "reference": "J2",
+      "pin": "2",
+      "schematic": [
+        "Net-(J2-CD/DAT3)"
+      ],
+      "pcb": [
+        "Net-(J2-CD{slash}DAT3)"
+      ]
+    },
+    {
+      "reference": "J3",
+      "pin": "B5",
+      "schematic": [
+        "Net-(J3-CC2)"
+      ],
+      "pcb": [
+        "Net-(J3-CC2-PadB5)"
+      ]
+    },
+    {
+      "reference": "J3",
+      "pin": "B8",
+      "schematic": [
+        "unconnected-(J3-SBU2-PadB8)"
+      ],
+      "pcb": [
+        "unconnected-(J3-SBU2-PadB8)_1"
+      ]
+    },
+    {
+      "reference": "R13",
+      "pin": "1",
+      "schematic": [
+        "Net-(U3-PA2)"
+      ],
+      "pcb": [
+        "Net-(U3-PF7)"
+      ]
+    },
+    {
+      "reference": "R14",
+      "pin": "1",
+      "schematic": [
+        "Net-(U3-PA3)"
+      ],
+      "pcb": [
+        "Net-(U3-PF8)"
+      ]
+    },
+    {
+      "reference": "R15",
+      "pin": "1",
+      "schematic": [
+        "Net-(U3-PA7)"
+      ],
+      "pcb": [
+        "Net-(U3-PF9)"
+      ]
+    },
+    {
+      "reference": "R16",
+      "pin": "1",
+      "schematic": [
+        "Net-(U3-PC5)"
+      ],
+      "pcb": [
+        "Net-(U3-PF10)"
+      ]
+    },
+    {
+      "reference": "R36",
+      "pin": "2",
+      "schematic": [
+        "Net-(J2-CD/DAT3)"
+      ],
+      "pcb": [
+        "Net-(J2-CD{slash}DAT3)"
+      ]
+    },
+    {
+      "reference": "R41",
+      "pin": "2",
+      "schematic": [
+        "Net-(J2-CD/DAT3)"
+      ],
+      "pcb": [
+        "Net-(J2-CD{slash}DAT3)"
+      ]
+    },
+    {
+      "reference": "R44",
+      "pin": "1",
+      "schematic": [
+        "Net-(J3-CC2)"
+      ],
+      "pcb": [
+        "Net-(J3-CC2-PadB5)"
+      ]
+    },
+    {
+      "reference": "R45",
+      "pin": "1",
+      "schematic": [
+        "Net-(J3-CC2)"
+      ],
+      "pcb": [
+        "Net-(J3-CC2-PadB5)"
+      ]
+    },
+    {
+      "reference": "U3",
+      "pin": "G5",
+      "schematic": [
+        "Net-(U3-PA3)"
+      ],
+      "pcb": [
+        "Net-(U3-PF8)"
+      ]
+    },
+    {
+      "reference": "U3",
+      "pin": "H3",
+      "schematic": [
+        "Net-(U3-PA2)"
+      ],
+      "pcb": [
+        "Net-(U3-PF7)"
+      ]
+    },
+    {
+      "reference": "U3",
+      "pin": "J4",
+      "schematic": [
+        "Net-(U3-PC5)"
+      ],
+      "pcb": [
+        "Net-(U3-PF10)"
+      ]
+    },
+    {
+      "reference": "U3",
+      "pin": "K3",
+      "schematic": [
+        "Net-(U3-PA7)"
+      ],
+      "pcb": [
+        "Net-(U3-PF9)"
+      ]
+    }
+  ],
+  "numbered_unassigned_pads": []
+}

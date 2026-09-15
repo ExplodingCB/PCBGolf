@@ -1,3 +1,5 @@
+> **Work in progress — not fabrication-ready or submitted.** The latest combined 45 × 37 mm, four-layer BGA100 design is in [work-in-progress/](work-in-progress/README.md). Routing is incomplete and known physical conflicts remain. Optimization was stopped at the owner's request on September 14, 2026. The root KiCad project is an earlier placement baseline.
+
 <div align="center">
 <h1>PCBGolf Challenge</h1>
 <h3>How small can you make this PCBA?</h3>

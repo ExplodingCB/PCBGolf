@@ -20,6 +20,7 @@ Thumbs.db
 
 # Local engineering toolchain and disposable artifacts
 tools/
+firmware/pcbgolf/build/
 __pycache__/
 reports/*.step
 reports/*.stl

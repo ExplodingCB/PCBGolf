@@ -144,3 +144,7 @@ was obtained and no Claude findings are claimed.
 - Local historical panda firmware is checked out read-only for analysis
   in `tools/panda-firmware` at78cf69904c332c599a297fcc2a09c08d10d429d5.
   No firmware port, public repository push, or challenge submission exists.
+
+## September 14, 2026 — owner-requested stop
+All three subagents and optimization work stopped to conserve usage. Saved the merged incomplete BGA100 board in work-in-progress and experimental firmware source in firmware/pcbgolf. This is a WIP GitHub checkpoint, not a leaderboard entry. Resume only on owner request.
+
